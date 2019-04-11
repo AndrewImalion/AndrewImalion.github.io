@@ -256,7 +256,12 @@ for (i=0;i<x.length;i++){
         //document.write(x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue);
 
   document.write("<hr/>");
-  document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);
+        
+        var thisHeroCC=x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue;
+        thisHeroCC=conBef(thisCC);
+        document.write(thisHeroCC);
+        
+  //document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue);
@@ -331,7 +336,18 @@ function ablRank(ablInt) {//把123456789x转化成C,B,A,S,SS
     return str;
 };
   
-  
+  function conBef(str) {
+
+        str = str.replace(/re/g, "<div class='hero-politic republic'>Hail For Republic 仅共和政体可征召</div>");
+        str = str.replace(/[mo]/g, "<div class='hero-politic monarchy'>Long Live Emperor 仅君主政体可征召</div>");
+        str = str.replace(/【【/, "<div class='hero-politic limit'>");
+        str = str.replace(/】】/, "</div>");
+        str = str.replace(/$/, "<ul><li>");
+        str = str.replace(/$/g, "</li><li>");
+        str = str + "</li><ul>";
+
+        return str;
+    };
   
   
   

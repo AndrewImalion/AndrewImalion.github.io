@@ -276,8 +276,11 @@ for (i=0;i<x.length;i++){
         document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
         document.write("</td><td>");
         
-        document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue+".png");
-        document.write("</td></tr></table></center>");
+        
+document.write("<img src='"+x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue+".png class='heroPro' /></td><tr></table>");
+        
+        //document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue+".png");
+        //document.write("</td></tr></table></center>");
   //document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);
   //document.write(x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue);
   //document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);

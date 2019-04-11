@@ -255,14 +255,18 @@ for (i=0;i<x.length;i++){
         document.write(thisHeroType);
         //document.write(x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue);
 
-  document.write("<hr/>");
         
         //招募
+        document.write("<hr/>");
+        document.write("<h4>招募成本</h4>");
         var thisHeroCC=x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue;
         thisHeroCC=conBef(thisHeroCC);
         document.write(thisHeroCC);
         
+        
+        //技能
         document.write("<hr/>");
+        document.write("<h4>英雄技能</h4>");
         var thisHeroSP=x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue;
         thisHeroSP=splBef(thisHeroSP);
         document.write(thisHeroSP);

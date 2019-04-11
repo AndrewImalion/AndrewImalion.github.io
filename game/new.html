@@ -271,11 +271,15 @@ for (i=0;i<x.length;i++){
         thisHeroSP=splBef(thisHeroSP);
         document.write(thisHeroSP);
         
-        
+        document.write("<hr/><table class='notes'><tr><td>");
+        document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
+        document.write("</td></td>");
+        document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue);
+        document.write("</td></tr>");
   //document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);
   //document.write(x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue);
-  document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
-  document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue);
+  //document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
+  //document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue);
   document.write("</div>");
 };
   document.write("END");

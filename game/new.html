@@ -313,7 +313,18 @@ function ablRank(ablInt) {//把123456789x转化成C,B,A,S,SS
         default:
             return 'c';
     }
-}
+};
+        function typeBef(str) {//类型替换
+    str = str.toLowerCase();
+
+    str = str.replace(/政治家/g, "<span class='hero-type polician'>政治家</span>");
+    str = str.replace(/军事家/g, "<span class='hero-type military'>军事家</span>");
+    str = str.replace(/学者/g, "<span class='hero-type philosopher'>学者</span>");
+    str = str.replace(/艺术家/g, "<span class='hero-type artist'>艺术家</span>");
+    str = str.replace(/大商人/g, "<span class='hero-type merchant'>大商人</span>");
+
+    return str;
+};
   
   
   

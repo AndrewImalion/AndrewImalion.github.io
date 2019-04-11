@@ -21,7 +21,7 @@
     <TAG>SERICA</TAG>
     <HETYPE>艺术家</HETYPE>
     <CONS>【共和】 ￥条件1￥条件2￥条件3</CONS>
-    <SPL>技能</SPL>
+    <SPL>￥进场效果【进场】进场￥【招募】【招募对象】</SPL>
     <NOTE>我能吃玻璃</NOTE>
     <HEID>he000-baron</HEID>
   </AHERO>
@@ -34,7 +34,7 @@
     <TAG>spqr</TAG>
     <HETYPE>政治家 学者</HETYPE>
     <CONS>【共和】￥条件￥条件￥条件</CONS>
-    <SPL>技能</SPL>
+    <SPL>￥唯一【唯一】只有一次￥献身【献身】献身效果</SPL>
     <NOTE>无人爱苦，更无人寻觅就之</NOTE>
     <HEID>he100-cicero</HEID>
   </AHERO>

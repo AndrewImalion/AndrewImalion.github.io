@@ -257,12 +257,19 @@ for (i=0;i<x.length;i++){
 
   document.write("<hr/>");
         
+        //招募
         var thisHeroCC=x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue;
         thisHeroCC=conBef(thisHeroCC);
         document.write(thisHeroCC);
         
+        document.write("<hr/>");
+        var thisHeroSP=x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue;
+        thisHeroSP=conBef(thisHeroSP);
+        document.write(thisHeroSP);
+        
+        
   //document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);
-  document.write(x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue);
+  //document.write(x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue);
   document.write("</div>");

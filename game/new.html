@@ -255,7 +255,7 @@ for (i=0;i<x.length;i++){
         document.write(thisHeroType);
         //document.write(x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue);
 
-  
+  document.write("<hr/>");
   document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
@@ -291,7 +291,7 @@ document.write("EndList")
     outstr = outstr.replace(/carthego/g, "<div class='badge'><img src='bg-carthego-64px.png' /><div class='badge-drop-content'><b>“看着那巍峨城墙上的火，他留下了眼泪”</b><br />这是一个迦太基人。</div></div>");
     outstr = outstr.replace(/spqr/g, "<div class='badge'><img src='bg-spqr-64px.png' /><div class='badge-drop-content'><b>“Civis Romanus sum.”</b><br />我是罗马人。</div></div>");
     outstr = outstr.replace(/hellen/g,"<div class='badge'><img src='bg-greek-64px.png' /><div class='badge-drop-content'><b>δόξα για την Ελλάδα！</b><br />这是一个属于希腊世界或受希腊化影响的人物。</div></div>");
-    outstr = outstr.replace(/serica/g, "<div class='badge'><img src='bg-serica-64px.png' /><div class='badge-drop-content'><b>“海内皆臣，歲登成熟，道毋飢人”</b><br />这是一个中国人。</div></div>");
+    outstr = outstr.replace(/serica/g, "<div class='badge'><img src='bg-serica-64px.png' /><div class='badge-drop-content'><b>海内皆臣<br />歲登成熟<br />道毋飢人</b><br />这是一个中国人。</div></div>");
     //outstr = outstr.replace();
 
 

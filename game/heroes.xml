@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HEROES>
   <AHERO>
-    <NOMINEE>泰米斯托克利斯</NOMINEE>
-    <TITLE>法律之光</TITLE>
-    <QUO>我不会唱歌也不会拉琴，但我知道如何使雅典强大。</QUO>
-    <ABL>8680</ABL>
-    <TAG>athens hellen</TAG>
-    <HETYPE>政治家 军事家</HETYPE>
-    <CONS>【【专属】】￥条件1</CONS>
-    <SPL>【共和】￥技能【君主】￥技能</SPL>
-    <NOTE>注释</NOTE>
-    <HEID>he001-themistocles</HEID>
-  </AHERO>
+  <NOMINEE>泰米斯托克利斯</NOMINEE>
+		<TITLE>法律之光</TITLE>
+		<QUO>我不会我不会唱歌也不会拉琴，但我知道如何使雅典强大。</QUO>
+		<ABL>8680</ABL>
+		<TAG>athens hellen</TAG>
+		<HETYPE>【政治家】【军事家】</HETYPE>
+		<CONS>￥一半国库资金
+￥如果场上存在波斯人，拉希第梦人或马其顿人英雄并且我方没有前述英雄，则零成本</CONS>
+		<SPL>【共和】￥“我有一个梦想” 【招募】【三列桨战舰】
+￥“海上霸主” 只要该英雄在场，我方战舰数量没有上限；我方所有战舰攻击力翻倍【君主】￥我，泰米斯托克利斯，伤你最深的希腊人，来找你了……” 只要将该英雄留滞在我方【皇宫】或【行宫】里， 每回合我方都可以获得额外16点【政治点数】
+</SPL>
+		<NOTE>&lt;p&gt;泰公雅典人，约生于耶历纪前五二四年。雅典新发银矿，民意欲分之。 公力排众议，陈情明理，号曰使雅典强。竟成舰队，力克波斯，屡挫 拉希第梦，终成海上之霸主。公少家贫，及承雅典民命，爱财，不能 自制，政波暗涌，终去国走波斯，克死梅城，年六十又五。&lt;/p&gt;&lt;p&gt;於戏！雅典之兴，实赖民主政体并泰氏之卓识也！夫萨拉米斯之战何其 壮邪，公之威名使波斯不敢西进，埃及俯首求護，国之运势，虽曰天命 ，岂非人事哉？然，雅典之政，若爱琴之波，公终做阿契之客，不亦悲夫？ 忆令尊指旧船之言乎？&lt;/p&gt;&lt;a href="https://en.wikipedia.org/wiki/Themistocles"&gt;了解更多&lt;/a&gt;</NOTE>
+		<HEID>he001</HEID>
+	</AHERO>
   
   <AHERO>
     <NOMINEE>伯伦</NOMINEE>

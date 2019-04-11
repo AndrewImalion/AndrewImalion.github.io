@@ -11,7 +11,9 @@
     <SPL>技能</SPL>
     <NOTE>注释</NOTE>
     <HEID>he001-themistocles</HEID>
-
+  </AHERO>
+  
+  <AHERO>
     <NOMINEE>伯伦</NOMINEE>
     <TITLE>不被理解的画家</TITLE>
     <QUO>看看</QUO>
@@ -22,7 +24,9 @@
     <SPL>技能</SPL>
     <NOTE>我能吃玻璃</NOTE>
     <HEID>he000-baron</HEID>
-
+  </AHERO>
+  
+  <AHERO>
     <NOMINEE>西塞罗</NOMINEE>
     <TITLE>雄辩者</TITLE>
     <QUO>喀提林呐，你还要让我们忍你多久！</QUO>
@@ -33,4 +37,6 @@
     <SPL>技能</SPL>
     <NOTE>无人爱苦，更无人寻觅就之</NOTE>
     <HEID>he100-cicero</HEID>
+  </AHERO>
+  
 </HEROES>

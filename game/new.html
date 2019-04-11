@@ -39,9 +39,9 @@ document.write("<div class='con'>");
 
 for (i=0;i<x.length;i++){
   document.write("<div class='ahero'>");
-  document.write(x[i].getElementsByTagName("NOMINEE")[0].childNodes[0].nodeValue);
-  document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
-  document.write(x[i].getElementsByTagName("QUO")[0].childNodes[0].nodeValue);
+  document.write("<h3 class='heroNomi'>"+x[i].getElementsByTagName("NOMINEE")[0].childNodes[0].nodeValue+"</h3>");
+  document.write("<i class='heroNick'>"+x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"</i>");
+  document.write("<blockquote class='heroQuo'>"+x[i].getElementsByTagName("QUO")[0].childNodes[0].nodeValue+"<blockquote>");
   document.write(x[i].getElementsByTagName("ABL")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("TAG")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue);

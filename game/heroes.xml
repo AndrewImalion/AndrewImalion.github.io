@@ -7,7 +7,7 @@
     <ABL>8680</ABL>
     <TAG>athens hellen</TAG>
     <HETYPE>政治家 军事家</HETYPE>
-    <CONS>条件</CONS>
+    <CONS>【专属】￥条件1</CONS>
     <SPL>技能</SPL>
     <NOTE>注释</NOTE>
     <HEID>he001-themistocles</HEID>
@@ -20,7 +20,7 @@
     <ABL>2539</ABL>
     <TAG>SERICA</TAG>
     <HETYPE>艺术家</HETYPE>
-    <CONS>【共和】 $条件1 $条件2 $ 条件3</CONS>
+    <CONS>【共和】 ￥条件1 ￥条件2 ￥条件3</CONS>
     <SPL>技能</SPL>
     <NOTE>我能吃玻璃</NOTE>
     <HEID>he000-baron</HEID>

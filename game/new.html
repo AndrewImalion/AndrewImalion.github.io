@@ -23,12 +23,27 @@ else
 xmlhttp.open("GET","heroes.xml",false);
 xmlhttp.send();
 xmlDoc=xmlhttp.responseXML; 
-  
-  
+
+var x=xmlDoc.getElementsByTagName("AHERO");
+document.write("<div class='con'>");
+
+for (i=0;i<x.length;i++){
+  document.write("<div class='ahero'>");
+  document.write(x[i].getElementsByTagName("NOMINEE")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("QUO")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("ABL")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("TAG")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue);
+  document.write("</div>");
+/*
 document.write("DoList")
 document.write("<table border='1'>");
 var x=xmlDoc.getElementsByTagName("AHERO");
-  
 for (i=0;i<x.length;i++)
   { 
   document.write("<tr><td>");
@@ -39,5 +54,6 @@ for (i=0;i<x.length;i++)
   }
 document.write("</table>");
 document.write("EndList")
+*/
 </script>
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: new
+title: 英雄
 premalink: new.html
 ---
 
@@ -227,16 +227,17 @@ var x=xmlDoc.getElementsByTagName("AHERO");
 document.write("<div class='con'>");
 
 for (i=0;i<x.length;i++){
-  //能力值
+        document.write("<div class='ahero'>");
+        
+        //能力值
         var ablstr=x[i].getElementsByTagName("ABL")[0].childNodes[0].nodeValue;
         document.write("<table class='hero-data'> <tr><th>统驭</th><th>武力</th><th>智力</th><th>魅力</th></tr>");
         document.write("<tr><td class='data-" + ablRank(ablstr[0]) + "'>" + ablstr[0] + "</td>");
         document.write("<td class='data-" + ablRank(ablstr[1]) + "'>" + ablstr[1] + "</td>");
         document.write("<td class='data-" + ablRank(ablstr[2]) + "'>" + ablstr[2] + "</td>");
         document.write("<td class='data-" + ablRank(ablstr[3]) + "'>" + ablstr[3] + "</td></tr></table>");
-        //document.write(x[i].getElementsByTagName("ABL")[0].childNodes[0].nodeValue);      
-        
-  document.write("<div class='ahero'>");
+        //===============================================================================================     
+  
   document.write("<h3 class='heroNomi'>"+x[i].getElementsByTagName("NOMINEE")[0].childNodes[0].nodeValue+"</h3>");
   document.write("<i class='heroNick'>"+x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"</i>");
         
@@ -244,7 +245,7 @@ for (i=0;i<x.length;i++){
         var htmlTag=x[i].getElementsByTagName("TAG")[0].childNodes[0].nodeValue;
         htmlTag=tagBef(htmlTag);
         document.write(htmlTag);
-        //document.write(x[i].getElementsByTagName("TAG")[0].childNodes[0].nodeValue);
+        //======================================================================
         
   document.write("<blockquote class='heroQuo'>"+x[i].getElementsByTagName("QUO")[0].childNodes[0].nodeValue+"<blockquote>");
   

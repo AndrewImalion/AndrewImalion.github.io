@@ -248,9 +248,14 @@ for (i=0;i<x.length;i++){
         //======================================================================
         
   document.write("<blockquote class='heroQuo'>"+x[i].getElementsByTagName("QUO")[0].childNodes[0].nodeValue+"<blockquote>");
+ 
+        //类型
+        var thisHeroType=x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue;
+        thisHeroType=typeBef(thisHeroType);
+        document.write(thisHeroType);
+        //document.write(x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue);
+
   
-     
-  document.write(x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);

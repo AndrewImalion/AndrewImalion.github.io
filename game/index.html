@@ -5,749 +5,351 @@ description: 拜托了国家
 
 
 
+
 <!DOCTYPE html>
-<!-- Copyright 2019,GreatBaron. All Rights Reserved -->
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title>Polis,Please!</title>
+<html>
+<style>
 
-    <style>
+    .ahero {
+        width: 60%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        padding: 20px;
+    }
 
-        .ahero {
-            width: 60%;
-            background-color: white;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            margin-bottom: 25px;
-            padding:20px;
-        }
-
-        .heroPro {
-            border: solid;
-            border-color: grey;
-            border-width: 8px;
-            width: 150px;
-            height: 200px;
-            background-color: white;
-            opacity: 0.4;
-            /*position:relative;
+    .heroPro {
+        border: solid;
+        border-color: grey;
+        border-width: 8px;
+        width: 150px;
+        height: 200px;
+        background-color: white;
+        opacity: 0.4;
+        /*position:relative;
             float:right;*/
-        }
+    }
 
         .heroPro:hover {
-                opacity: 1.0;
-            }
-
-        .hero-type {
-            margin: 4px;
-            border-radius: 15px;
-            padding: 4px;
-            font-family: '黑体', 'Arial Narrow', Arial, sans-serif;
-            color: #ffffff;
-            font-weight: bold;
+            opacity: 1.0;
         }
 
-        .polician {
-            background: #66ffcc;
-        }
+    .hero-type {
+        margin: 4px;
+        border-radius: 15px;
+        padding: 4px;
+        font-family: '黑体', 'Arial Narrow', Arial, sans-serif;
+        color: #ffffff;
+        font-weight: bold;
+    }
 
-        .military {
-            background: #ffcc33;
-        }
+    .polician {
+        background: #66ffcc;
+    }
 
-        .philosopher {
-            background: #ff99cc;
-        }
+    .military {
+        background: #ffcc33;
+    }
 
-        .merchant {
-            background: #cc3333;
-        }
+    .philosopher {
+        background: #ff99cc;
+    }
 
-        .artist {
-            background: #cc00cc;
-        }
+    .merchant {
+        background: #cc3333;
+    }
 
-        .hero-politic {
-            margin:20px;
-            width:auto;
-            padding:8px;
-            border-style: ridge;
-            border-width: 8px;
-            
-            font-family: 'Impact', Arial, sans-serif;
-            font-weight: bold;
-            }
+    .artist {
+        background: #cc00cc;
+    }
 
-        .republic {
-            border-color: #ffff00;
-            background-color: #ffffcc;
-        }
+    .hero-politic {
+        margin: 20px;
+        width: auto;
+        padding: 8px;
+        border-style: ridge;
+        border-width: 8px;
+        font-family: 'Impact', Arial, sans-serif;
+        font-weight: bold;
+    }
 
-        .monarchy {
-            border-color: #ff33ff;
-            background-color: #ffccff;
-        }
+    .republic {
+        border-color: #ffff00;
+        background-color: #ffffcc;
+    }
 
-        .limit {
-            border-color: #0033ff;
-            background-color: #66ccff;
-        }
+    .monarchy {
+        border-color: #ff33ff;
+        background-color: #ffccff;
+    }
 
-        .context-up {
-            background-color:#33ff00;
-            color: #006600;
-        }
+    .limit {
+        border-color: #0033ff;
+        background-color: #66ccff;
+    }
 
-        .context-de {
-            background-color: #ff0000;
-            color: #660000;
-        }
+    .context-up {
+        background-color: #33ff00;
+        color: #006600;
+    }
 
-        .hero-skillmode {
-            /*margin: 8px;*/
-            padding: 0 2px 0 2px;
-            border: solid;
-            border-width: 2px;
-            line-height:200%;
-        }
+    .context-de {
+        background-color: #ff0000;
+        color: #660000;
+    }
+
+    .hero-skillmode {
+        /*margin: 8px;*/
+        padding: 0 2px 0 2px;
+        border: solid;
+        border-width: 2px;
+        line-height: 200%;
+    }
 
 
-        .pas {/*被动passive*/
-            border-color:#999999;
-            background-color: #000000;
-            color: #ffffff;
-        }
+    .pas { /*被动passive*/
+        border-color: #999999;
+        background-color: #000000;
+        color: #ffffff;
+    }
 
-        .rec {/*招募recriut*/
-            background-color: #66ffcc;
-        }
+    .rec { /*招募recriut*/
+        background-color: #66ffcc;
+    }
 
-        .ent { /*进场*/
-            background-color: #33ff00;
-        }
+    .ent { /*进场*/
+        background-color: #33ff00;
+    }
 
-        .ext { /*离场*/
-            background-color: #660000;
-        }
+    .ext { /*离场*/
+        background-color: #660000;
+    }
 
-        .sac { /*献身sacrifice*/
-            background-color: #990000;
-            border-color: #ff0000;
-            color: #ffffff;
-        }
+    .sac { /*献身sacrifice*/
+        background-color: #990000;
+        border-color: #ff0000;
+        color: #ffffff;
+    }
 
-        .oo { /*唯一一次only once*/
-            border-color: #66ccff;
-            background-color: #0033ff;
-            color: #ffffff;
-        }
+    .oo { /*唯一一次only once*/
+        border-color: #66ccff;
+        background-color: #0033ff;
+        color: #ffffff;
+    }
 
-        .hero-data{
-            position:relative;
-            float:right;
-        }
+    .hero-data {
+        position: relative;
+        float: right;
+    }
 
-        .hero-data /*,table*/ {
-            background-color:black;
-            border: solid;
-            text-align:center;
-        }
+    .hero-data /*,table*/ {
+        background-color: black;
+        border: solid;
+        text-align: center;
+    }
 
-        .hero-data ,th {
-            color:whitesmoke;
-        }
+    .hero-data, th {
+        color: whitesmoke;
+    }
 
-        .data-s {
-            background-color: gold;
-            color: orangered;
-            text-transform: uppercase;
-            text-shadow: 2px 2px white;
-        }
+    .data-ss {
+        background-color: gold;
+        color: orangered;
+        text-transform: uppercase;
+        text-shadow: 2px 2px white;
+    }
 
-        .data-a {
-            background-color:purple;
-        }
+    .data-s {
+        background-color: gold;
+        color: orangered;
+    }
 
-        .data-b {
-            background-color:darkblue;
-        }
+    .data-a {
+        background-color: purple;
+    }
 
-        .data-c {
-            background-color:gray;
-        }
+    .data-b {
+        background-color: darkblue;
+    }
 
-        .notes {
-            font-family: 'LiSu','KaiTi','Times New Roman',Times,serif;
-            font-size: small;
-            text-align: center;
-            background-color:white;
-        }
+    .data-c {
+        background-color: gray;
+    }
 
-        .badge {
-            position: relative;
-            float:right;
-            display: inline-block;
-            margin: 2px;
-            width: 64px;
-            height: 64px;
-            text-align: center;
-        }
+    .notes {
+        font-family: 'LiSu','KaiTi','Times New Roman',Times,serif;
+        font-size: small;
+        text-align: center;
+        background-color: white;
+    }
 
-        .badge-drop-content {
-            display: none;
-            position: absolute;
-            background-color: palegoldenrod;
-            min-width: 64px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            padding: 12px 16px;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
+    .badge {
+        position: relative;
+        float: right;
+        display: inline-block;
+        margin: 2px;
+        width: 64px;
+        height: 64px;
+        text-align: center;
+    }
 
-        .badge:hover .badge-drop-content {
-            display: block;
-        }
-            
-    </style>
-</head>
+    .badge-drop-content {
+        display: none;
+        position: absolute;
+        background-color: palegoldenrod;
+        min-width: 64px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .badge:hover .badge-drop-content {
+        display: block;
+    }
+</style>
 <body>
-    <!-- Template -->
-    <div class="ahero">
-        <div id="dataid0" data-HeroAbl="7539">！==！ERROR！==！</div>
-        <h3>名前</h3>
-        <i>称号</i>
-        <!-- badges -->
-        <!-- gb -->
-        <div class="badge">
-            <img src="bg-gb-64px.png" />
-            <div class="badge-drop-content">
-                <b>©2019,GreatBaron All Rights Reserved.</b><br />
-                这是伯伦大人的原创内容。
-            </div>
-        </div>
-        <!-- athens -->
-        <div class="badge">
-            <img src="bg-athens-64px.png" />
-            <div class="badge-drop-content">
-                <b>“雅典人管着希腊……”</b><br />
-                我管雅典人，你又管着我，而你又听儿子的。
-                告诉儿子，可得让他小心手里的权力。
-                这是一个雅典人。
-            </div>
-        </div>
-        <!-- carthego -->
-        <div class="badge">
-            <img src="bg-carthego-64px.png" />
-            <div class="badge-drop-content">
-                <b>“看着那巍峨城墙上的火，他留下了眼泪”</b><br />
-                这是一个迦太基人。
-            </div>
-        </div>
-        <!-- serica -->
-        <div class="badge">
-            <img src="bg-serica-64px.png" />
-            <div class="badge-drop-content">
-                <b>“海内皆臣，歲登成熟，道毋飢人”</b><br />
-                这是一个中国人。
-            </div>
-        </div>
-        <!-- greek -->
-        <div class="badge">
-            <img src="bg-greek-64px.png" />
-            <div class="badge-drop-content">
-                <b>δόξα για την Ελλάδα！</b><br />
-                这是一个属于希腊世界或受希腊化影响的人物。
-            </div>
-        </div>
-        <!-- SPQR -->
-        <div class="badge">
-            <img src="bg-spqr-64px.png" />
-            <div class="badge-drop-content">
-                <b>“Civis Romanus sum.”</b><br />
-                这是一个罗马人。
-            </div>
-        </div>
-        <!-- tag-philosophy -->
-        <div class="badge">
-            <img src="tag-philosopher.png" width=64 height=64 />
-            <div class="badge-drop-content">
-                <b>“重要的是——改变世界”</b><br />
-                这是一位哲学家。
-            </div>
-        </div>
-        <!-- tag-prophet -->
-        <div class="badge">
-            <img src="tag-prophet.png" width=64 height=64 />
-            <div class="badge-drop-content">
-                <b>“根本没有宙斯！”——《云》</b><br />
-                这是一位先知。<i>
-                    Lie to a few people, you will be a liar.
-                    But lie to a lot of people, you will be a prophet.
-                </i>
-            </div>
-        </div>
-
-        <blockquote>引言</blockquote>
-
-
-
-        <!-- 类型 -->
-        <span class="hero-type polician">政治家</span>
-        <span class="hero-type military">军事家</span>
-        <span class="hero-type philosopher">学者</span>
-        <span class="hero-type merchant">大商人</span>
-        <span class="hero-type artist">艺术家</span>
-        <hr />
-
-        <!-- 征召 -->
-        <h5>征召条件和成本</h5>
-        <div class="hero-politic limit">特殊的征召条件</div>
-        <ul>
-            <li>条件1</li>
-            <li>条件2</li>
-            <li>条件3</li>
-        </ul>
-        <hr />
-
-        <!-- 技能 -->
-        <div class="hero-politic republic">在共和政体下的技能</div>
-        <ul>
-            <li>
-                <i>“哈哈我来了”</i>
-                <span class="hero-skillmode ent">进场</span>
-                进场效果就是征召成功后的触发
-            </li>
-            <li>
-                <i>“我也没办法啊”</i>
-                <span class="hero-skillmode pas">被动</span>
-                玩家不能控制发动与否
-            </li>
-            <li>
-                <i>“来我身边”</i>
-                <span class="hero-skillmode rec">招募</span>【招募对象】
-            </li>
-            <li>
-                <i>“加成和减损”</i>
-                bar要增加<span class="context-up">增加</span>；
-                foo要增加<span class="context-up">降低</span>
-            </li>
-            <li>
-                <i>“一定要珍惜”</i>
-                <span class="hero-skillmode oo">唯一一次</span>
-                只能发动至多一次
-            </li>
-            <li>
-                <i>“啊，我要走了”</i>
-                <span class="hero-skillmode sac">献身</span>
-                以该英雄退场为代价
-
-            </li>
-
-        </ul>
-        <div class="hero-politic monarchy">在君主政体下的技能</div>
-        <ul>
-            <li>
-                <i>“技能名称”</i>
-                技能效果
-            </li>
-        </ul>
-        <hr />
-
-        <!-- 注释 -->
-        <table class="notes">
-            <tr>
-                <td>
-                    <p>
-                        我能吃玻璃，还不伤身体Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Ut purus elit,没有人喜欢痛苦，也没有人主动去寻找然后享受痛苦，
-                        vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur dictum gravida
-                        mauris. Nam arcu libero, nonummy eget, consectetuer id, vulputate a,
-                        magna. Donec vehicula augue eu neque. Pellentesque habitant morbi tris-
-                        tique senectus et netus et malesuada fames ac turpis egestas. Mauris ut leo.
-                        Cras viverra metus rhoncus sem.
-                    </p>
-                    <p>
-                        Phasellus eu tellus sit amet tortor gravida placerat. Integer sapien
-                        est, iaculis in, pretium quis, viverra ac, nunc. Praesent eget sem vel leo ultri-
-                        ces bibendum. Aenean faucibus. Morbi dolor nulla, malesuada eu, pulvinar
-                        at, mollis ac, nulla. Curabitur auctor semper nulla. Donec varius orci eget
-                        risus. Duis nibh mi, congue eu, accumsan eleifend, sagittis quis, diam. Duis
-                        eget orci sit amet orci dignissim rutrum.
-                    </p>
-
-                    <!-- link -->
-                    <p><a href="#">了解更多</a></p>
-                </td>
-                <td> <img src="pic-t-250px.png" class="heroPro"></td>
-            </tr>
-        </table>
-
-    </div>
-
-        <!-- 泰米斯托克利斯 -->
-        <div class="ahero">
-            <div id="dataid1" data-HeroAbl="8680">erro</div>
-            <h3>泰米斯托克利斯</h3>
-            <i>法律之光</i>
-
-            <!-- gb -->
-            <div class="badge">
-                            <img src="bg-gb-64px.png" />
-                            <div class="badge-drop-content">
-                                <b>©2019,GreatBaron All Rights Reserved.</b><br />
-                                这是伯伦大人的原创内容。
-                            </div>
-
-            </div>
-            <!-- greek -->
-            <div class="badge">
-            <img src="bg-greek-64px.png" />
-            <div class="badge-drop-content">
-                <b>δόξα για την Ελλάδα！</b><br />
-                这是一个属于希腊世界或受希腊化影响的人物。
-            </div>
-                </div>
-            <!-- athens -->
-            <div class="badge">
-            <img src="bg-athens-64px.png" />
-            <div class="badge-drop-content">
-                <b>“雅典人管着希腊……”</b><br />
-                我管雅典人，你又管着我，而你又听儿子的。
-                告诉儿子，可得让他小心手里的权力。
-                这是一个雅典人。
-            </div>
-                </div>
-        <!--fucking vs why you warn me?-->
-            <blockquote>我不会唱歌也不会拉琴，但我知道如何使雅典强大。</blockquote>
-            <span class="hero-type polician">政治家</span>
-            <span class="hero-type military">军事家</span>
-            <hr />
-            <h5>征召条件和成本</h5>
-            <ul>
-                <li>一半国库资金</li>
-                <li>如果场上存在波斯人，拉希第梦人或马其顿人英雄并且我方没有前述英雄，则零成本</li>
-            </ul>
-            <hr />
-            <div class="hero-politic republic">在共和政体下的技能</div>
-            <ul>
-                <li>
-                    <i>“我有一个梦想”</i>
-                    <span class="hero-skillmode rec">招募</span>【三列桨战舰】
-                </li>
-                <li>
-                    <i>“海上霸主”</i>
-                    只要该英雄在场，我方战舰数量没有上限；我方所有战舰攻击力<span class="context-up">翻倍</span>
-                </li>
-            </ul>
-            <div class="hero-politic monarchy">在君主政体下的技能</div>
-            <ul>
-                <li>
-                    <i>“我，泰米斯托克利斯，伤你最深的希腊人，来找你了……”</i>
-                    只要将该英雄留滞在我方【皇宫】或【行宫】里，
-                    每回合我方都可以<span class="context-up">获得</span>额外16点【政治点数】
-                </li>
-            </ul>
-            <hr />
-
-            <table class="notes">
-                <tr>
-                    <td>
-                        <p>
-                            泰公雅典人，约生于耶历纪前五二四年。雅典新发银矿，民意欲分之。
-                            公力排众议，陈情明理，号曰使雅典强。竟成舰队，力克波斯，屡挫
-                            拉希第梦，终成海上之霸主。公少家贫，及承雅典民命，爱财，不能
-                            自制，政波暗涌，终去国走波斯，克死梅城，年六十又五。
-                        </p>
-                        <p>
-                            於戏！雅典之兴，实赖民主政体并泰氏之卓识也！夫萨拉米斯之战何其
-                            壮邪，公之威名使波斯不敢西进，埃及俯首求護，国之运势，虽曰天命
-                            ，岂非人事哉？然，雅典之政，若爱琴之波，公终做阿契之客，不亦悲夫？
-                            忆令尊指旧船之言乎？
-                        </p>
-                        <p><a href="https://en.wikipedia.org/wiki/Themistocles">Wikipedia</a></p>
-                    </td>
-                    <td> <img src="pic-themistocles-250px.png" class="heroPro"></td>
-                </tr>
-            </table>
-
-        </div>
-
-        <!-- 汉尼拔 -->
-        <div class="ahero">
-            <div id="dataid2" data-HeroAbl="x878">erro</div>
-            
-            <h3>汉尼拔</h3>
-            <!-- carthego -->
-            <div class="badge">
-                            <img src="bg-carthego-64px.png" />
-                            <div class="badge-drop-content">
-                                <b>“看着那巍峨城墙上的火，他留下了眼泪”</b>
-                                这是一个迦太基人。
-                            </div>
-                        </div>
-            <i>雷霆之子</i>
-            <blockquote>我将终身与罗马为敌。</blockquote>
-            
-            <span class="hero-type polician">政治家</span>
-            <span class="hero-type military">军事家</span>
-            <hr />
-
-            <h5>征召条件和成本</h5>
-            <hr />
-
-            <p>技能</p>
-            <hr />
-
-
-            <table class="notes">
-                <tr>
-                    <td>
-                        <p>
-                            汉尼拔-巴卡（前247年—前183年），迦太基统帅、行政官，出生在巴卡家族。其生长的时代正逢罗马共和国势力的崛起。
-                            少年时向父亲立下誓言终身与罗马为敌。第二次布匿战争期间，他奇迹般地率领军队从西班牙翻越比利牛斯山和阿尔卑斯山进入
-                            意大利北部，并多次以少胜多重创罗马军队。他自小接受严格和艰苦的军事锻炼，在军事及外交活动上有卓越表现，
-                            现今仍是许多军事学家所研究的重要军事战略家之一，被誉为战略之父。
-                        </p>
-                        <p>
-                            前238年，汉尼拔刚刚9岁。他的父亲哥哥们要去西班牙，想办法在罗马背后头干他一炮。小汉尼拔也很想去，父亲要看看
-                            他的决心。于是，他就宰杀祭品，将带着鲜血的手握紧成拳头发誓，“要终身与罗马为敌。”我觉着，这是有八九是李维瞎
-                            编的。
-                        </p>
-                        
-                    </td>
-                    <td> <img src="pic-hannibal-250px.png" class="heroPro"></td>
-                </tr>
-            </table>
-        </div>
-
-        <!-- 西庇阿 -->
-        <div class="ahero">
-            <div id="dataid3" data-HeroAbl="8998">erro</div>
-            <h3>西庇阿</h3>
-            <i>阿非利卡征服者</i>
-            <!-- SPQR -->
-            <div class="badge">
-                            <img src="bg-spqr-64px.png"/>
-                            <div class="badge-drop-content">
-                                <b>“Civis Romanus sum.”</b>
-                                这是一个罗马人。
-                            </div>
-                        </div>
-            <blockquote>罗马人真是忘恩负义。</blockquote>
-
-            <!-- 类型 -->
-            <span class="hero-type polician">政治家</span>
-            <span class="hero-type military">军事家</span>
-            <hr />
-
-            <!-- 征召 -->
-            <h5>征召条件和成本</h5>
-            <div class="hero-politic republic">Only For Republic 仅共和政体可用</div>
-            <ul>
-                <li>如果【汉尼拔】在场，则零成本</li>
-                <li>如果【汉尼拔】曾经在场，则50%零成本</li>
-            </ul>
-            <hr />
-
-            <!-- 技能 -->
-            <ul>
-                <li>
-                    <i>“勇敢的罗马人”</i>
-                    所在编队成员单位<span class="context-up">移除</span>被攻击时的负面效果
-                </li>
-                <li>
-                    <i>“以罗马之名”</i>
-                    所在编队成员单位与【汉尼拔】所属势力战斗时攻击力<span class="context-up">增加</span>3
-                </li>
-                <li>
-                    <i>“马希尼萨，我的朋友”</i>
-                    <span class="hero-skillmode ent">进场</span>
-                    <span class="context-up">获得</span>2个【努米迪亚骑兵】；如果【汉尼拔】在场，则为4个
-                </li>
-                <li>
-                    <i>“西西里经略”</i>
-                    <span class="hero-skillmode oo">唯一一次</span>
-                    立即获得一个【迷你行省】
-                </li>
-                <li>
-                    <i>“费边，你听我说”</i>
-                    只要执行行为时该英雄在我方【会堂】，则可以使得投掷骰子点数<span class="context-up">+</span>1
-                </li>
-            </ul>
-            <hr />
-
-            <!-- 描述和图片 -->
-            <table class="notes">
-                <tr>
-                    <td>
-                        <p>
-                            西庇阿是公认的军事天才之一，他的军事才能获得各个时期研究者的承认。罗马历史学家弗洛鲁斯曾记载迦太基统帅
-                            汉尼拔和罗马将军西庇阿会面时的场景，足以证明他卓绝的军事才干：“两位一向闻名的将军，一个在意大利战场
-                            屡次得胜一个在西班牙战绩辉煌……两位统帅本人就达成和平条件会晤谈判。他们两长时间相对无言，一动不动，
-                            彼此流露出对对方的仰慕之情。由于没有达成和平协议，军号吹响了。两人都证实，指挥作战不可能这样善于运筹
-                            帷幄，在作战中不可能如此斗志昂扬。大西庇阿公开这样讲，他指的是汉尼拔的军队；而汉尼拔讲的则是西庇阿的
-                            军队。另外他也非常有文化修养。西庇阿对希腊文化的热爱众所周知，在他周围也聚集了不少学者。
-                        </p>
-                        <p>
-                            在政治上，西庇阿是温和而保守的：他赞同在被罗马武力征服的地区建立附庸国而不是进行直接统治。
-                            这表明他代表的主要是依靠自然经济的奴隶主的利益。这使他遭到那些一心想建立新的行省以对海外
-                            进行搜刮的商业奴隶主阶层的反对。然而，西庇阿通过第二次布匿战争获取的过大权力和个人威望也使他广受批评。
-                            这是西庇阿的政敌们攻击他的主要原因之一，他们担心他会建立独裁。西庇阿对罗马外交政策的过度影响，以及将军队
-                            “个人化”（使士兵忠于他们的指挥官）从长远看是危险的。
-                        </p>
-                        
-                        <p><a href="https://en.wikipedia.org/wiki/Scipio_Africanus">了解更多</a></p>
-                    </td>
-                    <td> <img src="pic-scipio-250px.png" class="heroPro"></td>
-                </tr>
-            </table>
-
-        </div>
-
-
 
 </body>
 </html>
 
 <script>
-    /*
-    var LAST_DATAID = 5;
-    var DATAID = 1;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","heroes.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML;
+
+var x=xmlDoc.getElementsByTagName("AHERO");
+document.write("<div class='con'>");
+
+for (i=0;i<x.length;i++){
+        document.write("<div class='ahero'>");
+
+        //能力值
+        var ablstr=x[i].getElementsByTagName("ABL")[0].childNodes[0].nodeValue;
+        document.write("<table class='hero-data'> <tr><th>统驭</th><th>武力</th><th>智力</th><th>魅力</th></tr>");
+        document.write("<tr><td class='data-" + ablRank(ablstr[0]) + "'>" + ablstr[0] + "</td>");
+        document.write("<td class='data-" + ablRank(ablstr[1]) + "'>" + ablstr[1] + "</td>");
+        document.write("<td class='data-" + ablRank(ablstr[2]) + "'>" + ablstr[2] + "</td>");
+        document.write("<td class='data-" + ablRank(ablstr[3]) + "'>" + ablstr[3] + "</td></tr></table>");
+        //===============================================================================================
+
+  document.write("<h3 class='heroNomi'>"+x[i].getElementsByTagName("NOMINEE")[0].childNodes[0].nodeValue+"</h3>");
+  document.write("<i class='heroNick'>"+x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue+"</i>");
+
+        //徽章
+        var htmlTag=x[i].getElementsByTagName("TAG")[0].childNodes[0].nodeValue;
+        htmlTag=tagBef(htmlTag);
+        document.write(htmlTag);
+        //======================================================================
+
+  document.write("<blockquote class='heroQuo'>"+x[i].getElementsByTagName("QUO")[0].childNodes[0].nodeValue+"<blockquote>");
+
+        //类型
+        var thisHeroType=x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue;
+        thisHeroType=typeBef(thisHeroType);
+        document.write(thisHeroType);
+        //document.write(x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue);
+
+  document.write("<hr/>");
+  document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
+  document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue);
+  document.write("</div>");
+};
+  document.write("END");
+/*
+document.write("DoList")
+document.write("<table border='1'>");
+var x=xmlDoc.getElementsByTagName("AHERO");
+for (i=0;i<x.length;i++)
+  {
+  document.write("<tr><td>");
+  document.write(x[i].getElementsByTagName("NOMINEE")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+  document.write(x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+  document.write("</td></tr>");
+  }
+document.write("</table>");
+document.write("EndList")
+*/
 
 
-    while (DATAID <= 5) {
-        var DATAS = "";
-        var DATAIDtag = "dataid"
-        DATAIDtag = DATAIDtag + DATAID;
-        DATAS = document.getElementById(DATAIDtag);
+//==================================================================================
 
-        setDatable(DATAIDtag, DATAS);
-        DATAID++;
-    }*/
+    function tagBef(str) {//徽章替换
+    var outstr = str;
 
-    //setDatable("dataid1", "xxxx");
-    //var DATAID;
-    //DATAID = "dataid6"
-    //var DATA_ABL = document.getElementById(DATAID);
-    //alert(DATA_ABL.getAttribute('data-HeroAbl'));
-    //DATA_ABL = ""+DATA_ABL.getAttribute('data-HeroAbl');
-    //setDatable(DATAID, DATA_ABL);
-    var TOP_DATAID = 5;
-    var dataid = 0;
+    outstr = outstr.toLowerCase();
 
-    while (dataid <= TOP_DATAID ) {
-        var dataid_tag = "dataid" + dataid;
-        var data_abl = document.getElementById(dataid_tag);
-        data_abl = "" + data_abl.getAttribute('data-HeroAbl');
+    outstr = outstr.replace(/athens/g, "<div class='badge'><img src = 'bg-athens-64px.png' /><div class='badge-drop-content'><b>“雅典人管着希腊……”</b><br />我管雅典人，你又管着我，而你又听儿子的。告诉儿子，可得让他小心手里的权力。这是一个雅典人。</div></div >");
+    outstr = outstr.replace(/carthego/g, "<div class='badge'><img src='bg-carthego-64px.png' /><div class='badge-drop-content'><b>“看着那巍峨城墙上的火，他留下了眼泪”</b><br />这是一个迦太基人。</div></div>");
+    outstr = outstr.replace(/spqr/g, "<div class='badge'><img src='bg-spqr-64px.png' /><div class='badge-drop-content'><b>“Civis Romanus sum.”</b><br />我是罗马人。</div></div>");
+    outstr = outstr.replace(/hellen/g,"<div class='badge'><img src='bg-greek-64px.png' /><div class='badge-drop-content'><b>δόξα για την Ελλάδα！</b><br />这是一个属于希腊世界或受希腊化影响的人物。</div></div>");
+    outstr = outstr.replace(/serica/g, "<div class='badge'><img src='bg-serica-64px.png' /><div class='badge-drop-content'><b>海内皆臣<br />歲登成熟<br />道毋飢人</b><br />这是一个中国人。</div></div>");
+    //outstr = outstr.replace();
 
-        setDatable(dataid_tag, data_abl);
 
-        //alert(dataid_tag + data_abl);
-        dataid++;
-
+    return outstr;
+};
+    function ablRank(ablInt) {//把123456789x转化成C,B,A,S,SS
+    /*Makes an Int into "Abilitiy Rank"*/
+    switch (ablInt) {
+        case 'x':
+            return 'ss';
+            break;
+        case '9':
+            return 's';
+            break;
+        case '8':
+        case '7':
+            return 'a';
+            break;
+        case '6':
+        case '5':
+            return 'b';
+            break;
+        default:
+            return 'c';
     }
-
-    function setDatable(/*id*/id,/*string*/hero_datas) {
-        //int data
-        var data_imp = ['0', 'c'];
-        var data_phy = ['0', 'c'];
-        var data_int = ['0', 'c'];
-        var data_cha = ['0', 'c'];
-
-        //fuck imperia
-        data_imp[0] = hero_datas.charAt(0);
-        switch (data_imp[0]) {
-            case 'x':
-            case '9':
-                data_imp[1] = 's';
-                break;
-            case '8':
-            case '7':
-                data_imp[1] = 'a';
-                break;
-            case '6':
-            case '5':
-                data_imp[1] = 'b';
-                break;
-            default:
-                data_imp[1] = 'c';
-
-        };
-
-        //fuck physical
-        data_phy[0] = hero_datas.charAt(1);
-        switch (data_phy[0]) {
-            case 'x':
-            case '9':
-                data_phy[1] = 's';
-                break;
-            case '8':
-            case '7':
-                data_phy[1] = 'a';
-                break;
-            case '6':
-            case '5':
-                data_phy[1] = 'b';
-                break;
-            default:
-                data_phy[1] = 'c';
-
-        };
-
-        //fuck intelligence
-        data_int[0] = hero_datas.charAt(2);
-        switch (data_int[0]) {
-            case 'x':
-            case '9':
-                data_int[1] = 's';
-                break;
-            case '8':
-            case '7':
-                data_int[1] = 'a';
-                break;
-            case '6':
-            case '5':
-                data_int[1] = 'b';
-                break;
-            default:
-                data_int[1] = 'c';
-
-        };
-
-        //fuck charm
-        data_cha[0] = hero_datas.charAt(3);
-        switch (data_cha[0]) {
-            case 'x':
-            case '9':
-                data_cha[1] = 's';
-                break;
-            case '8':
-            case '7':
-                data_cha[1] = 'a';
-                break;
-            case '6':
-            case '5':
-                data_cha[1] = 'b';
-                break;
-            default:
-                data_cha[1] = 'c';
-
-        };
-
-        /*alert(data_imp + '；' + data_phy + '；' + data_int + '；' + data_cha);*/
-
-        document.getElementById(id).innerHTML =
-            "<table class='hero-data'> <tr><th>统驭</th><th>武力</th><th>智力</th><th>魅力</th></tr>"//fucking table head
-            +
-            "<tr><td class='data-" + data_imp[1] + "'>" + data_imp[0] + "</td>"//fucking imperia
-            +
-            "<td class='data-" + data_phy[1] + "'>" + data_phy[0] + "</td>"//physical
-            +
-            "<td class='data-" + data_int[1] + "'>" + data_int[0] + "</td>"//intelligence
-            +
-            "<td class='data-" + data_cha[1] + "'>" + data_cha[0] + "</td></tr></table>"//charm
+};
+    function typeBef(str) {//类型替换
 
 
-    }
+    str = str.replace(/政治家/g, "<span class='hero-type polician'>政治家</span>");
+    str = str.replace(/军事家/g, "<span class='hero-type military'>军事家</span>");
+    str = str.replace(/学者/g, "<span class='hero-type philosopher'>学者</span>");
+    str = str.replace(/艺术家/g, "<span class='hero-type artist'>艺术家</span>");
+    str = str.replace(/大商人/g, "<span class='hero-type merchant'>大商人</span>");
+
+    return str;
+    };
+
+    //TODOhere 0411.2236
+    function conBef(str) {
+
+        str = str.replace(/[re]/g, "<div class='hero-politic republic'>Hail For Republic 仅共和政体可征召</div>)");
+        str = str.replace(/[mo]/g, "<div class= 'hero-politic monarchy'>Long Live Emperor 仅君主政体可征召</div >");
+        str = str.replace(/【【/, "<div class='hero-politic limit'>");
+        str = str.replace(/】】/, "</div>");
+        str = str.replace(/$/, "<ul><li>");
+        str = str.replace(/$/g, "</li><li>");
+        str = str + "</li><ul>";
+
+        return str;
+    };
+
+
+
 
 
 </script>
+
+

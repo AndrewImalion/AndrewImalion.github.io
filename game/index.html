@@ -258,7 +258,13 @@ for (i=0;i<x.length;i++){
         //document.write(x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue);
 
   document.write("<hr/>");
-  document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);
+    
+    //征召
+    var thisHeroCC=(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue;
+    thisHeroCC=conBef(thisHeroCC);
+    document.write(thisHeroCC);
+
+
   document.write(x[i].getElementsByTagName("SPL")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
   document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue);

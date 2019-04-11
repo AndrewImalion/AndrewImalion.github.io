@@ -1,4 +1,5 @@
 ---
+layout: default
 title: new
 premalink: new.html
 ---
@@ -6,7 +7,7 @@ premalink: new.html
 <!DOCTYPE html>
 <html>
 <body>
-<h1>fuck<h1>
+
 </body>
 </html>
 
@@ -22,9 +23,12 @@ else
 xmlhttp.open("GET","heroes.xml",false);
 xmlhttp.send();
 xmlDoc=xmlhttp.responseXML; 
-
+  
+  
+document.write("DoList")
 document.write("<table border='1'>");
 var x=xmlDoc.getElementsByTagName("AHERO");
+  
 for (i=0;i<x.length;i++)
   { 
   document.write("<tr><td>");
@@ -34,5 +38,6 @@ for (i=0;i<x.length;i++)
   document.write("</td></tr>");
   }
 document.write("</table>");
+document.write("EndList")
 </script>
 

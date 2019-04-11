@@ -176,7 +176,6 @@ premalink: new.html
 
         .notes {
             font-family: 'LiSu','KaiTi','Times New Roman',Times,serif;
-            width: 120%;
             font-size: small;
             text-align: center;
             background-color: white;
@@ -248,7 +247,7 @@ for (i=0;i<x.length;i++){
         document.write(htmlTag);
         //======================================================================
         
-  document.write("<blockquote class='heroQuo'>"+x[i].getElementsByTagName("QUO")[0].childNodes[0].nodeValue+"<blockquote>");
+  document.write("<blockquote class='heroQuo'>"+x[i].getElementsByTagName("QUO")[0].childNodes[0].nodeValue+"</blockquote>");
  
         //类型
         var thisHeroType=x[i].getElementsByTagName("HETYPE")[0].childNodes[0].nodeValue;
@@ -274,7 +273,7 @@ for (i=0;i<x.length;i++){
         
         document.write("<hr/><table class='notes'><tr><td>");
         document.write(x[i].getElementsByTagName("NOTE")[0].childNodes[0].nodeValue);
-        document.write("</td></td>");
+        document.write("</td><td>");
         document.write(x[i].getElementsByTagName("HEID")[0].childNodes[0].nodeValue);
         document.write("</td></tr></table>");
   //document.write(x[i].getElementsByTagName("CONS")[0].childNodes[0].nodeValue);

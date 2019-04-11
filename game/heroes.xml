@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HEROES>
+  <AHERO>
+    <NOMINEE>泰米斯托克利斯</NOMINEE>
+    <TITLE>法律之光</TITLE>
+  </AHERO>
+
+  <AHERO>
+    <NOMINEE>伯里克利</NOMINEE>
+    <TITLE>黄金领袖</TITLE>
+  </AHERO>
+
+  <AHERO>
+    <NOMINEE>汉尼拔</NOMINEE>
+    <TITLE>雷霆之子</TITLE>
+  </AHERO>
+
+  <AHERO>
+    <NOMINEE>克列奥巴特拉</NOMINEE>
+    <TITLE>埃及女王</TITLE>
+  </AHERO>
+  
+  
+  
+  
+</HEROES>

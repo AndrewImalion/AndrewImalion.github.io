@@ -4,8 +4,9 @@ title: 英雄
 premalink: new.html
 ---
 
-<!DOCTYPE html>
-<html>
+<body>
+</body>
+
 <style>
 
         .ahero {
@@ -387,6 +388,123 @@ function ablRank(ablInt) {//把123456789x转化成C,B,A,S,SS
         str = str + "</li></ul>";
 
         return str;
+    };
+        function befUniTable(data) {//将形如“46f3”的字符串转换为html表格
+        var html = "<table class='hero-data'><tr><th>攻击</th><th>移动</th><th>韧性</th><th>军饷</th></tr>";
+
+        if (data.length!= 4) {
+            //data = "数据错误";长度不合法
+            data = data.concat('0000');//先用0补满它
+            data = data.slice(0, 4);//再截取前4个
+        };
+
+        html = html + "<tr>";
+        html = html + "<td class='data-" + unitDataRank(data[0]) + "'>" + data[0] + "</td>";//attack
+        html = html + "<td class='data-" + unitDataRank(data[1]) + "'>" + data[1] + "</td>";//attack
+        html = html + "<td class='data-" + unitDataRank(data[2]) + "'>" + data[2] + "</td>";//attack
+        html = html + "<td class='data-" + unitDPayRank(data[3]) + "'>" + data[3] + "</td>";//attack//payment,ATTENTION! it use func unitDPayRank(), NOT unitDataRnk()
+        html = html + "</tr></table>";
+
+        return html;
+    }
+    function unitDataRank(chara) {//通过单位能力值返回能力级别，能力值为0-f,级别为{C,D,A,S,SS}
+        chara = chara.toLowerCase();//大小姐不敏感
+        var rank = "c";
+
+        switch (chara) {
+            case "f":
+                rank = "ss";
+                break;
+            case "e":
+            case "d":
+            case "c":
+                rank = "s";
+                break;
+            case "b":
+            case "a":
+            case "9":
+            case "8":
+                rank = "a";
+                break;
+            case "7":
+            case "6":
+            case "5":
+            case "4":
+                rank = "b";
+                break;
+
+            default:
+                rank = "c";
+        }
+
+        return rank;
+    }
+    function unitDPayRank(chara) {//通过单位军饷值返回级别，能力值为0-f,级别为{C,D,A,S,SS},军饷要求越低，则级别越高
+        chara = chara.toLowerCase();//大小姐不敏感
+        var rank = "c";
+
+        switch (chara) {
+            case "f":
+            case "e":
+            case "d":
+            case "c":
+                rank = "c";
+                break;
+            case "b":
+            case "a":
+            case "9":
+            case "8":
+                rank = "b";
+                break;
+            case "7":
+            case "6":
+            case "5":
+            case "4":
+                rank = "a";
+                break;
+            case "3":
+            case "2":
+            case "1":
+                rank = "s";
+                break;
+            case "0":
+                rank = "ss";
+                break;
+
+            default:
+                rank = "c";
+        }
+
+        return rank;
+    }
+
+    function befCivTable(civType) {//如果是臣民返回1115，否则返回2221
+        var html = "<table class='hero-data'><tr><th>政治</th><th>文娱</th><th>商贸</th><th>采集</th></tr>";
+
+        if (civType == "slave") { html = html + "<tr><td>1</td><td>1</td><td>1</td><td>5</td>"; }
+        else { html = html + "<tr><td>2</td><td>2</td><td>2</td><td>1</td>"; }
+
+        return html;
+    }
+
+    function befAblTable(data) {//将形如“46f3”的字符串转换为html表格
+        var html = "<table class='hero-data'><tr><th>统驭</th><th>武力</th><th>智力</th><th>魅力</th></tr>";
+
+        if (data.length != 4) {
+            //data = "数据错误";长度不合法
+            data = data.concat('0000');//先用0补满它
+            data = data.slice(0, 4);//再截取前4个
+        };
+
+        html = html + "<tr>";
+        html = html + "<td class='data-" + ablRank(data[0]) + "'>" + data[0] + "</td>";
+        html = html + "<td class='data-" + ablRank(data[1]) + "'>" + data[1] + "</td>";
+        html = html + "<td class='data-" + ablRank(data[2]) + "'>" + data[2] + "</td>";
+        html = html + "<td class='data-" + ablRank(data[3]) + "'>" + data[3] + "</td>";
+        html = html + "</tr></table>";
+
+
+        return html;
     };
   
   

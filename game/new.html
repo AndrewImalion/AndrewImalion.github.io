@@ -227,7 +227,7 @@ xmlDoc=xmlhttp.responseXML;
 var x=xmlDoc.getElementsByTagName("AHERO");
 
         //BeforeCon========================================================================================================================
-        document.write("<div class='con'>πόλις</div>");
+        document.write("<div class='con'>πόλις<hr/>Polis,Please!</div>");
         //==============================================================================================================================
        
         
@@ -239,11 +239,7 @@ for (i=0;i<x.length;i++){
         
         //能力值
         var ablstr=x[i].getElementsByTagName("ABL")[0].childNodes[0].nodeValue;
-        document.write("<table class='hero-data'> <tr><th>统驭</th><th>武力</th><th>智力</th><th>魅力</th></tr>");
-        document.write("<tr><td class='data-" + ablRank(ablstr[0]) + "'>" + ablstr[0] + "</td>");
-        document.write("<td class='data-" + ablRank(ablstr[1]) + "'>" + ablstr[1] + "</td>");
-        document.write("<td class='data-" + ablRank(ablstr[2]) + "'>" + ablstr[2] + "</td>");
-        document.write("<td class='data-" + ablRank(ablstr[3]) + "'>" + ablstr[3] + "</td></tr></table>");
+        document.write(befAblTable(ablstr));
         //===============================================================================================     
   
   document.write("<h3 class='heroNomi'>"+x[i].getElementsByTagName("NOMINEE")[0].childNodes[0].nodeValue+"</h3>");

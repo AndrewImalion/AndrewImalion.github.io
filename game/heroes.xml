@@ -8,52 +8,119 @@
 		<TAG>athens hellen</TAG>
 		<HETYPE>政治家 军事家</HETYPE>
 		<CONS>￥一半国库资金
-		      ￥如果场上存在波斯人，拉希第梦人或马其顿人英雄并且我方没有前述英雄，则零成本</CONS>
-		<SPL> ￥“我有一个梦想” 【招募】【三列桨战舰】（仅共和）
-		      ￥“海上霸主” 只要该英雄在场，我方战舰数量没有上限；我方所有战舰攻击力翻倍（仅共和）
-		      ￥我，泰米斯托克利斯，伤你最深的希腊人，来找你了……” 只要将该英雄留滞在我方【皇宫】或【行宫】里， 每回合我方都可以获得额外16点【政治点数】</SPL>
-		<NOTE>&lt;p&gt;泰公雅典人，约生于耶历纪前五二四年。雅典新发银矿，民意欲分之。 公力排众议，陈情明理，号曰使雅典强。
-			竟成舰队，力克波斯，屡挫 拉希第梦，终成海上之霸主。公少家贫，及承雅典民命，爱财，不能 自制，政波暗涌，
-			终去国走波斯，克死梅城，年六十又五。&lt;/p&gt;&lt;p&gt;於戏！雅典之兴，实赖民主政体并泰氏之卓识也！夫萨拉米斯之战何其 壮邪，
-			公之威名使波斯不敢西进，埃及俯首求護，国之运势，虽曰天命 ，岂非人事哉？然，雅典之政，若爱琴之波，公终做阿契之客，不亦悲夫？ 
-			忆令尊指旧船之言乎？&lt;/p&gt;&lt;a href="https://en.wikipedia.org/wiki/Themistocles"&gt;了解更多&lt;/a&gt;</NOTE>
+￥如果场上存在波斯人，拉希第梦人或马其顿人英雄并且我方没有前述英雄，则零成本</CONS>
+		<SPL>￥“我有一个梦想” 【招募】【三列桨战舰】（仅共和）
+￥“海上霸主” 只要该英雄在场，我方战舰数量没有上限；我方所有战舰攻击力翻倍（仅共和）￥“我，泰米斯托克利斯，伤你最深的希腊人，来找你了……” 只要将该英雄留滞在我方【皇宫】或【行宫】里， 每回合我方都可以获得额外16点【政治点数】</SPL>
+		<NOTE>&lt;p&gt;泰公雅典人，约生于耶历纪前五二四年。雅典新发银矿，民意欲分之。 公力排众议，陈情明理，号曰使雅典强。竟成舰队，力克波斯，屡挫 拉希第梦，终成海上之霸主。公少家贫，及承雅典民命，爱财，不能 自制，政波暗涌，终去国走波斯，克死梅城，年六十又五。&lt;/p&gt;&lt;p&gt;於戏！雅典之兴，实赖民主政体并泰氏之卓识也！夫萨拉米斯之战何其 壮邪，公之威名使波斯不敢西进，埃及俯首求護，国之运势，虽曰天命 ，岂非人事哉？然，雅典之政，若爱琴之波，公终做阿契之客，不亦悲夫？ 忆令尊指旧船之言乎？&lt;/p&gt;&lt;a href="https://en.wikipedia.org/wiki/Themistocles"&gt;了解更多&lt;/a&gt;</NOTE>
 		<HEID>he001</HEID>
 	</AHERO>
-	
 	<AHERO>
 		<NOMINEE>汉尼拔</NOMINEE>
 		<TITLE>雷霆之子</TITLE>
 		<QUO>我将终身与罗马为敌</QUO>
-		<ABL>x889</ABL>
+		<ABL>9889</ABL>
 		<TAG>carthego</TAG>
 		<HETYPE>军事家 政治家</HETYPE>
+		<CONS>￥条件</CONS>
+		<SPL>￥技能</SPL>
+		<NOTE>lipsum</NOTE>
 		<HEID>he002</HEID>
 	</AHERO>
-  
-  <AHERO>
-    <NOMINEE>伯伦</NOMINEE>
-    <TITLE>不被理解的画家</TITLE>
-    <QUO>看看</QUO>
-    <ABL>2539</ABL>
-    <TAG>SERICA</TAG>
-    <HETYPE>艺术家</HETYPE>
-    <CONS>【共和】 ￥条件1￥条件2￥条件3</CONS>
-    <SPL>￥进场效果【进场】进场￥【招募】【招募对象】</SPL>
-    <NOTE>我能吃玻璃</NOTE>
-    <HEID>he000-baron</HEID>
-  </AHERO>
-  
-  <AHERO>
-    <NOMINEE>西塞罗</NOMINEE>
-    <TITLE>雄辩者</TITLE>
-    <QUO>喀提林呐，你还要让我们忍你多久！</QUO>
-    <ABL>64x8</ABL>
-    <TAG>spqr</TAG>
-    <HETYPE>政治家 学者</HETYPE>
-    <CONS>【共和】￥条件￥条件￥条件</CONS>
-    <SPL>￥唯一【唯一】只有一次￥献身【献身】献身效果</SPL>
-    <NOTE>无人爱苦，更无人寻觅就之</NOTE>
-    <HEID>he100-cicero</HEID>
-  </AHERO>
+	<AHERO>
+		<NOMINEE>西庇阿</NOMINEE>
+		<TITLE>阿非利卡征服者</TITLE>
+		<QUO>罗马人民真是忘恩负义</QUO>
+		<ABL>x776</ABL>
+		<TAG>spqr</TAG>
+		<HETYPE>军事家 政治家</HETYPE>
+		<CONS>￥条件</CONS>
+		<SPL>￥技能</SPL>
+		<NOTE>lipsum</NOTE>
+		<HEID>he003</HEID>
+	</AHERO>
+	<AHERO>
+		<NOMINEE>名1</NOMINEE>
+		<TITLE>称号</TITLE>
+		<QUO>quote</QUO>
+		<ABL>xxxx</ABL>
+		<TAG>tag</TAG>
+		<HETYPE>.</HETYPE>
+		<CONS>￥条件</CONS>
+		<SPL>￥技能</SPL>
+		<NOTE>lipsum</NOTE>
+		<HEID>he004</HEID>
+	</AHERO>
+	<AHERO>
+		<NOMINEE>名2</NOMINEE>
+		<TITLE>称号</TITLE>
+		<QUO>quote</QUO>
+		<ABL>xxxx</ABL>
+		<TAG>tag</TAG>
+		<HETYPE>.</HETYPE>
+		<CONS>￥条件</CONS>
+		<SPL>￥技能</SPL>
+		<NOTE>lipsum</NOTE>
+		<HEID>he005</HEID>
+	</AHERO>
+	<AHERO>
+		<NOMINEE>名3</NOMINEE>
+		<TITLE>称号</TITLE>
+		<QUO>quote</QUO>
+		<ABL>xxxx</ABL>
+		<TAG>tag</TAG>
+		<HETYPE>.</HETYPE>
+		<CONS>￥条件</CONS>
+		<SPL>￥技能</SPL>
+		<NOTE>lipsum</NOTE>
+		<HEID>he006</HEID>
+	</AHERO>
+	<AHERO>
+		<NOMINEE>名4</NOMINEE>
+		<TITLE>称号</TITLE>
+		<QUO>quote</QUO>
+		<ABL>xxxx</ABL>
+		<TAG>tag</TAG>
+		<HETYPE>.</HETYPE>
+		<CONS>￥条件</CONS>
+		<SPL>￥技能</SPL>
+		<NOTE>lipsum</NOTE>
+		<HEID>he007</HEID>
+	</AHERO>
+	<AHERO>
+		<NOMINEE>名5</NOMINEE>
+		<TITLE>称号</TITLE>
+		<QUO>quote</QUO>
+		<ABL>xxxx</ABL>
+		<TAG>tag</TAG>
+		<HETYPE>.</HETYPE>
+		<CONS>￥条件</CONS>
+		<SPL>￥技能</SPL>
+		<NOTE>lipsum</NOTE>
+		<HEID>he008</HEID>
+	</AHERO>
+	<AHERO>
+		<NOMINEE>名6</NOMINEE>
+		<TITLE>称号</TITLE>
+		<QUO>quote</QUO>
+		<ABL>xxxx</ABL>
+		<TAG>tag</TAG>
+		<HETYPE>.</HETYPE>
+		<CONS>￥条件</CONS>
+		<SPL>￥技能</SPL>
+		<NOTE>lipsum</NOTE>
+		<HEID>he009</HEID>
+	</AHERO>
+	<AHERO>
+		<NOMINEE>名7</NOMINEE>
+		<TITLE>称号</TITLE>
+		<QUO>quote</QUO>
+		<ABL>xxxx</ABL>
+		<TAG>tag</TAG>
+		<HETYPE>.</HETYPE>
+		<CONS>￥条件</CONS>
+		<SPL>￥技能</SPL>
+		<NOTE>lipsum</NOTE>
+		<HEID>he010</HEID>
+	</AHERO>
   
 </HEROES>

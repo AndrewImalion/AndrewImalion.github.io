@@ -4,9 +4,7 @@ title: 英雄
 premalink: new.html
 ---
 
-<body>
-</body>
-
+<html>
 <style>
 
         .ahero {
@@ -227,6 +225,13 @@ xmlhttp.send();
 xmlDoc=xmlhttp.responseXML; 
 
 var x=xmlDoc.getElementsByTagName("AHERO");
+
+        //BeforeCon========================================================================================================================
+        document.write("<div class='con'>πόλις</div>");
+        //==============================================================================================================================
+       
+        
+        
 document.write("<div class='con'>");
 
 for (i=0;i<x.length;i++){

@@ -580,7 +580,8 @@ document.write("fuckme");
         isMil,
         isBld,
         isCom,
-        isSht
+        isSht,
+        isHero
     ) {
         this.nominee = no;
         this.title = ti;
@@ -596,7 +597,10 @@ document.write("fuckme");
         this.isBuild = isBld;
         this.isCommon = isCom;
         this.isShooter = isSht;
-
+        this.isHero = isHero;
+            
+            
+        if (this.isHero == "true") { this.isCommon = "false" };//英雄必然不是平民
         if (this.isCommon == "true") {
             this.isMilitary = "false";
             this.tag = this.tag + "非军事 平民"

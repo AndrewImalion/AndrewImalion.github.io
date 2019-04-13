@@ -341,10 +341,7 @@ document.write("fuckme");
     function befCivTable(data) {//如果是臣民返回1115，否则返回2221
         var html = "<table class='hero-data'><tr><th>政治</th><th>文娱</th><th>商贸</th><th>采集</th></tr>";
         
-        html=html+"<tr><td>"+data[0]+"</td><td>"+data[1]+"</td><td>"+data[2]+"</td><td>"+data[3]+"</td><tr></table>"
-
-        //if (civType == "slave") { html = html + "<tr><td>1</td><td>1</td><td>1</td><td>5</td>"; }
-        //else { html = html + "<tr><td>2</td><td>2</td><td>2</td><td>1</td>"; }
+        html=html+"<tr><td>"+data[0]+"</td><td>"+data[1]+"</td><td>"+data[2]+"</td><td>"+data[3]+"</td><tr></table>";
 
         return html;
     }; //公民臣民能力表格 TODO:在外面控制平衡常数
@@ -614,8 +611,9 @@ document.write("fuckme");
         if (this.isHero == "true") { this.isCommon = "false" };//英雄必然不是平民
         if (this.isCommon == "true") {
             this.isMilitary = "false";
-            this.tag = this.tag + "非军事 平民"
+            this.tag = this.tag + "非军事平民"
         };//如果是平民则必然不是军事单位
+            
         if (this.isBuild == "true") { 
             this.data[1] = "0" ;
             this.data[3]="0"

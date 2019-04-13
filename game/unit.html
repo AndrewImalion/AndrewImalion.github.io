@@ -13,7 +13,8 @@ premalink: unit.html
     <title></title>
     <style>
         .unit {
-            width: 40%;
+            font-family: '幼圆', 'Arial Narrow', Arial, sans-serif;
+            width: 100%;
             height:auto;
             background-color: gainsboro;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -283,13 +284,15 @@ xmlDoc=xmlhttp.responseXML;
 
 var x=xmlDoc.getElementsByTagName("AUNIT");
 
+    for(var i=0;i<x.length;i++){
     
-    var thatUnit=xml2aUnit(x[0]);
-    document.write(printUnit(thatUnit));
+    var thatUnit=xml2aUnit(x[i]);
+    document.write(printUnit(thatUnit));}
 
 
     
 document.write("fuckXMfuckXML<br/>LfuckXMfuckXMLL");
+document.write("fuckme");
     
 
 
@@ -521,7 +524,8 @@ document.write("fuckXMfuckXML<br/>LfuckXMfuckXMLL");
             + splBef("￥技能【被动】1￥技能【进场】2【招募】【唯一】【献身】");
 
         html = html + "<hr/><center><table class='notes'><tr><td>" + unit
-            + "<img src='" + unit + ".png' class='heroPro'/></td></tr>" + "<tr><td colspan='2'>link</td></tr></table>";
+            + "<img src='" + unit + ".png' class='heroPro'/></td></tr>" + "<tr><td colspan='2'>link</td></tr></table></center>";
+        html=html+"</div>";
             
         
 

@@ -513,8 +513,15 @@ document.write("fuckme");
 
     function printUnit(unit) {
         var html = "<div class='unit'>";
+        var daTable="";
+        
+        if (unit.isHero=="true"){daTable=befAblTable(unit.data)};
+        if (unit.isCommon=="true"){
+            if (unit.nominee=="臣民"){daTable=befCivTable("slave")}
+        };
+        
 
-        html = html + befUniTable("66ccff")
+        html = html + daTable
             + "<h2 id='"+unit.uId+"'>"+ unit.nominee + "</h2>"
             + tagBef(unit.tag)
             + "<h4><i>"+unit.title+"</i></h4>"

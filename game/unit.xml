@@ -7,10 +7,10 @@
 		<QUO>quote</QUO>
 		<DATA>xxxx</DATA>
 		<TAG>tag</TAG>
-    <ISMILITARY>true</ISMILITARY>
-    <ISBUILDING>false</ISBUILDING>
-    <ISCOMMON>false</ISCOMMON>
-    <ISSHOOTER>false</ISSHOOTER>
+    		<ISMILITARY>true</ISMILITARY>
+    		<ISBUILDING>false</ISBUILDING>
+    		<ISCOMMON>false</ISCOMMON>
+   		<ISSHOOTER>false</ISSHOOTER>
 		<UTYPE>.</UTYPE>
 		<CONS>￥条件</CONS>
 		<SPL>￥技能</SPL>
@@ -31,7 +31,7 @@
     <CONS>￥条件</CONS>
     <SPL>￥技能</SPL>
     <NOTE>lipsum</NOTE>
-    <UID>un000</UID>
+    <UID>un001</UID>
   </AUNIT>
   <AUNIT>
     <NOMINEE>名2</NOMINEE>
@@ -47,6 +47,6 @@
     <CONS>￥条件</CONS>
     <SPL>￥技能</SPL>
     <NOTE>lipsum</NOTE>
-    <UID>un000</UID>
+    <UID>un002</UID>
   </AUNIT>
 </UNIT>

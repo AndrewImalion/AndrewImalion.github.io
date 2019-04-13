@@ -11,21 +11,21 @@
 		<ISCOMMON>false</ISCOMMON>
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
-		<UTYPE>政治家 军事家</UTYPE>
+		<UTYPE>政治家 军事家 远程</UTYPE>
 		<CONS>￥条件1</CONS>
 		<SPL>￥技能1</SPL>
 		<NOTE>注释</NOTE>
 		<UID>un001</UID>
 	</AUNIT>
 	<AUNIT>
-		<NOMINEE>名2</NOMINEE>
+		<NOMINEE>公民</NOMINEE>
 		<TITLE>抬头2</TITLE>
 		<QUO>我能吃玻璃</QUO>
-		<DATA>1235</DATA>
+		<DATA>2221</DATA>
 		<TAG>spqr</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
-		<ISCOMMON>false</ISCOMMON>
+		<ISCOMMON>true</ISCOMMON>
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>false</ISHERO>
 		<UTYPE>政治家</UTYPE>
@@ -35,11 +35,11 @@
 		<UID>un002</UID>
 	</AUNIT>
 	<AUNIT>
-		<NOMINEE>名3</NOMINEE>
+		<NOMINEE>臣民</NOMINEE>
 		<TITLE>抬头3</TITLE>
 		<QUO>我能吃玻璃</QUO>
-		<DATA>1236</DATA>
-		<TAG>apqr</TAG>
+		<DATA>1115</DATA>
+		<TAG>serica</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
@@ -52,17 +52,17 @@
 		<UID>un003</UID>
 	</AUNIT>
 	<AUNIT>
-		<NOMINEE>名4</NOMINEE>
+		<NOMINEE>会堂</NOMINEE>
 		<TITLE>抬头4</TITLE>
 		<QUO>我能吃玻璃</QUO>
 		<DATA>1237</DATA>
-		<TAG>apqr</TAG>
+		<TAG>athens</TAG>
 		<ISMILITARY>true</ISMILITARY>
-		<ISBUILDING>false</ISBUILDING>
+		<ISBUILDING>true</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>false</ISHERO>
-		<UTYPE>政治家</UTYPE>
+		<UTYPE>大型建筑</UTYPE>
 		<CONS>￥条件4</CONS>
 		<SPL>￥技能4</SPL>
 		<NOTE>注释</NOTE>

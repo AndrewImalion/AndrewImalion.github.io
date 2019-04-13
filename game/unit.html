@@ -283,9 +283,13 @@ xmlDoc=xmlhttp.responseXML;
 
 var x=xmlDoc.getElementsByTagName("AUNIT");
 
-document.write(x[0].getElementsByTagName("NOMINEE")[0].childNodes[0].nodeValue);
     
-document.write("fuckXMfuckXMLL");
+    var thatUnit=xml2aUnit(x[0]);
+    document.write(printUnit(thatUnit));
+
+
+    
+document.write("fuckXMfuckXML<br/>LfuckXMfuckXMLL");
     
 
 
@@ -527,7 +531,7 @@ document.write("fuckXMfuckXMLL");
 
 
     //XML to object aUnit
-    function xml2aUnit(xml,tagname) {
+    function xml2aUnit(xml) {
         var unit = new aUnit();
 
         unit.nominee = xml.getElementsByTagName("NOMINEE")[0].childNodes[0].nodeValue;

@@ -33,4 +33,20 @@
     <NOTE>lipsum</NOTE>
     <UID>un000</UID>
   </AUNIT>
+  <AUNIT>
+    <NOMINEE>名2</NOMINEE>
+    <TITLE>称号</TITLE>
+    <QUO>quote</QUO>
+    <DATA>xxxx</DATA>
+    <TAG>tag</TAG>
+    <ISMILITARY>true</ISMILITARY>
+    <ISBUILDING>false</ISBUILDING>
+    <ISCOMMON>false</ISCOMMON>
+    <ISSHOOTER>false</ISSHOOTER>
+    <UTYPE>.</UTYPE>
+    <CONS>￥条件</CONS>
+    <SPL>￥技能</SPL>
+    <NOTE>lipsum</NOTE>
+    <UID>un000</UID>
+  </AUNIT>
 </UNIT>

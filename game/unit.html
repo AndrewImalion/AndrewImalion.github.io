@@ -271,7 +271,12 @@ premalink: unit.html
 
 
 
-    document.write("fuckxml");
+    var myUnit = new aUnit("hisname");
+    myUnit.title = "histitle";
+    myUnit.quo = "hisquote";
+
+
+    document.write(printUnit(myUnit));
 
 
 

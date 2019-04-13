@@ -269,23 +269,24 @@ premalink: unit.html
     
     document.write(splBef("【被动】【进场】【招募】【唯一】【献身】"));*/
 
-xmlhttp=new XMLHttpRequest();
-
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
 xmlhttp.open("GET","unit.xml",false);
 xmlhttp.send();
 xmlDoc=xmlhttp.responseXML; 
+
 var x=xmlDoc.getElementsByTagName("AUNIT");
+
 document.write(x[0].getElementsByTagName("NOMINEE")[0].childNodes[0].nodeValue);
+    
+document.write("fuckXML")
 
-
-
-
-    var myUnit = new aUnit("hisname");
-    myUnit.title = "histitle";
-    myUnit.quo = "hisquote";
-
-
-    document.write(printUnit(myUnit));
 
 
 

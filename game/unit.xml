@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <UNIT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<AUNIT>
-		<NOMINEE>名1</NOMINEE>
+		<NOMINEE>英雄</NOMINEE>
 		<TITLE>抬头1</TITLE>
 		<QUO>我能吃玻璃</QUO>
-		<DATA>1234</DATA>
-		<TAG>apqr</TAG>
+		<DATA>x864</DATA>
+		<TAG>spqr</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
 		<ISSHOOTER>false</ISSHOOTER>
-		<ISHERO>false</ISHERO>
-		<UTYPE>政治家</UTYPE>
+		<ISHERO>true</ISHERO>
+		<UTYPE>政治家 军事家</UTYPE>
 		<CONS>￥条件1</CONS>
 		<SPL>￥技能1</SPL>
 		<NOTE>注释</NOTE>
@@ -22,7 +22,7 @@
 		<TITLE>抬头2</TITLE>
 		<QUO>我能吃玻璃</QUO>
 		<DATA>1235</DATA>
-		<TAG>apqr</TAG>
+		<TAG>spqr</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>

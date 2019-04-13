@@ -515,10 +515,10 @@ document.write("fuckme");
         var html = "<div class='unit'>";
         var daTable="";
         
+        daTable=unit.data;
+        
         if (unit.isHero=="true"){daTable=befAblTable(unit.data)};
-        if (unit.isCommon=="true"){
-            if (unit.nominee=="臣民"){daTable=befCivTable("slave")}
-        };
+
         
 
         html = html + daTable

@@ -14,7 +14,7 @@ premalink: unit.html
     <style>
         .unit {
             font-family: '幼圆', 'Arial Narrow', Arial, sans-serif;
-            width: 100%;
+            width: 80%;
             height:auto;
             background-color: gainsboro;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -515,7 +515,7 @@ document.write("fuckme");
         var html = "<div class='unit'>";
 
         html = html + befUniTable("66ccff")
-            + "<h2>" + unit.nominee + "</h2>"
+            + "<h2 id='" +unit.uId+"'>" unit.nominee + "</h2>"
             + tagBef("athens serica hellen spqr carthego")
             + "<h4><i>"+unit.title+"</i></h4>"
             + "<blockquote>"+unit.quo+"</blockquote>"

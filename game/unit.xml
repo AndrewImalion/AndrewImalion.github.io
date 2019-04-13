@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <UNIT>
-  <!-- 其他单位 -->
+  
 <AUNIT>
 		<NOMINEE>名</NOMINEE>
 		<TITLE>称号</TITLE>
 		<QUO>quote</QUO>
 		<DATA>xxxx</DATA>
 		<TAG>tag</TAG>
-    		<ISMILITARY>true</ISMILITARY>
-    		<ISBUILDING>false</ISBUILDING>
-    		<ISCOMMON>false</ISCOMMON>
-   		<ISSHOOTER>false</ISSHOOTER>
+    <ISMILITARY>true</ISMILITARY>
+    <ISBUILDING>false</ISBUILDING>
+    <ISCOMMON>false</ISCOMMON>
+    <ISSHOOTER>false</ISSHOOTER>
+    <ISHERO>false</ISHERO>
 		<UTYPE>.</UTYPE>
 		<CONS>￥条件</CONS>
 		<SPL>￥技能</SPL>
 		<NOTE>lipsum</NOTE>
 		<UID>un000</UID>
 	</AUNIT>
-  <AUNIT>
-    <NOMINEE>名2</NOMINEE>
-    <TITLE>称号</TITLE>
+<AUNIT>
+    <NOMINEE>爱丽丝</NOMINEE>
+    <TITLE>alice</TITLE>
     <QUO>quote</QUO>
     <DATA>xxxx</DATA>
     <TAG>tag</TAG>
@@ -27,15 +28,16 @@
     <ISBUILDING>false</ISBUILDING>
     <ISCOMMON>false</ISCOMMON>
     <ISSHOOTER>false</ISSHOOTER>
+    <ISHERO>false</ISHERO>
     <UTYPE>.</UTYPE>
     <CONS>￥条件</CONS>
     <SPL>￥技能</SPL>
     <NOTE>lipsum</NOTE>
     <UID>un001</UID>
   </AUNIT>
-  <AUNIT>
-    <NOMINEE>名2</NOMINEE>
-    <TITLE>称号</TITLE>
+<AUNIT>
+    <NOMINEE>鲍勃</NOMINEE>
+    <TITLE>bob</TITLE>
     <QUO>quote</QUO>
     <DATA>xxxx</DATA>
     <TAG>tag</TAG>
@@ -43,10 +45,46 @@
     <ISBUILDING>false</ISBUILDING>
     <ISCOMMON>false</ISCOMMON>
     <ISSHOOTER>false</ISSHOOTER>
+    <ISHERO>false</ISHERO>
     <UTYPE>.</UTYPE>
     <CONS>￥条件</CONS>
     <SPL>￥技能</SPL>
     <NOTE>lipsum</NOTE>
     <UID>un002</UID>
   </AUNIT>
+<AUNIT>
+    <NOMINEE>卡尔</NOMINEE>
+    <TITLE>carol</TITLE>
+    <QUO>quote</QUO>
+    <DATA>xxxx</DATA>
+    <TAG>tag</TAG>
+    <ISMILITARY>true</ISMILITARY>
+    <ISBUILDING>false</ISBUILDING>
+    <ISCOMMON>false</ISCOMMON>
+    <ISSHOOTER>false</ISSHOOTER>
+    <ISHERO>false</ISHERO>
+    <UTYPE>.</UTYPE>
+    <CONS>￥条件</CONS>
+    <SPL>￥技能</SPL>
+    <NOTE>lipsum</NOTE>
+    <UID>un003</UID>
+  </AUNIT>
+<AUNIT>
+    <NOMINEE>迪克</NOMINEE>
+    <TITLE>dick</TITLE>
+    <QUO>quote</QUO>
+    <DATA>xxxx</DATA>
+    <TAG>tag</TAG>
+    <ISMILITARY>true</ISMILITARY>
+    <ISBUILDING>false</ISBUILDING>
+    <ISCOMMON>false</ISCOMMON>
+    <ISSHOOTER>false</ISSHOOTER>
+    <ISHERO>true</ISHERO>
+    <UTYPE>.</UTYPE>
+    <CONS>￥条件</CONS>
+    <SPL>￥技能</SPL>
+    <NOTE>lipsum</NOTE>
+    <UID>un004</UID>
+  </AUNIT>
+  
 </UNIT>

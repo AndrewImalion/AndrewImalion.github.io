@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UNIT>
+  <!-- 其他单位 -->
+<AUNIT>
+		<NOMINEE>名</NOMINEE>
+		<TITLE>称号</TITLE>
+		<QUO>quote</QUO>
+		<DATA>xxxx</DATA>
+		<TAG>tag</TAG>
+    <ISMILITARY>true</ISMILITARY>
+    <ISBUILDING>false</ISBUILDING>
+    <ISCOMMON>false</ISCOMMON>
+    <ISSHOOTER>false</ISSHOOTER>
+		<UTYPE>.</UTYPE>
+		<CONS>￥条件</CONS>
+		<SPL>￥技能</SPL>
+		<NOTE>lipsum</NOTE>
+		<UID>un000</UID>
+	</AUNIT>
+  <AUNIT>
+    <NOMINEE>名2</NOMINEE>
+    <TITLE>称号</TITLE>
+    <QUO>quote</QUO>
+    <DATA>xxxx</DATA>
+    <TAG>tag</TAG>
+    <ISMILITARY>true</ISMILITARY>
+    <ISBUILDING>false</ISBUILDING>
+    <ISCOMMON>false</ISCOMMON>
+    <ISSHOOTER>false</ISSHOOTER>
+    <UTYPE>.</UTYPE>
+    <CONS>￥条件</CONS>
+    <SPL>￥技能</SPL>
+    <NOTE>lipsum</NOTE>
+    <UID>un000</UID>
+  </AUNIT>
+</UNIT>

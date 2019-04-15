@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 拜托了
-premalink: PolisPlease.md
+premalink: PolisPlease.html
 
 ---
 

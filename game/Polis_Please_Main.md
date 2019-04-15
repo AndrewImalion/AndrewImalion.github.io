@@ -1,10 +1,10 @@
 ---
-
 layout: default
-title:  为了国家，拜托了！Polis,Please!
-premalink: PolisPlease.html
+title: 拜托了
+premalink: PolisPlease.md
 
 ---
+
 
 # Polis,Please
 

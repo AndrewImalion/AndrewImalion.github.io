@@ -14,7 +14,7 @@
 		<UTYPE>步兵</UTYPE>
 		<CONS>￥2木料</CONS>
 		<SPL>基础军事单位</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un001</UID>
 	</AUNIT>
 	<AUNIT>
@@ -31,7 +31,7 @@
 		<UTYPE>步兵 重甲</UTYPE>
 		<CONS>￥2木料，石料￥最低阶等2</CONS>
 		<SPL>￥攻击非重甲单位时，攻击力翻倍</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un002</UID>
 	</AUNIT>
 	<AUNIT>
@@ -48,7 +48,7 @@
 		<UTYPE>步兵 远程</UTYPE>
 		<CONS>￥3木料￥要求数学节点</CONS>
 		<SPL>￥攻击射程内的单位时，不需要同时移动到攻击目标附近，射程为该单位移动能力</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un003</UID>
 	</AUNIT>
 	<AUNIT>
@@ -65,7 +65,7 @@
 		<UTYPE>骑兵</UTYPE>
 		<CONS>￥3木料￥1马</CONS>
 		<SPL>￥【被动】该单位消耗2食物而不是1￥攻击非骑兵地面移动单位时，攻击力翻倍￥攻击非重甲单位时，攻击力翻倍</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un004</UID>
 	</AUNIT>
 	<AUNIT>
@@ -82,7 +82,7 @@
 		<UTYPE>骑兵 重甲</UTYPE>
 		<CONS>￥3木料，石料￥1马￥最低阶等2</CONS>
 		<SPL>￥【被动】该单位消耗2食物而不是1￥攻击非骑兵地面移动单位时，攻击力翻倍</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un005</UID>
 	</AUNIT>
 	<AUNIT>
@@ -99,7 +99,7 @@
 		<UTYPE>骑兵 远程</UTYPE>
 		<CONS>￥4木料￥1马￥要求数学节点</CONS>
 		<SPL>￥【被动】该单位消耗2食物而不是1￥攻击非骑兵地面移动单位时，攻击力翻倍</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un006</UID>
 	</AUNIT>
 	<AUNIT>
@@ -116,7 +116,7 @@
 		<UTYPE>战舰</UTYPE>
 		<CONS>要求航海节点￥10木料，石料，资金￥如果是共和政体，可以移除3公民，0成本</CONS>
 		<SPL>￥【被动】该单位占用3人口</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un007</UID>
 	</AUNIT>
 	<AUNIT>
@@ -133,7 +133,7 @@
 		<UTYPE>战舰</UTYPE>
 		<CONS>要求航海节点￥10木料，石料，资金</CONS>
 		<SPL>￥【被动】该单位占用3人口</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un008</UID>
 	</AUNIT>
 	<AUNIT>
@@ -150,7 +150,7 @@
 		<UTYPE>战舰</UTYPE>
 		<CONS>要求航海节点￥10木料，石料，资金￥如果是共和政体，可以移除3公民，0成本</CONS>
 		<SPL>￥【被动】该单位占用3人口￥攻击时，可以做一次判定，如果攻击力×[1,3]&gt;敌方生命值，则直接破坏敌方，否则直接破坏该单位</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un009</UID>
 	</AUNIT>
 	<AUNIT>
@@ -167,7 +167,7 @@
 		<UTYPE>战舰</UTYPE>
 		<CONS>要求航海节点￥10木料，石料，资金</CONS>
 		<SPL>￥【被动】该单位占用3人口￥攻击时，可以做一次判定，如果攻击力×[1,3]&gt;敌方生命值，则直接破坏敌方，否则直接破坏该单位</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un010</UID>
 	</AUNIT>
 	<AUNIT>
@@ -184,7 +184,7 @@
 		<UTYPE>战舰</UTYPE>
 		<CONS>要求航海节点￥10木料，石料，资金￥如果是共和政体，可以移除5公民，0成本</CONS>
 		<SPL>￥【被动】该单位占用5人口￥攻击时，可以做一次判定，如果攻击力×[1,5]&gt;敌方生命值，则直接破坏敌方，否则直接破坏该单位</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un011</UID>
 	</AUNIT>
 	<AUNIT>
@@ -201,7 +201,41 @@
 		<UTYPE>战舰</UTYPE>
 		<CONS>要求航海节点￥10木料，石料，资金</CONS>
 		<SPL>￥【被动】该单位占用5人口￥攻击时，可以做一次判定，如果攻击力×[1,5]&gt;敌方生命值，则直接破坏敌方，否则直接破坏该单位</SPL>
-		<NOTE>lipsum</NOTE>
+		<NOTE>GreatBaron</NOTE>
 		<UID>un012</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>公民</NOMINEE>
+		<TITLE>共和的基石</TITLE>
+		<QUO>“君主都是吃人的怪物！”——老加图《反希隆》</QUO>
+		<DATA>2221</DATA>
+		<TAG>&lt;span class='badge'&gt;ＣＩＶＩＳ&lt;/span&gt;</TAG>
+		<ISMILITARY>true</ISMILITARY>
+		<ISBUILDING>false</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>非军事 平民</UTYPE>
+		<CONS>【共和】</CONS>
+		<SPL>基础生产单位，如果战斗，则攻击力视为1，最大生命值视为5</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un013</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>臣民</NOMINEE>
+		<TITLE>君主的羔羊</TITLE>
+		<QUO>“无父无君，是禽兽也。”——孟轲《孟子》</QUO>
+		<DATA>1115</DATA>
+		<TAG>&lt;span class='badge'&gt;ＭＩＮＩＯＮ&lt;/span&gt;</TAG>
+		<ISMILITARY>true</ISMILITARY>
+		<ISBUILDING>false</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>非军事 平民</UTYPE>
+		<CONS>【君主】</CONS>
+		<SPL>基础生产单位，如果战斗，则攻击力视为1，最大生命值视为5</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un014</UID>
 	</AUNIT>
 </UNIT>

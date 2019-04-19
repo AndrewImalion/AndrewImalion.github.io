@@ -1,0 +1,55 @@
+---
+layout: default
+title: PP单位
+premalink: PP_unit.html
+---
+
+
+<html>
+<head><style src="forPP.css"></style></head>
+<body></body>
+</html>
+
+
+
+
+
+
+<script>
+   
+   
+    //document.write(befAblTable("31415926"));
+    /*document.write("<hr/>")
+    document.write(befUniTable("66ccff"));
+    document.write(befAblTable("2539"));
+    document.write(befCivTable("civis"));
+    document.write(befCivTable("slave"))
+    document.write(tagBef("athens serica hellen spqr carthego"));
+    document.write(typeBef("政治家 军事家 学者 艺术家 大商人"));
+    document.write("<hr/>");
+    document.write(conBef("【共和】￥条件1￥条件2"));
+    document.write(conBef("【君主】￥条件1￥条件2"))
+    
+    document.write(splBef("【被动】【进场】【招募】【唯一】【献身】"));*/
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","unit.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+var x=xmlDoc.getElementsByTagName("AUNIT");
+    for(var i=0;i<x.length;i++){
+    
+    var thatUnit=xml2aUnit(x[i]);
+    document.write(printUnit(thatUnit));}
+    
+document.write("fuckXMfuckXML<br/>LfuckXMfuckXMLL");
+document.write("fuckme");
+
+</script>
+<script src="forPP.js"></script>

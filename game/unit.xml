@@ -209,10 +209,10 @@
 		<TITLE>共和的基石</TITLE>
 		<QUO>“君主都是吃人的怪物！”——老加图《反希隆》</QUO>
 		<DATA>2221</DATA>
-		<TAG>&lt;span class='badge'&gt;ＣＩＶＩＳ&lt;/span&gt;</TAG>
-		<ISMILITARY>true</ISMILITARY>
+		<TAG>&lt;span class='badge'&gt;civis&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
-		<ISCOMMON>false</ISCOMMON>
+		<ISCOMMON>true</ISCOMMON>
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>false</ISHERO>
 		<UTYPE>非军事 平民</UTYPE>
@@ -226,10 +226,10 @@
 		<TITLE>君主的羔羊</TITLE>
 		<QUO>“无父无君，是禽兽也。”——孟轲《孟子》</QUO>
 		<DATA>1115</DATA>
-		<TAG>&lt;span class='badge'&gt;ＭＩＮＩＯＮ&lt;/span&gt;</TAG>
-		<ISMILITARY>true</ISMILITARY>
+		<TAG>&lt;span class='badge'&gt;minion&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
-		<ISCOMMON>false</ISCOMMON>
+		<ISCOMMON>true</ISCOMMON>
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>false</ISHERO>
 		<UTYPE>非军事 平民</UTYPE>

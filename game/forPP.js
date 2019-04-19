@@ -13,7 +13,18 @@ var x=xmlDoc.getElementsByTagName("AUNIT");
     for(var i=0;i<x.length;i++){
     
     var thatUnit=xml2aUnit(x[i]);
-    document.write(printUnit(thatUnit));}
+    document.write(printUnit(thatUnit));
+    }
+
+//quikin=============================================================================================
+    if(document.getElementById("quikin").innerHTML=="快速导航"){
+      document.getElementById("quikin").innerHTML=document.getElementById("quikin").innerHTML+"<ol>";
+      for(var i=0;i<x.length;i++){
+        document.getElementById("quikin").innerHTML=document.getElementById("quikin").innerHTML+
+          "<li><a href='"+x[i].uId+"'>"+x[i].nominee+"</a></li>";
+      };
+      document.getElementById("quikin").innerHTML=document.getElementById("quikin").innerHTML+"</ol>";
+    }
 
 
 function befUniTable(data) {//将形如“46f3”的字符串转换为html表格

@@ -11,7 +11,7 @@ router li
 {
 float:left;
 }
-router a:link,a:visited
+router a:link, router a:visited
 {
 display:block;
 width:120px;

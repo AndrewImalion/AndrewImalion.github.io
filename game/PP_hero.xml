@@ -21,6 +21,7 @@
 		<NOMINEE>泰米斯托克利斯</NOMINEE>
 		<TITLE>法律之光</TITLE>
 		<QUO>“我不会拉琴也不会唱歌，但我知道如何使雅典强大”</QUO>
+		<DATA>8585</DATA>
 		<TAG>athens hellen</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -37,6 +38,7 @@
 		<NOMINEE>汉尼拔</NOMINEE>
 		<TITLE>雷霆之子</TITLE>
 		<QUO>“我发誓，我将终身与罗马为敌。”</QUO>
+		<DATA>8989</DATA>
 		<TAG>carthago</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -53,6 +55,7 @@
 		<NOMINEE>西庇阿</NOMINEE>
 		<TITLE>阿非利卡征服者</TITLE>
 		<QUO>“罗马人民真是忘恩负义。”</QUO>
+		<DATA>9877</DATA>
 		<TAG>spqr</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -69,6 +72,7 @@
 		<NOMINEE>色诺芬</NOMINEE>
 		<TITLE>长征之父</TITLE>
 		<QUO>“没脑子的人只会武力解决问题，聪明人有其他方法。”</QUO>
+		<DATA>x886</DATA>
 		<TAG>athens hellen</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -85,6 +89,7 @@
 		<NOMINEE>李奥尼达斯</NOMINEE>
 		<TITLE>斯巴达之魂</TITLE>
 		<QUO>“远方的客人，如果你要去斯巴达，请告诉他们我们坚守到了最后。”</QUO>
+		<DATA>7969</DATA>
 		<TAG>拉希第梦人 hellen</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -101,6 +106,7 @@
 		<NOMINEE>居鲁士</NOMINEE>
 		<TITLE>万王之王</TITLE>
 		<QUO>“如果你们跟我混，天天都是好日子”</QUO>
+		<DATA>9866</DATA>
 		<TAG>米底亚人</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -117,6 +123,7 @@
 		<NOMINEE>皮洛士</NOMINEE>
 		<TITLE>徒劳者</TITLE>
 		<QUO>“我为迦太基和罗马准备了多么好的战场啊。”</QUO>
+		<DATA>6755</DATA>
 		<TAG>hellen</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -133,6 +140,7 @@
 		<NOMINEE>亚历山大</NOMINEE>
 		<TITLE>马其顿国王</TITLE>
 		<QUO>“看看，我也是两手空空。”</QUO>
+		<DATA>x888</DATA>
 		<TAG>马其顿人 hellen</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -149,6 +157,7 @@
 		<NOMINEE>阿丝碧娅</NOMINEE>
 		<TITLE>迷人的恶徒</TITLE>
 		<QUO>“雅典关我屁事。”</QUO>
+		<DATA>4599</DATA>
 		<TAG>athens hellen</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -165,6 +174,7 @@
 		<NOMINEE>狄多</NOMINEE>
 		<TITLE>星光熠熠的女王</TITLE>
 		<QUO>“我的子孙，你们要和那个负心汉的后人永远为敌。”</QUO>
+		<DATA>8169</DATA>
 		<TAG>carthago</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -181,6 +191,7 @@
 		<NOMINEE>克里奥巴特拉</NOMINEE>
 		<TITLE>尼罗河的女主人</TITLE>
 		<QUO>“‘托勒密’的意思就是，绝对不管人民死活——君主不都是这个样子嘛！”</QUO>
+		<DATA>6668</DATA>
 		<TAG>埃及人 hellen</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -197,6 +208,7 @@
 		<NOMINEE>伯里克利</NOMINEE>
 		<TITLE>黄金领袖</TITLE>
 		<QUO>“我们雅典是民主政体。”</QUO>
+		<DATA>x589</DATA>
 		<TAG>athens hellen</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
@@ -213,6 +225,7 @@
 		<NOMINEE>托米里斯</NOMINEE>
 		<TITLE>万王之王终结者</TITLE>
 		<QUO>“你既然好战，那我就跟你战个痛快；你既然嗜血，我绝对让你喝到满足！”</QUO>
+		<DATA>6844</DATA>
 		<TAG>马萨格泰人</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>

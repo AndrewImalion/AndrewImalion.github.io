@@ -1,88 +1,105 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <UNIT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<AUNIT>
-		<NOMINEE>英雄</NOMINEE>
-		<TITLE>抬头1</TITLE>
-		<QUO>我能吃玻璃</QUO>
-		<DATA>x864</DATA>
-		<TAG>spqr</TAG>
+		<NOMINEE>轻步兵</NOMINEE>
+		<TITLE>马前走卒</TITLE>
+		<QUO>“你们既不喜欢战争又不喜欢和平。战争使你们胆小怯弱；和平又让你们妄自尊大。”——莎士比亚《科里奥兰纳斯》</QUO>
+		<DATA>54a2</DATA>
+		<TAG>infantry</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
 		<ISSHOOTER>false</ISSHOOTER>
-		<ISHERO>true</ISHERO>
-		<UTYPE>政治家 军事家 远程</UTYPE>
-		<CONS>￥条件1</CONS>
-		<SPL>￥技能1</SPL>
-		<NOTE>注释</NOTE>
+		<ISHERO>false</ISHERO>
+		<UTYPE>步兵</UTYPE>
+		<CONS>￥2木料</CONS>
+		<SPL>基础军事单位</SPL>
+		<NOTE>lipsum</NOTE>
 		<UID>un001</UID>
 	</AUNIT>
 	<AUNIT>
-		<NOMINEE>公民</NOMINEE>
-		<TITLE>抬头2</TITLE>
-		<QUO>我能吃玻璃</QUO>
-		<DATA>2221</DATA>
-		<TAG>spqr</TAG>
+		<NOMINEE>重步兵</NOMINEE>
+		<TITLE>铠甲武士</TITLE>
+		<QUO>“醉卧沙场君莫笑，古来征战几人回？”——王翰《凉州词》</QUO>
+		<DATA>54a3</DATA>
+		<TAG>hoplite</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
-		<ISCOMMON>true</ISCOMMON>
+		<ISCOMMON>false</ISCOMMON>
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>false</ISHERO>
-		<UTYPE>政治家</UTYPE>
-		<CONS>￥条件2</CONS>
-		<SPL>￥技能2</SPL>
-		<NOTE>注释</NOTE>
+		<UTYPE>步兵 重甲</UTYPE>
+		<CONS>￥2木料，石料￥最低阶等2</CONS>
+		<SPL>￥攻击非重甲单位时，攻击力翻倍</SPL>
+		<NOTE>lipsum</NOTE>
 		<UID>un002</UID>
 	</AUNIT>
 	<AUNIT>
-		<NOMINEE>臣民</NOMINEE>
-		<TITLE>抬头3</TITLE>
-		<QUO>我能吃玻璃</QUO>
-		<DATA>1115</DATA>
-		<TAG>serica</TAG>
+		<NOMINEE>弓箭手</NOMINEE>
+		<TITLE>流矢制造者</TITLE>
+		<QUO>“西尔富维娅，张开你的腿！”——屋大维的某个射手</QUO>
+		<DATA>5562</DATA>
+		<TAG>archer</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
-		<ISCOMMON>true</ISCOMMON>
-		<ISSHOOTER>false</ISSHOOTER>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>true</ISSHOOTER>
 		<ISHERO>false</ISHERO>
-		<UTYPE>政治家</UTYPE>
-		<CONS>￥条件3</CONS>
-		<SPL>￥技能3</SPL>
-		<NOTE>注释</NOTE>
+		<UTYPE>步兵 远程</UTYPE>
+		<CONS>￥3木料￥要求数学节点</CONS>
+		<SPL>￥攻击射程内的单位时，不需要同时移动到攻击目标附近，射程为该单位移动能力</SPL>
+		<NOTE>lipsum</NOTE>
 		<UID>un003</UID>
 	</AUNIT>
 	<AUNIT>
-		<NOMINEE>会堂</NOMINEE>
-		<TITLE>抬头4</TITLE>
-		<QUO>我能吃玻璃</QUO>
-		<DATA>1230</DATA>
-		<TAG>大型建筑</TAG>
-		<ISMILITARY>true</ISMILITARY>
-		<ISBUILDING>true</ISBUILDING>
-		<ISCOMMON>false</ISCOMMON>
-		<ISSHOOTER>false</ISSHOOTER>
-		<ISHERO>false</ISHERO>
-		<UTYPE>大型建筑</UTYPE>
-		<CONS>￥条件4</CONS>
-		<SPL>￥技能4</SPL>
-		<NOTE>注释</NOTE>
-		<UID>un004</UID>
-	</AUNIT>
-	<AUNIT>
-		<NOMINEE>名5</NOMINEE>
-		<TITLE>抬头5</TITLE>
-		<QUO>我能吃玻璃</QUO>
-		<DATA>1238</DATA>
-		<TAG>hellen</TAG>
+		<NOMINEE>轻骑兵</NOMINEE>
+		<TITLE>步兵的噩梦</TITLE>
+		<QUO>“一匹马，谁能给我一匹马，我把国家都给他！”——理查三世</QUO>
+		<DATA>76a4</DATA>
+		<TAG>chargeman</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>false</ISHERO>
-		<UTYPE>政治家</UTYPE>
-		<CONS>￥条件5</CONS>
-		<SPL>￥技能5</SPL>
-		<NOTE>注释</NOTE>
+		<UTYPE>骑兵</UTYPE>
+		<CONS>￥3木料￥1马</CONS>
+		<SPL>￥【被动】该单位消耗2食物而不是1￥攻击非骑兵地面移动单位时，攻击力翻倍￥攻击非重甲单位时，攻击力翻倍</SPL>
+		<NOTE>lipsum</NOTE>
+		<UID>un004</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>重骑兵</NOMINEE>
+		<TITLE>浑身插满了旗帜</TITLE>
+		<QUO>“万里赴戎机，关山度若非”——《木兰辞》</QUO>
+		<DATA>76a5</DATA>
+		<TAG>lancer</TAG>
+		<ISMILITARY>true</ISMILITARY>
+		<ISBUILDING>false</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>骑兵 重甲</UTYPE>
+		<CONS>￥3木料，石料￥1马￥最低阶等2</CONS>
+		<SPL>￥【被动】该单位消耗2食物而不是1￥攻击非骑兵地面移动单位时，攻击力翻倍</SPL>
+		<NOTE>lipsum</NOTE>
 		<UID>un005</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>弓骑兵</NOMINEE>
+		<TITLE>叹息之墙的绝望</TITLE>
+		<QUO>“但使龙城飞将在，不教胡马度阴山。”——王昌龄《出塞》</QUO>
+		<DATA>7864</DATA>
+		<TAG>marksman</TAG>
+		<ISMILITARY>true</ISMILITARY>
+		<ISBUILDING>false</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>骑兵 远程</UTYPE>
+		<CONS>￥4木料￥1马￥要求数学节点</CONS>
+		<SPL>￥【被动】该单位消耗2食物而不是1￥攻击非骑兵地面移动单位时，攻击力翻倍</SPL>
+		<NOTE>lipsum</NOTE>
+		<UID>un006</UID>
 	</AUNIT>
 </UNIT>

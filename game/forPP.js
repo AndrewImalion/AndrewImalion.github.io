@@ -20,8 +20,9 @@ var x=xmlDoc.getElementsByTagName("AUNIT");
     if(document.getElementById("quikin").innerHTML=="快速导航"){
       document.getElementById("quikin").innerHTML=document.getElementById("quikin").innerHTML+"<ol>";
       for(var i=0;i<x.length;i++){
+        var thatUnit=xml2aUnit(x[i]);
         document.getElementById("quikin").innerHTML=document.getElementById("quikin").innerHTML+
-          "<li><a href='"+x[i].uId+"'>"+x[i].nominee+"</a></li>";
+          "<li><a href='"+thatUnit.uId+"'>"+thatUnit.nominee+"</a></li>";
       };
       document.getElementById("quikin").innerHTML=document.getElementById("quikin").innerHTML+"</ol>";
     }

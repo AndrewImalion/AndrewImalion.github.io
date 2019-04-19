@@ -22,7 +22,7 @@ var x=xmlDoc.getElementsByTagName("AUNIT");
       for(var i=0;i<x.length;i++){
         var thatUnit=xml2aUnit(x[i]);
         document.getElementById("quikin").innerHTML=document.getElementById("quikin").innerHTML+
-          "<li><a href='"+thatUnit.uId+"'>"+thatUnit.nominee+"</a></li>";
+          "<li><a href=#"+thatUnit.uId+">"+thatUnit.nominee+"</a></li>";
       };
       document.getElementById("quikin").innerHTML=document.getElementById("quikin").innerHTML+"</ol>";
     }

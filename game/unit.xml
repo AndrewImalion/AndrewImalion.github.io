@@ -94,12 +94,114 @@
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
-		<ISSHOOTER>false</ISSHOOTER>
+		<ISSHOOTER>true</ISSHOOTER>
 		<ISHERO>false</ISHERO>
 		<UTYPE>骑兵 远程</UTYPE>
 		<CONS>￥4木料￥1马￥要求数学节点</CONS>
 		<SPL>￥【被动】该单位消耗2食物而不是1￥攻击非骑兵地面移动单位时，攻击力翻倍</SPL>
 		<NOTE>lipsum</NOTE>
 		<UID>un006</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>加莱战舰</NOMINEE>
+		<TITLE>轻型战舰</TITLE>
+		<QUO>“而你们，应当成为海洋的主人。”&lt;/br&gt;——伯里克利，对雅典人民的演讲（430BC）</QUO>
+		<DATA>35aa</DATA>
+		<TAG>&lt;span class='badge'&gt;GALLERY&lt;/span&gt;</TAG>
+		<ISMILITARY>true</ISMILITARY>
+		<ISBUILDING>false</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>战舰</UTYPE>
+		<CONS>要求航海节点￥10木料，石料，资金￥如果是共和政体，可以移除3公民，0成本</CONS>
+		<SPL>￥【被动】该单位占用3人口</SPL>
+		<NOTE>lipsum</NOTE>
+		<UID>un007</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>白蛇</NOMINEE>
+		<TITLE>轻型战舰</TITLE>
+		<QUO>“人生在世不称意，明朝散发弄扁舟。”——&lt;/br&gt;李白《宣州谢朓楼饯别校书叔云》</QUO>
+		<DATA>35aa</DATA>
+		<TAG>&lt;span class='badge'&gt;BAISHE&lt;/span&gt;</TAG>
+		<ISMILITARY>true</ISMILITARY>
+		<ISBUILDING>false</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>战舰</UTYPE>
+		<CONS>要求航海节点￥10木料，石料，资金</CONS>
+		<SPL>￥【被动】该单位占用3人口</SPL>
+		<NOTE>lipsum</NOTE>
+		<UID>un008</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>三列桨战舰</NOMINEE>
+		<TITLE>重型战舰</TITLE>
+		<QUO>“普通人驾驶战舰，让国家变强大”——雄辩者色诺芬《雅典政制》</QUO>
+		<DATA>343f</DATA>
+		<TAG>&lt;span class='badge'&gt;TRIREME&lt;/span&gt;</TAG>
+		<ISMILITARY>true</ISMILITARY>
+		<ISBUILDING>false</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>战舰</UTYPE>
+		<CONS>要求航海节点￥10木料，石料，资金￥如果是共和政体，可以移除3公民，0成本</CONS>
+		<SPL>￥【被动】该单位占用3人口￥攻击时，可以做一次判定，如果攻击力×[1,3]&gt;敌方生命值，则直接破坏敌方，否则直接破坏该单位</SPL>
+		<NOTE>lipsum</NOTE>
+		<UID>un009</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>青雀艨艟</NOMINEE>
+		<TITLE>重型战舰</TITLE>
+		<QUO>“金陵王气，黯然收。”——刘禹锡《西塞山怀古》</QUO>
+		<DATA>343a</DATA>
+		<TAG>&lt;span class='badge'&gt;QINGQUE&lt;/span&gt;</TAG>
+		<ISMILITARY>true</ISMILITARY>
+		<ISBUILDING>false</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>战舰</UTYPE>
+		<CONS>要求航海节点￥10木料，石料，资金</CONS>
+		<SPL>￥【被动】该单位占用3人口￥攻击时，可以做一次判定，如果攻击力×[1,3]&gt;敌方生命值，则直接破坏敌方，否则直接破坏该单位</SPL>
+		<NOTE>lipsum</NOTE>
+		<UID>un010</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>五列桨战舰</NOMINEE>
+		<TITLE>重型战舰</TITLE>
+		<QUO>“有人说，最壮美的，是海军飞扬的船桨……”——萨福《至海军之妻子》</QUO>
+		<DATA>545⒛</DATA>
+		<TAG>&lt;span class='badge'&gt;QUINQUEREME&lt;/span&gt;</TAG>
+		<ISMILITARY>true</ISMILITARY>
+		<ISBUILDING>false</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>战舰</UTYPE>
+		<CONS>要求航海节点￥10木料，石料，资金￥如果是共和政体，可以移除5公民，0成本</CONS>
+		<SPL>￥【被动】该单位占用5人口￥攻击时，可以做一次判定，如果攻击力×[1,5]&gt;敌方生命值，则直接破坏敌方，否则直接破坏该单位</SPL>
+		<NOTE>lipsum</NOTE>
+		<UID>un011</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>黄龙艨艟</NOMINEE>
+		<TITLE>重型战舰</TITLE>
+		<QUO>“舳舻千里，旌旗蔽空……”——苏轼《赤壁赋》</QUO>
+		<DATA>545a</DATA>
+		<TAG>&lt;span class='badge'&gt;HUAGNLONG&lt;/span&gt;</TAG>
+		<ISMILITARY>true</ISMILITARY>
+		<ISBUILDING>false</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>战舰</UTYPE>
+		<CONS>要求航海节点￥10木料，石料，资金</CONS>
+		<SPL>￥【被动】该单位占用5人口￥攻击时，可以做一次判定，如果攻击力×[1,5]&gt;敌方生命值，则直接破坏敌方，否则直接破坏该单位</SPL>
+		<NOTE>lipsum</NOTE>
+		<UID>un012</UID>
 	</AUNIT>
 </UNIT>

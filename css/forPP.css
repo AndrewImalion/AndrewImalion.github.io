@@ -1,6 +1,39 @@
 nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
+router ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+router li
+{
+float:left;
+}
+router a:link,a:visited
+{
+display:block;
+width:120px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#98bf21;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+router a:hover,a:active
+{
+background-color:#7A991A;
+}
+
+
+
+
+
+
+
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
 

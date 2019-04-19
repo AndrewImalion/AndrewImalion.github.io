@@ -3,9 +3,9 @@
 	<AUNIT>
 		<NOMINEE>轻步兵</NOMINEE>
 		<TITLE>马前走卒</TITLE>
-		<QUO>“你们既不喜欢战争又不喜欢和平。战争使你们胆小怯弱；和平又让你们妄自尊大。”——莎士比亚《科里奥兰纳斯》</QUO>
+		<QUO>“你们既不喜欢战争又不喜欢和平。战争使你们胆小怯弱；和平又让你们妄自尊大。”&lt;/br&gt;——莎士比亚《科里奥兰纳斯》</QUO>
 		<DATA>54a2</DATA>
-		<TAG>infantry</TAG>
+		<TAG>&lt;span class='badge'&gt;infantry&lt;/span&gt;</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
@@ -20,9 +20,9 @@
 	<AUNIT>
 		<NOMINEE>重步兵</NOMINEE>
 		<TITLE>铠甲武士</TITLE>
-		<QUO>“醉卧沙场君莫笑，古来征战几人回？”——王翰《凉州词》</QUO>
+		<QUO>“醉卧沙场君莫笑，古来征战几人回？”&lt;/br&gt;——王翰《凉州词》</QUO>
 		<DATA>54a3</DATA>
-		<TAG>hoplite</TAG>
+		<TAG>&lt;span class='badge'&gt;hoplite&lt;/span&gt;</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
@@ -37,9 +37,9 @@
 	<AUNIT>
 		<NOMINEE>弓箭手</NOMINEE>
 		<TITLE>流矢制造者</TITLE>
-		<QUO>“西尔富维娅，张开你的腿！”——屋大维的某个射手</QUO>
+		<QUO>“西尔富维娅，张开你的腿！”&lt;/br&gt;——屋大维的某个射手</QUO>
 		<DATA>5562</DATA>
-		<TAG>archer</TAG>
+		<TAG>&lt;span class='badge'&gt;archer&lt;/span&gt;</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
@@ -54,9 +54,9 @@
 	<AUNIT>
 		<NOMINEE>轻骑兵</NOMINEE>
 		<TITLE>步兵的噩梦</TITLE>
-		<QUO>“一匹马，谁能给我一匹马，我把国家都给他！”——理查三世</QUO>
+		<QUO>“一匹马，谁能给我一匹马，我把国家都给他！”&lt;/br&gt;——理查三世</QUO>
 		<DATA>76a4</DATA>
-		<TAG>chargeman</TAG>
+		<TAG>&lt;span class='badge'&gt;chargeman&lt;/span&gt;</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
@@ -71,9 +71,9 @@
 	<AUNIT>
 		<NOMINEE>重骑兵</NOMINEE>
 		<TITLE>浑身插满了旗帜</TITLE>
-		<QUO>“万里赴戎机，关山度若非”——《木兰辞》</QUO>
+		<QUO>“万里赴戎机，关山度若非”&lt;/br&gt;——《木兰辞》</QUO>
 		<DATA>76a5</DATA>
-		<TAG>lancer</TAG>
+		<TAG>&lt;span class='badge'&gt;lancer&lt;/span&gt;</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>
@@ -88,9 +88,9 @@
 	<AUNIT>
 		<NOMINEE>弓骑兵</NOMINEE>
 		<TITLE>叹息之墙的绝望</TITLE>
-		<QUO>“但使龙城飞将在，不教胡马度阴山。”——王昌龄《出塞》</QUO>
+		<QUO>“但使龙城飞将在，不教胡马度阴山。”&lt;/br&gt;——王昌龄《出塞》</QUO>
 		<DATA>7864</DATA>
-		<TAG>marksman</TAG>
+		<TAG>&lt;span class='badge'&gt;marksman&lt;/span&gt;</TAG>
 		<ISMILITARY>true</ISMILITARY>
 		<ISBUILDING>false</ISBUILDING>
 		<ISCOMMON>false</ISCOMMON>

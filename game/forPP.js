@@ -1,3 +1,21 @@
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","unit.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+var x=xmlDoc.getElementsByTagName("AUNIT");
+    for(var i=0;i<x.length;i++){
+    
+    var thatUnit=xml2aUnit(x[i]);
+    document.write(printUnit(thatUnit));}
+
+
 function befUniTable(data) {//将形如“46f3”的字符串转换为html表格
         var html = "<table class='hero-data'><tr><th>攻击</th><th>移动</th><th>韧性</th><th>军饷</th></tr>";
         if (data.length!= 4) {

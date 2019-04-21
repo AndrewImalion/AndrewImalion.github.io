@@ -16,4 +16,20 @@
     <ISSPEACIAL>true</ISSPEACIAL>
     <WID>wk001</WID>
   </AWORK>
+  <AWORK>
+    <AUTHOR>马基雅维利</AUTHOR>
+    <TITLE>论共和</TITLE>
+    <QUO>伟人与凡人的区别在于命运不垂青他们时也能淡然处之。</QUO>
+    <DATA>book</DATA>
+    <ISSPEACIAL>false</ISSPEACIAL>
+    <WID>wk002</WID>
+  </AWORK>
+  <AWORK>
+    <AUTHOR>GreatBaron</AUTHOR>
+    <TITLE>司马昭弑君</TITLE>
+    <QUO>成济在贾充指挥和司马昭的授意下弑杀魏帝曹髦。</QUO>
+    <DATA>paint</DATA>
+    <ISSPEACIAL>true</ISSPEACIAL>
+    <WID>wk003</WID>
+  </AWORK>
 </WORKS>

@@ -13,7 +13,7 @@ premalink: PP_card.html
         .card {
             width: 175px;
             height: 250px;
-            background-color: gainsboro;
+            background-color: black;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             position: relative;
             float: left;
@@ -73,7 +73,7 @@ premalink: PP_card.html
         html = html + "<table class='cardcon'>";
         html = html + "<tr><th>" + card.cardTitle + "</th><tr>";
         html = html + "<tr><td class='card_pic'><img class='card_pic' src='propic/>" + card.cardId + "'/></td></tr>";
-        html = html + "<tr class='card_line3'><td>" + card.cardescri + "</td></tr></table>";
+        html = html + "<tr class='card_line3'><td>" + card.cardescri + "</td></tr></table></div>";
 
         return html;
     }

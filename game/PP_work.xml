@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WORKS>
+  <AWORK>
+    <AUTHOR>GreatBaron</AUTHOR>
+    <TITLE>尤蒂娅之夜</TITLE>
+    <QUO>罗马人会失败，但罗马人从不屈服。</QUO>
+    <DATA>book</DATA>
+    <ISSPEACIAL>true</ISSPEACIAL>
+    <WID>wk000</WID>
+  </AWORK>
+  <AWORK>
+    <AUTHOR>GreatBaron</AUTHOR>
+    <TITLE>本丢彼拉多在众人面前洗手</TITLE>
+    <QUO>我的手不沾这个人血，这是你们要的。</QUO>
+    <DATA>paint</DATA>
+    <ISSPEACIAL>true</ISSPEACIAL>
+    <WID>wk001</WID>
+  </AWORK>
+</WORKS>

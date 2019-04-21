@@ -29,9 +29,18 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家 军事家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低2幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得2艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>￥如果对方有波斯人、拉希第梦人或马其顿人英雄且我方没有，则0成本￥一半国库资金</CONS>
+		<SPL>￥&lt;i&gt;“我有一个梦想”&lt;/i&gt;【招募】【三列桨战舰】。（仅限共和）￥&lt;i&gt;“我，泰米斯托克利斯，伤你最深的希腊人，来找你了……”&lt;/i&gt;只要将该英雄留滞在我方【皇宫】或【行宫】里，每回合我方都可以获得额外16点【政治点数】</SPL>
+		<NOTE>&lt;p&gt;泰公雅典人，约生于耶历纪前五二四年。雅典新发银矿，民意欲分之。
+公力排众议，陈情明理，号曰使雅典强。竟成舰队，力克波斯，屡挫
+拉希第梦，终成海上之霸主。公少家贫，及承雅典民命，爱财，不能
+自制，政波暗涌，终去国走波斯，克死梅城，年六十又五。
+&lt;/p&gt;
+&lt;p&gt;
+於戏！雅典之兴，实赖民主政体并泰氏之卓识也！夫萨拉米斯之战何其
+壮邪，公之威名使波斯不敢西进，埃及俯首求護，国之运势，虽曰天命
+，岂非人事哉？然，雅典之政，若爱琴之波，公终做阿契之客，不亦悲夫？
+忆令尊指旧船之言乎？&lt;/p&gt;</NOTE>
 		<UID>he001</UID>
 	</AUNIT>
 	<AUNIT>
@@ -46,9 +55,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家 军事家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低3幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得3艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>￥如果对方有罗马人英雄且我方没有，则0成本￥一半国库资金</CONS>
+		<SPL>￥“天降奇兵”【唯一】可以将我方任意数量的单位或编队放置到地图任意位置￥“军事奇才”【被动】该单位所在的编队人数上限变格更为8，且允许混合编队￥“伊比利亚的客人”【招募】【荒原蛮兵】￥“我觉着现在只能向罗马投降”【唯一】一回合内所有消耗ap的行为均无需经过民主机制</SPL>
+		<NOTE>汉尼拔-巴卡，迦太基人，骁勇善战，精通兵法，灵活多变。二次布匿战争期间，翻越阿尔卑斯山，天降奇兵。又有坎尼之役，歼敌七万，元老死以百计，罗马震惊。后世誉之曰“战略之父”。然，罗马共和国上下一心，平民未有变节，元老誓不求和，百折不挠，屡败屡战，又有费边、马凯利乌斯、西庇阿等将才挤挤，同盟民心虽浩劫在前仍死忠于罗马，汉尼拔独木难支，双拳不敌九头，西班牙经略毁于一旦，努米迪亚背迦投罗，终有扎马一战，辉光尽毁。&lt;/br&gt;故孙子曰：“百战百胜，非善之善也。”诚可信之。</NOTE>
 		<UID>he002</UID>
 	</AUNIT>
 	<AUNIT>
@@ -63,9 +72,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家 军事家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低4幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得4艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>【共和】￥如果汉尼拔在场，则0成本；如果汉尼拔曾经在场，则50%0成本￥一半国库资金</CONS>
+		<SPL>￥“勇敢的罗马人”所在编队成员在战斗时，如果有攻击力加成，那个加成翻倍￥“西西里经略”【唯一】立即获得1个【迷你行省】￥“马西尼萨，我的朋友”【进场】获得2个【努米迪亚骑兵】，如果【汉尼拔】在场，则为4个￥“费边，你听我说”只要执行行为时该英雄在我方【会堂】，则可以使得投掷骰子点数+1</SPL>
+		<NOTE>大西庇阿</NOTE>
 		<UID>he003</UID>
 	</AUNIT>
 	<AUNIT>
@@ -80,9 +89,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家 军事家 学者</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低5幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得5艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>￥如果苏格拉底在场，则0成本；如果苏格拉底曾经在场，则50%0成本￥一半国库资金</CONS>
+		<SPL>￥“回忆苏格拉底”【进场】《回忆苏格拉底》￥“长征”所在编队移动距离最大为16</SPL>
+		<NOTE>色诺芬</NOTE>
 		<UID>he004</UID>
 	</AUNIT>
 	<AUNIT>
@@ -97,9 +106,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>军事家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低6幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得6艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>￥如果对方有波斯人、拉希第梦人或马其顿人英雄且我方没有，则0成本￥一半国库资金</CONS>
+		<SPL>￥“固守温泉关”指定一个单位，只要该英雄位于该单位附近，对方就不得攻击前述单位（这个效果属于片面嘲讽）</SPL>
+		<NOTE>李奥尼达斯</NOTE>
 		<UID>he005</UID>
 	</AUNIT>
 	<AUNIT>
@@ -114,9 +123,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家 军事家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低7幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得7艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>【君主】￥全部国民资金</CONS>
+		<SPL>￥该英雄击杀对方单位后，获得1层【万王之王效果】；如果该单位在回合内没有发出攻击，移除至多1层【万王之王效果】；最多拥有5层【万王之王效果】，每层提升该单位3攻击力</SPL>
+		<NOTE>居鲁士</NOTE>
 		<UID>he006</UID>
 	</AUNIT>
 	<AUNIT>
@@ -131,9 +140,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家 军事家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低8幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得8艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>【君主】￥全部国民资金</CONS>
+		<SPL>￥“塔兰托人不要慌”【进场】生成4【希腊雇佣兵】，2【战象兵】￥“再也赢不起了”【唯一】所在编队所有成员攻击力在回合结束前变更为原来的5倍，在战斗结束时生命值变更为1，如果已经是1则立即死亡</SPL>
+		<NOTE>皮洛士</NOTE>
 		<UID>he007</UID>
 	</AUNIT>
 	<AUNIT>
@@ -148,9 +157,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家 军事家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低9幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得9艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>【君主】￥全部国民资金</CONS>
+		<SPL>￥“东征”【进场】获得5层【如日中天】效果￥“马戏团一般的军队”【招募】【希腊雇佣兵】【希腊魔法师】【马其顿长矛兵】【帝国远征军】</SPL>
+		<NOTE>亚历山大</NOTE>
 		<UID>he008</UID>
 	</AUNIT>
 	<AUNIT>
@@ -165,9 +174,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家 军事家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低10幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得10艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>￥如果苏格拉底或伯里克利在场，则0成本；如果苏格拉底或伯里克利曾经在场，则50%0成本￥降低2幸福度</CONS>
+		<SPL>￥“民主就是多数人的愚蠢”只要该英雄在场就允许我方在不是停摆和革命的情况下跨类变更政体￥“伯里克利应该想个办法不再听什么人民的声音”回合开始时，如果该英雄在我方【会堂】，可以获得[0,2]额外不需要民主机制的ap￥“我这么做就是为了让雅典人不爽”指定一个玩家，移除该玩家至多4,8,16个军事单位（基于该玩家阶等）；如果这么做，回合结束时该英雄立即放置到该玩家政府附近控制权移交给该玩家</SPL>
+		<NOTE>Alcibiades</NOTE>
 		<UID>he009</UID>
 	</AUNIT>
 	<AUNIT>
@@ -182,9 +191,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低11幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得11艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>【君主】￥全部国民资金</CONS>
+		<SPL>￥“星光熠熠的迦太基”【招募】【迦太基商人】【战象兵】￥“热情的女王”我方获得卡牌的场合，可以不从卡组抽牌，而从其他玩家英雄池获取英雄</SPL>
+		<NOTE>Dido</NOTE>
 		<UID>he010</UID>
 	</AUNIT>
 	<AUNIT>
@@ -199,9 +208,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低12幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得12艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>【君主】￥全部国民资金</CONS>
+		<SPL>￥“埃及女王”【招募】【埃及奴隶】￥&lt;i&gt;“埃及永远是罗马元老院和人民忠实的朋(zou)友(gou)”&lt;/i&gt;【献身】如果我国有宗主国，除了我国的宗主，任何玩家不得攻击我方单位（这个效果属于片面嘲讽）</SPL>
+		<NOTE>CleopatraⅦ</NOTE>
 		<UID>he011</UID>
 	</AUNIT>
 	<AUNIT>
@@ -216,13 +225,13 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>政治家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低13幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得13艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>【共和】￥如果对方有波斯人、拉希第梦人或马其顿人英雄且我方没有，则0成本￥一半国库资金</CONS>
+		<SPL>￥“我们雅典是民主政体”我国民主机制无论得到多少都通过</SPL>
+		<NOTE>Pericles</NOTE>
 		<UID>he012</UID>
 	</AUNIT>
 	<AUNIT>
-		<NOMINEE>托米里斯</NOMINEE>
+		<NOMINEE>托米利丝</NOMINEE>
 		<TITLE>万王之王终结者</TITLE>
 		<QUO>“你既然好战，那我就跟你战个痛快；你既然嗜血，我绝对让你喝到满足！”</QUO>
 		<DATA>6844</DATA>
@@ -233,9 +242,9 @@
 		<ISSHOOTER>false</ISSHOOTER>
 		<ISHERO>true</ISHERO>
 		<UTYPE>军事家</UTYPE>
-		<CONS>【共和】￥如果有艺术展览馆则0成本￥降低14幸福度</CONS>
-		<SPL>￥【进场】随即获得1艺术品￥【献身】随机获得14艺术品</SPL>
-		<NOTE>GreatBaron</NOTE>
+		<CONS>￥如果居鲁士在场，则0成本；如果居鲁士曾经在场，则50%0成本￥全部国民资金</CONS>
+		<SPL>￥“攻王者”【进场】如果【居鲁士】在场，则居鲁士退场；且只要该英雄在场，任何玩家都不得征召【居鲁士】￥“彪悍斯基泰”【招募】【荒原蛮兵】</SPL>
+		<NOTE>Tomyris</NOTE>
 		<UID>he013</UID>
 	</AUNIT>
 </UNIT>

@@ -27,15 +27,20 @@ premalink: PP_card.html
             
         }
 
-        .card_line3 {
-            background-color:aliceblue;
-            height:40%;
+        .card_title {
+            width: 100%;
+            background-color:gray;
+        }
 
+        .card_line3 {
+            background-color:lightpink;
+            height:50%;
+            font-size:xx-small;
         }
 
         .card_pic {
-            width: 128px;
-            height: 128px;
+            width: 100px;
+            height:100px;
             text-align:center;
         }
     </style>
@@ -63,7 +68,8 @@ premalink: PP_card.html
 
         var thatCard = xml2aCard(x[i]);
         document.write(printCard(thatCard));
-    }
+    };
+    document.write("</hr><h2>特别解释：</h2>")
 
 
     //卡片打印==============================================================================================
@@ -71,7 +77,7 @@ premalink: PP_card.html
         var html = "<div class='card' id='" + card.cardId + "'>";
 
         html = html + "<table class='cardcon'>";
-        html = html + "<tr><th>" + card.cardTitle + "</th><tr>";
+        html = html + "<tr><th class='card_title'>" + card.cardTitle + "</th><tr>";
         html = html + "<tr><td class='card_pic'><img class='card_pic' src='propic/>" + card.cardId + "'/></td></tr>";
         html = html + "<tr class='card_line3'><td>" + card.cardescri + "</td></tr></table></div>";
 

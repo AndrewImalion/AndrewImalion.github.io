@@ -63,15 +63,13 @@ premalink: PP_card.html
     xmlhttp.send();
     xmlDoc = xmlhttp.responseXML;
     var x = xmlDoc.getElementsByTagName("ACARD");
-    
-    document.write("<div>")
     //遍历打印
     for (var i = 0; i < x.length; i++) {
 
         var thatCard = xml2aCard(x[i]);
         document.write(printCard(thatCard));
     };
-    document.write("</hr><h2>特别解释：</h2></div>")
+    document.write("</hr><h2>特别解释：</h2>")
 
 
     //卡片打印==============================================================================================

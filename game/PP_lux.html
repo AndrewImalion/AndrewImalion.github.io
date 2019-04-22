@@ -1,0 +1,133 @@
+---
+layout: forPP
+title: Polis,Please!丨奢侈品
+subtitle: 啊，这可太舒服了……
+description: 这个页面给出了P.P.中出现的奢侈品。
+premalink: PP_lux.html
+---
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <style>
+        .lux {
+            width: 175px;
+            height: 250px;
+            background-color:#ffd800;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            position: relative;
+            float: left;
+            margin: 10px;
+        }
+
+        .luxcon {
+            width: 100%;
+            height: 100%;
+        }
+
+        .lux_title {
+            width: 100%;
+            background-color: inherit;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .lux_cata {
+            width: 100%;
+            background-color: lightgrey;
+            font-weight: bold;
+            font-size: smaller;
+            text-align: center;
+        }
+
+        .lux_data {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border-radius: 15px;
+            background-color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 18px;
+            color: blanchedalmond;
+            position: relative;
+            float: right;
+        }
+
+        .lux_pic {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+
+        .lux_des {
+            background-color: rgba(255,255,255,0.5);
+            height: 33%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>
+
+<script>
+
+    //获取xml===============================================================================================
+    if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    }
+    else {// code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.open("GET", "PP_luxury.xml", false);
+    xmlhttp.send();
+    xmlDoc = xmlhttp.responseXML;
+    var x = xmlDoc.getElementsByTagName("LUX");
+
+    document.write("<table><tr><td>");
+    //遍历打印
+    for (var i = 0; i < x.length; i++) {
+        var thatLux = xml2aLux(x[i]);
+        document.write(printLux(thatLux));
+    };
+    document.write("</td></tr></table>");
+    document.write("</hr><h2>特别解释：</h2>")
+
+
+    //print lux==================================================================================================
+    function printLux(lux) {
+        var html = "<div class='lux' id='" + lux.Lid + "'>";
+
+        html = html + "<table class='luxcon'>";
+        html = html + "<tr><th class='lux_cata'>奢侈品<div class='lux_data'>" + lux.data + "</div></th></tr>";
+        html = html + "<tr><th class='lux_title'>" + lux.title + "</th></tr>";
+        html = html + "<tr class='lux_pic'><td><img class='lux_pic' src='" + lux.Lid + ".jpg'/></td></tr>";
+        html = html + "<tr class='lux_des'><td>“" + lux.quo + "”</td></tr></table></div>";
+
+        return html;
+    }
+
+
+    //xml to luxury==============================================================================================
+    function xml2aLux(xml) {
+        var lux = new aLux();
+
+        lux.title = xml.getElementsByTagName("TITLE")[0].childNodes[0].nodeValue;
+        lux.data = xml.getElementsByTagName("DATA")[0].childNodes[0].nodeValue;
+        lux.quo = xml.getElementsByTagName("QUO")[0].childNodes[0].nodeValue;
+        lux.Lid = xml.getElementsByTagName("LID")[0].childNodes[0].nodeValue;
+
+        return lux;
+    }
+
+
+
+    //奢侈品构造器================================================================================================
+    function aLux(title,data,quo,Lid) {
+        this.title = title;
+        this.data = data;
+        this.quo = quo;
+        this.Lid = Lid;
+    }
+</script>

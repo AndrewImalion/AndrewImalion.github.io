@@ -3,7 +3,7 @@ layout: forPP
 title: Polis,Please!丨奢侈品
 subtitle: 啊，这可太舒服了……
 description: 这个页面给出了P.P.中出现的奢侈品。
-premalink: PP_lux.html
+premalink: PP_luxury.html
 ---
 
 
@@ -31,6 +31,7 @@ premalink: PP_lux.html
             background-color: inherit;
             font-style: italic;
             text-align: center;
+            color:black;
         }
 
         .lux_cata {
@@ -102,7 +103,7 @@ premalink: PP_lux.html
         html = html + "<table class='luxcon'>";
         html = html + "<tr><th class='lux_cata'>奢侈品<div class='lux_data'>" + lux.data + "</div></th></tr>";
         html = html + "<tr><th class='lux_title'>" + lux.title + "</th></tr>";
-        html = html + "<tr class='lux_pic'><td><img class='lux_pic' src='" + lux.Lid + ".jpg'/></td></tr>";
+        html = html + "<tr class='lux_pic'><td><img class='lux_pic' src='propic/" + lux.Lid + ".jpg'/></td></tr>";
         html = html + "<tr class='lux_des'><td>“" + lux.quo + "”</td></tr></table></div>";
 
         return html;

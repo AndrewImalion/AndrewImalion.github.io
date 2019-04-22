@@ -2,7 +2,7 @@
 <CARDS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ACARD>
 		<TITLE>高卢主义</TITLE>
-		<DES>只要此卡放置在我方主城，就不得对我方越山。</DES>
+		<DES>只要此卡放置在我方主城，就不得对我方越山且我方信仰值上升时上线国不得响应。我方主城受到攻击时，此卡立即退回卡组洗切之。</DES>
 		<CID>cd001</CID>
 	</ACARD>
 	<ACARD>
@@ -17,7 +17,7 @@
 	</ACARD>
 	<ACARD>
 		<TITLE>殖民主义</TITLE>
-		<DES>发动后获得0，1，2个（基于阶等）【行省】或【行宫】（基于政体）</DES>
+		<DES>发动后获得0，1，2个（基于阶等）【行省】或【行宫】（基于政体）。</DES>
 		<CID>cd004</CID>
 	</ACARD>
 	<ACARD>
@@ -39,5 +39,115 @@
 		<TITLE>宗教改革</TITLE>
 		<DES>发动后自由分配我国圣地内的思想影响力。允许分配的值低于分配前各个思想影响力的和。&lt;/br&gt;解除我国与所有上线国的关系。</DES>
 		<CID>cd008</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>吵闹暴民</TITLE>
+		<DES>&lt;b&gt;仅限共和&lt;/b&gt;只要此卡放置在我方主城，回合开始时额外获得[1,6]ap。回合结束时政治值-25，不足时清零之并-1幸福度。当且仅当我方变更政体时此卡才会终结效果，放置到卡组最上层。</DES>
+		<CID>cd009</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>专横暴君</TITLE>
+		<DES>&lt;b&gt;仅限君主&lt;/b&gt;只要此卡放置在我方主城，回合开始时额外获得[1,6]ap。回合结束时政治值-50，不足时清零之并-1幸福度。当且仅当我方变更政体时此卡才会终结效果，放置到卡组最上层。</DES>
+		<CID>cd010</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>大跃进</TITLE>
+		<DES>应当立即升1阶，如果我国已经是最高阶，此卡进入下一个玩家卡池。</DES>
+		<CID>cd011</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>刺杀</TITLE>
+		<DES>选择一个国家，如果是君主国，其君主生命-5；如果是共和国，其主城内所有英雄生命各-5。</DES>
+		<CID>cd012</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>大火</TITLE>
+		<DES>应当立即移除我国全部【民居】和【公寓】。</DES>
+		<CID>cd013</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>地震</TITLE>
+		<DES>应当立即移除我国全部【塔楼】和【城墙】。</DES>
+		<CID>cd014</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>洪水滔天</TITLE>
+		<DES>应当立即移除我国全部国民资金、木料、石料和奢侈品。</DES>
+		<CID>cd015</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>泡沫崩溃</TITLE>
+		<DES>应当立即清零我国所有国库资金、国民资金。</DES>
+		<CID>cd016</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>征兵令</TITLE>
+		<DES>发动后，在政府附近生成2，4，8个（基于阶等）【轻步兵】。</DES>
+		<CID>cd017</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>征税令</TITLE>
+		<DES>发动后，国库资金+国民资金的2倍，然后清零国民资金。</DES>
+		<CID>cd018</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>人道主义干涉</TITLE>
+		<DES>选择一个正在革命的国家，选择我国至多8个军事单位，放置在革命国任意单位附近。处理终结后，此卡进入下一位玩家卡池。</DES>
+		<CID>cd019</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>蛙</TITLE>
+		<DES>选择一个正在停摆的国家，获得该国全部国民资金、奢侈品和文艺品。处理终结后，此卡进入下一位玩家卡池。</DES>
+		<CID>cd020</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>萧条</TITLE>
+		<DES>应当立即移除我国全部生产力、木料和石料，清零我国圣地信仰值。</DES>
+		<CID>cd021</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>大赦令</TITLE>
+		<DES>发动后，清零我国政治值，然后幸福度+[-1,2]。</DES>
+		<CID>cd022</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>路德主义</TITLE>
+		<DES>发动后，立即解除我国和所有上线国的关系。</DES>
+		<CID>cd023</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>福尔特娜恶作剧</TITLE>
+		<DES>应当立即将当前国库资金最多的国家和该值最低的国家交换数值。处理终结后，此卡退回卡组并洗切之。</DES>
+		<CID>cd024</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>存在主义</TITLE>
+		<DES>选择一个共和国，移除该国全部可移动单位，英雄不在此项。此卡处理终结后不会再返回卡组。</DES>
+		<CID>cd025</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>加图主义</TITLE>
+		<DES>选择一个君主国，立即降低该国7幸福度。此卡处理终结后不会再返回卡组。</DES>
+		<CID>cd026</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>暴风雪</TITLE>
+		<DES>在自己回合外发动，打断一个玩家正在询问的触发响应或处理执行，并立即结束该玩家回合。此卡处理终结后，进入被打断的玩家卡池。</DES>
+		<CID>cd027</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>驱逐令</TITLE>
+		<DES>选择场上一个英雄立即退出。处理终结后，此卡退回卡组并洗切之。</DES>
+		<CID>cd028</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>政变</TITLE>
+		<DES>发动后，获得一个君主国君主附近的1个英雄的控制权。</DES>
+		<CID>cd029</CID>
+	</ACARD>
+	<ACARD>
+		<TITLE>喀提林阴谋</TITLE>
+		<DES>发动后，获得一个共和国至多4个军事单位控制权，英雄不在此项。</DES>
+		<CID>cd030</CID>
 	</ACARD>
 </CARDS>

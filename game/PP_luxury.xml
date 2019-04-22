@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LUXURY>
+  <LUX>
+    <TITLE>羊毛</TITLE>
+    <DATA>1</DATA>
+    <QUO>两条腿好，四条腿坏。</QUO>
+    <LID>lx000</LID>
+  </LUX>
+  <LUX>
+    <TITLE>牛奶</TITLE>
+    <DATA>1</DATA>
+    <QUO>我就算把它们倒进海里，也不会给你。</QUO>
+    <LID>lx001</LID>
+  </LUX>
+</LUXURY>

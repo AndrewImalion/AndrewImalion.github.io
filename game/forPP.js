@@ -223,8 +223,8 @@ function befUniTable(data) {//将形如“46f3”的字符串转换为html表格
             + typeBef(unit.type)+"<hr/>"
             + conBef(unit.cons) + "<hr/>"
             + splBef(unit.spells);
-        html = html + "<hr/><center><table class='notes'><tr><td>" + unit.note
-            + "<img src='propic/" + unit.uId + ".png' class='heroPro'/></td></tr>" + "<tr><td colspan='2'>Polis,Please!</td></tr></table></center>";
+        html = html + "<hr/><center><table class='notes'><tr><td>" + unit.note+"</td></tr>"
+            + "<tr><td><img src='propic/" + unit.uId + ".png' class='heroPro'/></td></tr>" + "<tr><td colspan='2'>Polis,Please!</td></tr></table></center>";
         html=html+"</div>";
             
         

@@ -238,4 +238,174 @@
 		<NOTE>GreatBaron</NOTE>
 		<UID>un014</UID>
 	</AUNIT>
+	<AUNIT>
+		<NOMINEE>会堂</NOMINEE>
+		<TITLE>自由</TITLE>
+		<QUO>“共和的意思就是国家是公民的事业。”——西塞罗《论共和国》</QUO>
+		<DATA>□□□□</DATA>
+		<TAG>&lt;span class='badge'&gt;curiae&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
+		<ISBUILDING>true</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>大型建筑 非军事</UTYPE>
+		<CONS>【共和】初始建筑</CONS>
+		<SPL>属于政府、主城￥该单位受到来自君主国的攻击时，获得5层【人民危难】效果，最多15层，共和国发出针对君主国的攻击时，每拥有1层该效果攻击力提升1。回合结束时如果没有对攻击主体发出攻击，移除全部该效果层数。</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un015</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>王宫</NOMINEE>
+		<TITLE>荣耀</TITLE>
+		<QUO>“普天之下莫非王土，率土之滨莫非王臣？”——《诗经》</QUO>
+		<DATA>□□□□</DATA>
+		<TAG>&lt;span class='badge'&gt;basilica&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
+		<ISBUILDING>true</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>大型建筑 非军事</UTYPE>
+		<CONS>【君主】初始建筑</CONS>
+		<SPL>属于政府、主城</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un016</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>行省</NOMINEE>
+		<TITLE>人民的声音</TITLE>
+		<QUO>“我们人民，宁要风险中的自由，不做安稳中的奴隶！”</QUO>
+		<DATA>□□□□</DATA>
+		<TAG>&lt;span class='badge'&gt;provence&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
+		<ISBUILDING>true</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>小型建筑 非军事</UTYPE>
+		<CONS>【共和】￥最低阶等2￥至多拥有1，2个（基于阶等）￥20，40木料，石料，资金</CONS>
+		<SPL>属于政府、小城￥该单位受到来自君主国的攻击时，获得3层【人民危难】效果，最多15层，共和国发出针对君主国的攻击时，每拥有1层该效果攻击力提升1。回合结束时如果没有对攻击主体发出攻击，移除全部该效果层数。</SPL>
+		<NOTE>如果有人要做我们的王，无论他多么强，我们也绝不会投降。我们要战斗到底，哪怕用尽了所有武器，我们也要将干草叉刺向他的胸膛；我们要掀起铺路石砸向他的脑袋；即使铁链将我们束缚，我们也要骄傲地昂起头，向他吐口水！</NOTE>
+		<UID>un017</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>行宫</NOMINEE>
+		<TITLE>君主的梦想</TITLE>
+		<QUO>“宁要自己的王朝哪怕破败，不要敌人的行省纵使繁华！”</QUO>
+		<DATA>□□□□</DATA>
+		<TAG>&lt;span class='badge'&gt;looting palace&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
+		<ISBUILDING>true</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>小型建筑 非军事</UTYPE>
+		<CONS>【君主】￥最低阶等2￥至多拥有1，2个（基于阶等）￥20，40木料，石料，资金</CONS>
+		<SPL>属于政府、小城</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un018</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>民居</NOMINEE>
+		<TITLE>一种供人居住的设施</TITLE>
+		<QUO>“有点黑，应该在墙上画个窗户。”</QUO>
+		<DATA>□□□□</DATA>
+		<TAG>&lt;span class='badge'&gt;domus&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
+		<ISBUILDING>true</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>小型建筑 非军事</UTYPE>
+		<CONS>￥10，20，30木料，石料，资金（基于阶等）</CONS>
+		<SPL>提供 4人口支持</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un019</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>公寓</NOMINEE>
+		<TITLE>一种供人居住的设施</TITLE>
+		<QUO>“老鼠都打点行李要离开我的出租屋了。”——西塞罗</QUO>
+		<DATA>□□□□</DATA>
+		<TAG>&lt;span class='badge'&gt;insula&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
+		<ISBUILDING>true</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>小型建筑 非军事</UTYPE>
+		<CONS>￥最低阶等2￥30，40木料，石料，资金（基于阶等）</CONS>
+		<SPL>提供 8人口支持</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un020</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>农庄</NOMINEE>
+		<TITLE>给维克多利亚和晋惠帝生成蛋糕和肉粥的地方</TITLE>
+		<QUO>“春种一粒粟，夜放花千树；四海无闲田，粒粒皆辛苦。”</QUO>
+		<DATA>□□□□</DATA>
+		<TAG>&lt;span class='badge'&gt;farm&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
+		<ISBUILDING>true</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>小型建筑 非军事</UTYPE>
+		<CONS>￥10，20，30资金（基于阶等）￥15，25，35木料，石料（基于阶等）￥拥有的个数不得超过拥有的平民的数目</CONS>
+		<SPL>￥种植粮食，提供【食物】￥喂猪、牛、羊、马（要求相关技术节点）￥种植棉花、烟草、茶叶、咖啡（要求相关技术节点）</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un021</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>学院</NOMINEE>
+		<TITLE>知识分子聚集地</TITLE>
+		<QUO>“真理面前，人人平等。”——欧几里得</QUO>
+		<DATA>□□□□</DATA>
+		<TAG>&lt;span class='badge'&gt;academy&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
+		<ISBUILDING>true</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>大型建筑 非军事</UTYPE>
+		<CONS>￥20木料，石料，资金￥至多拥有1个</CONS>
+		<SPL>基础科研单位，可以升级为科学学院或魔法学院</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un022</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>科学学院</NOMINEE>
+		<TITLE>大神云集的地方</TITLE>
+		<QUO>“Non hypothesis frago.”——牛顿</QUO>
+		<DATA>□□□□</DATA>
+		<TAG>&lt;span class='badge'&gt;scientifacademy&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
+		<ISBUILDING>true</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>大型建筑 非军事</UTYPE>
+		<CONS>￥20木料，石料，资金；由学院升级￥最低阶等3￥至多拥有1个</CONS>
+		<SPL>科研值满时，可以不点亮节点而获得1篇科技论文</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un023</UID>
+	</AUNIT>
+	<AUNIT>
+		<NOMINEE>魔法学院</NOMINEE>
+		<TITLE>不可思议的地方</TITLE>
+		<QUO>“魔法来源于我的情感。”——星光熠熠</QUO>
+		<DATA>□□□□</DATA>
+		<TAG>&lt;span class='badge'&gt;magicollege&lt;/span&gt;</TAG>
+		<ISMILITARY>false</ISMILITARY>
+		<ISBUILDING>true</ISBUILDING>
+		<ISCOMMON>false</ISCOMMON>
+		<ISSHOOTER>false</ISSHOOTER>
+		<ISHERO>false</ISHERO>
+		<UTYPE>大型建筑 非军事</UTYPE>
+		<CONS>￥0成本，由学院升级￥最低阶等2￥至多拥有1个</CONS>
+		<SPL>￥训练魔法师￥改变哨塔附魔状态￥制作魔药￥控制天气</SPL>
+		<NOTE>GreatBaron</NOTE>
+		<UID>un024</UID>
+	</AUNIT>
 </UNIT>

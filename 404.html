@@ -11,8 +11,6 @@ layout: nonav
 
     <style>
     body {
-            max-width: 100%;
-            height: auto;
             background-image: url("{{ site.url }}/img/for404.jpg");
             background-size:100% 100%; 
             background-repeat: no-repeat;
@@ -21,7 +19,8 @@ layout: nonav
         }
         
     .big404 {
-            font-size: 14em;
+            font-size: 7em;
+            color: white;
         }
     
     .backindex{
@@ -41,7 +40,7 @@ layout: nonav
         <div>
             <h5>你只可到此处，不能复前行</h5>
             <span style="font-style:italic;">——《约伯记 38：11》</span>
-            <a href="{{ site.url }}">返回主页</a>
+            <a class="backindex" href="{{ site.url }}">返回主页</a>
         </div>
     </div>
 

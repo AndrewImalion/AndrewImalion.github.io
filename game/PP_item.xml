@@ -23,7 +23,7 @@
 	</ITEM>
 	<ITEM>
 		<TITLE>河马神雕像</TITLE>
-		<DES>为我方一个建筑施加5层【河马神】效果，在拥有河马神单位附近4的所有单位，如果能攻击则应当且只得攻击该建筑（无视该国是否民主机制）（这个效果属于全面嘲讽）。每次攻击移除一层此效果。</DES>
+		<DES>为我方一个建筑施加5层【河马神】效果。拥有该效果单位附近4的所有对方单位，如果能攻击则应当且只得攻击该建筑（无视民主机制）（属于全面嘲讽）。每次攻击移除一层此效果。</DES>
 		<IID>it003</IID>
 		<DATA>none</DATA>
 		<ISSPEACIAL>false</ISSPEACIAL>
@@ -117,21 +117,21 @@
 		<DES>在指定位置生成1个行省</DES>
 		<IID>it016</IID>
 		<DATA>none</DATA>
-		<ISSPEACIAL>false</ISSPEACIAL>
+		<ISSPEACIAL>true</ISSPEACIAL>
 	</ITEM>
 	<ITEM>
 		<TITLE>迷你行宫</TITLE>
 		<DES>在指定位置生成1个行宫</DES>
 		<IID>it017</IID>
 		<DATA>none</DATA>
-		<ISSPEACIAL>false</ISSPEACIAL>
+		<ISSPEACIAL>true</ISSPEACIAL>
 	</ITEM>
 	<ITEM>
 		<TITLE>迷你哨塔</TITLE>
 		<DES>在指定位置生成1个哨塔</DES>
 		<IID>it018</IID>
 		<DATA>none</DATA>
-		<ISSPEACIAL>false</ISSPEACIAL>
+		<ISSPEACIAL>true</ISSPEACIAL>
 	</ITEM>
 	<ITEM>
 		<TITLE>极乐</TITLE>

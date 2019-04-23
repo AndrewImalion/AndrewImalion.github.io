@@ -68,7 +68,7 @@
 		<DES>装备给单位，攻击时给攻击对象施加3层【灼烧】效果。</DES>
 		<IID>it009</IID>
 		<DATA>equipment</DATA>
-		<ISSPEACIAL>true</ISSPEACIAL>
+		<ISSPEACIAL>false</ISSPEACIAL>
 	</ITEM>
 	<ITEM>
 		<TITLE>投石机</TITLE>

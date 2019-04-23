@@ -2,6 +2,8 @@ nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Ser
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 router ul{
+display:block;
+background-color: gainsboro;
 list-style-type:none;
 margin:0;
 padding:0;

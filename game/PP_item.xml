@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ITEMS>
+  <ITEM>
+    <TITLE>阿基米德守城机</TITLE>
+    <DES>我方回合外一个我方势力的建筑受到攻击时，可以移除攻击主体。</DES>
+    <IID>it000</IID>
+    <DATA>none</DATA>
+    <ISSPEACIAL>false</ISSPEACIAL>
+  </ITEM>
+  <ITEM>
+    <TITLE>攻城云梯</TITLE>
+    <DES>我方单位对建筑发出攻击时，可以降低该建筑16生命值。</DES>
+    <IID>it001</IID>
+    <DATA>none</DATA>
+    <ISSPEACIAL>false</ISSPEACIAL>
+  </ITEM>
+</ITEMS>

@@ -1,5 +1,5 @@
-//ÊµÏÖ MySketch µÄ½Å±¾£¬ÒÀÀµDivSketch_v0.css
-/*var mySkt=new aSketch("14th May. 2019(Tue)<hr/>set in 190514-1318","Lipsum","Cicero","history philosophy ¡¾¡¾ÅÅ°æ¡¿¡¿","There is no man who loves the \\em{pain }","no foot")*/
+//å®ç° MySketch çš„è„šæœ¬ï¼Œä¾èµ–DivSketch_v0.css
+/*var mySkt=new aSketch("14th May. 2019(Tue)<hr/>set in 190514-1318","Lipsum","Cicero","history philosophy ã€ã€æ’ç‰ˆã€‘ã€‘","There is no man who loves the \\em{pain }","no foot")*/
 //document.getElementById("container").innerHTML = printaSketh2html(mySkt);
 
 document.getElementById("container").innerHTML = baronica2aSketch(document.getElementById("rawsrc").innerHTML);
@@ -32,8 +32,8 @@ function bufTags2html(str) {
     html = html.replace(/literature/g, "<span class='tag lit'>literature</span>");
     html = html.replace(/poetry/g, "<span class='tag lit poe'>poetry</span>");
 
-    html = html.replace(/¡¾¡¾/g, "<span class='tag cus'>");
-    html = html.replace(/¡¿¡¿/g, "</span>");
+    html = html.replace(/ã€ã€/g, "<span class='tag cus'>");
+    html = html.replace(/ã€‘ã€‘/g, "</span>");
 
     return html;
 }
@@ -56,7 +56,7 @@ function baronica2aSketch(str) {
     html = html.replace(/\\end-head/g, "</div>");
 
     html = html.replace(/\\begin-foot/g, "<div class='footline'>");
-    html = html.replace(/\\end-foot/g, "</div>");
+    html = html.replace(/\\end-foot/g, "---Powered by Â©GreatBaron</div>");
 
     html = html.replace(/\\begin-main/g, "<div class='maincon'>");
     html = html.replace(/\\end-main/g, "</div>");
@@ -79,7 +79,7 @@ function baronica2aSketch(str) {
 
     
 
-    //¿ÕĞĞ¡¢»»ĞĞ
+    //ç©ºè¡Œã€æ¢è¡Œ
     html = html.replace(/\\nn/g, "<br/><br/>");
     html = html.replace(/\\n/g, "<br/>");
     //horizon
@@ -113,7 +113,7 @@ function aSketch(headline, title, subtitle, tags, mainbody, footline,sid) {
 
     this.tags = tags;
     if (tags == undefined) {
-        tags = "¡¾¡¾sketch¡¿¡¿";
+        tags = "ã€ã€sketchã€‘ã€‘";
     };
 
     this.mainbody = mainbody;

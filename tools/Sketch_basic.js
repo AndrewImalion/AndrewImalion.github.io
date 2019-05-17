@@ -84,6 +84,10 @@ function baronica2aSketch(str) {
     html = html.replace(/\\n/g, "<br/>");
     //horizon
     html = html.replace(/---/g, "<hr/>");
+    //缩进
+    html = html.replace(/\\ind1/g, "<span style='visibility:hidden;'>烫</span>");
+    html = html.replace(/\\ind2/g, "<span style='visibility:hidden;'>烫烫</span>");
+    html = html.replace(/\\ind4/g, "<span style='visibility:hidden;'>烫烫烫烫</span>");
 
     //TODO:table
 

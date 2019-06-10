@@ -2,7 +2,7 @@
 //copyright-GreatBaron All Rights Reserved
 
 //字数统计，仅统计CJK统一字符
-var reg = /[\u4e00-\u9fa5]/g;
+var reg = /[\u4e00-\u9fe6]/g;
 var str = document.getElementById('maincon').innerText;
 document.getElementById('num').innerText=str.match(reg).length;
 

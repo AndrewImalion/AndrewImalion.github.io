@@ -32,7 +32,9 @@ function bufTags2html(str) {
     html = html.replace(/literature/g, "<span class='tag lit'>literature</span>");
     html = html.replace(/poetry/g, "<span class='tag lit poe'>poetry</span>");
 
+    html = html.replace(/\\tag{/g, "<span class='tag cus'>");
     html = html.replace(/【【/g, "<span class='tag cus'>");
+    html = html.replace(/}/g, "</span>");
     html = html.replace(/】】/g, "</span>");
 
     return html;
@@ -66,6 +68,8 @@ function baronica2aSketch(str) {
     html = html.replace(/##/g, "<h2 class='sketchTitle'>");
     html = html.replace(/#/g, "<h1 class='sketchTitle'>");
 
+    //自定义
+    html = html.replace(/\\Baronica{/g, "<span class='baronlogo'>");
     
     html = html.replace(/\\em{/g, "<span style='font-weight:700;'>");
     html = html.replace(/\\italic{/g, "<span style='font-style:italic'>");
@@ -75,13 +79,15 @@ function baronica2aSketch(str) {
     html = html.replace(/\\green{/g, "<span style='color:lime'>");
     html = html.replace(/\\yellow{/g, "<span style='color:yellow'>");
     html = html.replace(/\\high{/g, "<span style='background-color:hotpink'>");
-    html = html.replace(/ }/g, "</span>");
+    html = html.replace(/}/g, "</span>");
 
     
 
     //空行、换行
     html = html.replace(/\\nn/g, "<br/><br/>");
     html = html.replace(/\\n/g, "<br/>");
+    html = html.replace(/\/\//g, "<p/>");
+    html = html.replace(/\/ /g, "<br/>");
     //horizon
     html = html.replace(/---/g, "<hr/>");
     //缩进

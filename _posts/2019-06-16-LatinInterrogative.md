@@ -6,6 +6,7 @@ layout: nonav
 permalink: /LaQu.html
 ---
 
+<h1{{ title }}h1>
 
 > Quo usque tandem abutere, Catilina, patientia nostra?  
 > Cicer,M.T. BC63 *Against Catiline(1.1)*

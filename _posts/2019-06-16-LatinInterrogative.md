@@ -5,7 +5,7 @@ description: 谁？什么？何时何地？为何？
 layout: nonav
 permalink: /LaQu.html
 ---
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/bootstrap.min.css">
 
 <h1>{{ title }}</h1>
 

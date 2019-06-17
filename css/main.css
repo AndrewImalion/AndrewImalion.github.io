@@ -45,7 +45,7 @@ ul.posts li { list-style: none; }
 .tag {
     border-radius: 15px; 
     border: 2px solid #888888;
-    margin: 0px 10px 10px 0px;
+    margin: 10px 10px 10px 10px;
     padding: 5px; 
     width: auto; 
     height: 80px; 

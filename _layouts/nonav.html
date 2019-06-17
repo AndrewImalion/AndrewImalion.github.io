@@ -2,26 +2,18 @@
 <html>
   <head>
     <title>{{ page.title }}</title>
-    
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/main.css">
     <link rel="shortcut icon" href="{{ site.url }}/img/favicon.ico">
   </head>
 
 
   <body>
 
-<div class="container">
-
-  {{ content }}
-
-</div>
-  <li><a href="/">返回主页</a></li>
+  <div class="container">
+    {{ content }}
+  </div>
+    
   <footer>
-      <div class="copyrightlines" style="text-align: center;color:slategrey;font-family:'Times New Roman', Times, serif;margin:100px 0px 0px 0px;">©GreatBaron,2019,All Rights Reserved.</div><br/>
-   <ul style="text-align: center;">
-   <li><a href=#><img src="{{ site.url }}/img/minicon-email_16px.png">email</a></li>
-   <li><a href="https://github.com/AndrewImalion"><img src="{{ site.url }}/img/minicon-GitHub_16px.png">GitHub</a></li>
-   </ul>
+    <center><a href="/">返回主页</a></center>
   </footer>
   </body>
 

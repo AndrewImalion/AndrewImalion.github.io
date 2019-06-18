@@ -1,5 +1,5 @@
 ---
-title: 拉丁语-变位，变格
+title: 怪物学丨类人纲
 layout: pure
 permalink: /DaemonAdsimulatus.html
 tags:

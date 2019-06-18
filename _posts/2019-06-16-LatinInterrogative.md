@@ -4,6 +4,9 @@ subtitle: Latinae Interrogative
 description: 谁？什么？何时何地？为何？
 layout: nonav
 permalink: /LaQu.html
+tags:
+  - 语言学
+  - 拉丁语
 ---
 <link rel="stylesheet" type="text/css" href="https://github.com/FameAndFarm/FameAndFarm.github.io/blob/master/css/bootstrap.css">
 

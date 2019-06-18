@@ -1,0 +1,33 @@
+.kai
+{
+    font-family: 'KaiTi','楷体','楷书';
+}
+.time
+{
+    font-family: 'Times New Roman', Times;
+}
+.hp
+{
+    background-color: pink;
+    border-radius:12em;
+}
+.todo
+{
+    background-color:lime;
+    border-radius:.2em;
+}
+.todo::before
+{
+    font-size: 700;
+    content: "TODO："
+}
+.tofx
+{
+    background-color:wheat;
+    border-radius:.2em;
+}
+.tofx::before
+{
+    font-size: 700;
+    content: "TOFIX："
+}

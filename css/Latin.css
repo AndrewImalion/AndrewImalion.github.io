@@ -1,0 +1,212 @@
+.m
+{
+    background-color: aqua;
+    border-radius:.2em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 0 .2em 0 .2em;
+    margin: 0 .2em 0 0.2em;
+}
+.f
+{
+    background-color: palevioletred;
+    border-radius: .2em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 0 .2em 0 .2em;
+    margin: 0 .2em 0 0.2em;
+}
+.n
+{
+    background-color: dimgray;
+    border-radius: .2em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 0 .2em 0 .2em;
+    margin: 0 .2em 0 0.2em;
+}
+.m::after
+{
+    content: "阳性";
+}
+.f::after
+{
+    content: "阴性";
+}
+.n::after
+{
+    content: "中性";
+}
+
+/* My Css*/
+/*
+.authorline {
+    font-family:'Times New Roman','Times', serif;
+    font-size: 1.2em;
+    font-style: italic;
+    float: right;
+}
+    
+.post-abstract {
+    line-height:50%;
+    font-size: 0.6em;
+    color: #888888;
+}
+
+.tag {
+    border-radius: 15px; 
+    border: 2px solid #888888;
+    margin: 0px 10px 10px 0px;
+    padding: 5px; 
+    width: auto; 
+    height: 80px; 
+}
+
+.subheading{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.desheading {
+    font-family:'Times New Roman','Times', serif;
+    font-size: 0.75em;
+    font-style: italic;
+    float: center;
+}
+*/
+blockquote{
+    margin: 5% 10%;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin:5% 10%;
+    border-collapse: collapse;
+}
+
+    table td, table th {
+        font-size: 1em;
+        border: 1px solid black;
+        padding: 3px 7px 2px 7px;
+    }
+
+    table th {
+        font-size: 1.1em;
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 4px;
+        background-color:black;
+        color: white;
+    }
+
+
+/* For Latin */
+.praesens{
+    width: 100%;
+    background-color: #e0e0e0;
+}
+.imperf{
+    width: 100%;
+    background-color: #99ccff;
+}
+.futurum{
+    width: 100%;
+    background-color: #ff6633;
+}
+
+.ety{
+    background-color: darkgreen;
+    border-radius: .2em;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 0 .2em 0 .2em;
+    margin: 0 .2em 0 0.2em;
+}
+.ety::before
+{
+    content: "Etymology"
+}
+
+.syn{
+    background-color: black;
+    border-radius: .2em;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    display: inline-block;
+    padding: 0 .2em 0 .2em;
+    margin: 0 .2em 0 0.2em;
+}
+.syn::before
+{
+    content: "SYN"
+}
+
+
+.conj{
+    background-color: gray;
+    border-radius: .2em;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    display: inline-block;
+    padding: 0 .2em 0 .2em;
+    margin: 0 .2em 0 0.2em;
+}
+.conj::before
+{
+    content: "conj."
+}
+
+.adv{
+    background-color: aliceblue;
+    border-radius: .2em;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0 .2em 0 .2em;
+    margin: 0 .2em 0 0.2em;
+}
+.adv::before
+{
+    content: "adv."
+}
+
+.adj{
+    background-color: lightsalmon;
+    border-radius: .2em;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0 .2em 0 .2em;
+    margin: 0 .2em 0 0.2em;
+}
+.adj::before
+{
+    content: "adj."
+}
+
+.v{
+    background-color: darkblue;
+    border-radius: .2em;
+    color: yellow;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0 .2em 0 .2em;
+    margin: 0 .2em 0 0.2em;
+}
+.v::before
+{
+    content: "v."
+}
+

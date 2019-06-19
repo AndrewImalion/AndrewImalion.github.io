@@ -2,22 +2,19 @@
 title: 拉丁语-问句
 subtitle: Latinae Interrogative 
 description: 谁？什么？何时何地？为何？
-layout: nonav
+layout: latin
 permalink: /LaQu.html
 tags:
   - 语言学
   - 拉丁语
 ---
-<link rel="stylesheet" type="text/css" href="https://github.com/FameAndFarm/FameAndFarm.github.io/blob/master/css/bootstrap.css">
-
-<h1>{{ page.title }}</h1>
 
 > Quo usque tandem abutere, Catilina, patientia nostra?  
 > Cicer,M.T. BC63 *Against Catiline(1.1)*
 
 - 一般疑问句
   - -ne
-  - nam
+  - num
   - nonne
 - 特殊疑问句
   - quis,quis,quid;qui,quae,quod
@@ -39,9 +36,16 @@ tags:
 > Esne iratus, frater?
 > 你生气了么，哥们？
 
+## num
+
+可以用“是或不是”来回答，但是结果是可预见的**否定**回答，用num
+
+> Num vides? Non video.
+
+
 ## nonne
 
-反问，期待肯定回答
+可以用“是或不是”来回答，但是结果是可预见的**肯定**或**期待肯定**回答，用nonne
 
 > Nonne tui pater? 我难道不是你爸爸吗？
 
@@ -90,3 +94,4 @@ quando,ubi
 > 她什么时候进城的？
 > Ubi domicilium habet?
 > 她的家在哪里？
+

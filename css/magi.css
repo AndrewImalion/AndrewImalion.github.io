@@ -1,0 +1,222 @@
+/*Maigilibri*/
+.metablock
+{
+    border-radius: 20px;
+    width: 60%;
+    min-height: 25%;
+    margin: 10px 25% 0 15%;
+    padding: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+.abook
+{
+    background-color:lightgreen;
+    color: green;
+}
+.abook::before
+{
+    text-align: right;
+    /*position: relative;
+    float:right;*/
+    content: url(asset/mibook32px.png);
+}
+.amovie
+{
+    background-color:aliceblue;
+    color:aqua;
+}
+.amovie::before
+{
+    text-align: right;
+    /*position: relative;
+    float:right;*/
+    content: url(asset/mimovie32px.png);
+}
+.amusic
+{
+    background-color:lightsalmon;
+    color:orangered;
+}
+.amusic::before
+{
+    text-align: right;
+    /*position: relative;
+    float:right;*/
+    content: url(asset/mimusic32px.png);
+}
+.agame
+{
+    background-color:pink;
+    color:hotpink;
+}
+.agame::before
+{
+    text-align: right;
+    /*position: relative;
+    float:right;*/
+    content: url(asset/migame32px.png);
+}
+
+#index
+{
+    width: 60%;
+    margin: 15% 25% 0 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    /*text-align: center;*/
+}
+
+#toc
+{
+    text-align: left;
+}
+
+#index::before
+{
+    font-size: xx-large;
+    content: "目录：";
+    display: block;
+}
+
+#numcount
+{
+    border:2px solid; 
+    border-radius:25px;
+    padding: 0 2px 0 16px;
+    width: 120px;
+    margin: 15% 25% 0 15%;
+    color: dimgray;
+    /*display: none;*/
+}
+
+h1,h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+}
+
+h3
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 100px 0 50px 0;
+}
+
+
+#maincon
+{
+    width: 60%;
+    margin: 0 25% 0 15%;
+    font-family: 'Times New Roman', Times,'宋体','SongTi';
+    font-size: x-large;
+    text-align: justify;
+}
+
+.slice
+{
+    width: 60%;
+    margin: 25px 20% 26px 20%;
+}
+
+.kai
+{
+    font-family: 'KaiTi','楷体','楷书';
+    font-weight: 700;
+}
+
+.del
+{
+    text-decoration:line-through;
+}
+
+.red
+{
+    color: red;
+}
+
+.green
+{
+    color: limegreen;
+}
+
+.aqua
+{
+    color: aqua;
+}
+
+.note
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: green;
+    /*background-color: gold;*/
+    /*display: none;*/
+}
+
+.note::before
+{
+    content: '/*';
+    display: inherit;
+}
+
+.note::after
+{
+    content: '*/';
+    display: inherit;
+}
+
+#bottom-tools {
+    /*visibility: hidden;*/
+    position: fixed;
+    z-index: 1070;
+    top:60%;
+    right: 0px;
+    box-shadow: 1px 1px 17px #ccc;
+    background: #efefef none repeat scroll 0 0;
+}
+
+/*
+这些按钮太丑了
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    margin: 2px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+*/
+
+/*怪物图标*/
+.daemon
+{
+    display: inline-block;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+}
+.daemon::before
+{
+    content:url(https://andrewimalion.github.io/asset/mi-penta16px.png);
+}
+.daemon:hover
+{
+    width: 32px;
+    height: 32px;
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+}

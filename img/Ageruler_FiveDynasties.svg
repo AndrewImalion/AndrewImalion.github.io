@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" standalone="no"?>        
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"        
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <text y="20" style="font-size:larger;font-family:LiShu,Arial;fill:brown">五代（907~960）</text>
+  
+<rect x="0" y="35" width="150" height="75" style="fill:crimson"/>
+<text x="60" y="73" style="font-family:LiShu,Arial;fill:black">后梁</text>
+<text x="0" y="120" style="font-family:Georgia,Times,serif;fill:black">907</text>
+  
+<rect x="150" y="35" width="130" height="75" style="fill:darkcyan"/>
+<text x="205" y="73" style="font-family:LiShu,Arial;fill:black">后唐</text>
+<text x="150" y="120" style="font-family:Georgia,Times,serif;fill:black">923</text>
+  
+<rect x="280" y="35" width="110" height="75" style="fill:coral"/>
+<text x="325" y="73" style="font-family:LiShu,Arial;fill:black">后晋</text>
+<text x="280" y="120" style="font-family:Georgia,Times,serif;fill:black">936</text>
+  
+<rect x="390" y="35" width="30" height="75" style="fill:chartreuse"/>
+<text x="390" y="73" style="font-family:LiShu,Arial;fill:black">后汉</text>
+<text x="390" y="120" style="font-family:Georgia,Times,serif;fill:black">947</text>
+
+  
+<rect x="430" y="35" width="90" height="75" style="fill:gold"/>
+<text x="470" y="73" style="font-family:LiShu,Arial;fill:black">后周</text>
+<text x="420" y="100" style="font-family:Georgia,Times,serif;fill:black">950</text>
+<text x="430" y="120" style="font-family:Georgia,Times,serif;fill:black">951</text>
+<text x="520" y="100" style="font-family:Georgia,Times,serif;fill:black">960</text>
+
+
+</svg>

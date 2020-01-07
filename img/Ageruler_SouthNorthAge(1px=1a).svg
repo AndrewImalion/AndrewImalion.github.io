@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" standalone="no"?>        
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"        
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     version="1.1"
+     height="220"
+     >
+  <style>
+    .text_name{
+    font-size:smaller}
+    .year{
+    font-family: Georgia;}
+  </style>
+  <defs>
+    <g id="main">
+    <g id="CaoWei">
+      <rect x="220" width="45" fill="#66ccff" y="0" height="180"></rect>
+      <text x="230" y="90" class="text_name">曹魏</text>
+    </g>
+    <g id="XiJin">
+      <rect x="265" width="51" fill="navy" y="0" height="180"></rect>
+      <text x="275" y="90" class="text_name" fill="white">西晋</text>
+    </g>
+    <g id="DongJin">
+      <rect x="318" width="102" fill="midnightblue" y="0" height="180"></rect>
+      <text x="328" y="90" class="text_name" fill="white">东晋</text>
+    </g>
+
+    <g id="BeiWei">
+      <rect x="386" width="148" fill="orange" y="0" height="90"></rect>
+      <text x="396" y="45" class="text_name">北魏</text>
+    </g>
+    <g id="BeiZhou">
+      <rect x="557" width="24" fill="brown" y="0" height="90"></rect>
+      <text x="557" y="35" class="text_name">北周</text>
+    </g>
+    <g id="BeiQi">
+      <rect x="550" width="27" fill="yellow" y="45" height="45"></rect>
+      <text x="550" y="82" class="text_name">北齐</text>
+    </g>
+    <g id="DongWei">
+      <rect x="534" width="16" fill="tomato" y="45" height="45"></rect>
+      <text x="534" y="67.5" class="text_name">东魏</text>
+    </g>
+    <g id="XiWei">
+      <rect x="535" width="22" fill="peru" y="0" height="45"></rect>
+      <text x="535" y="22.5" class="text_name">西魏</text>
+    </g>
+
+    <g id="LiuSong">
+      <rect x="420" width="59" fill="lime" y="90" height="90"></rect>
+      <text x="430" y="135" class="text_name">宋</text>
+    </g>
+    <g id="Sui">
+      <rect x="581" width="37" fill="slateblue" y="0" height="180"></rect>
+      <text x="596" y="90" class="text_name" fill="white">隋</text>
+    </g>
+    <g id="NanQi">
+      <rect x="479" width="23" fill="cyan" y="90" height="90"></rect>
+      <text x="484" y="135" class="text_name">齐</text>
+    </g>
+    <g id="NanLiang">
+      <rect x="502" width="55" fill="Teal" y="90" height="90"></rect>
+      <text x="512" y="135" class="text_name">梁</text>
+    </g>
+    <g id="NanChen">
+      <rect x="557" width="32" fill="#d02090" y="90" height="90"></rect>
+      <text x="562" y="135" class="text_name">陈</text>
+    </g>
+
+    <g id="Years">
+      <text x="220" y="190" class="year">220</text>
+      <text x="265" y="190" class="year">265</text>
+      <text x="295" y="175" class="year">316</text>
+      <text x="318" y="190" class="year">318</text>
+      <text x="386" y="85" class="year">386</text>
+      <text x="420" y="190" class="year">420</text>
+      <text x="581" y="16" class="year">581</text>
+      <text x="589" y="190" class="year">589</text>
+      <text x="618" y="190" class="year">618</text>
+    </g>
+    </g>
+  </defs>
+  
+  <use x="-220" y="0" xlink:href="#main"/>
+  
+</svg>

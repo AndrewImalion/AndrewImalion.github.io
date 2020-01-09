@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" standalone="no"?>        
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"        
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     version="1.1"
+     height="2091"
+     >
+  <style>
+    .nom{
+    font-size:smaller}
+    .an{
+    font-family: Georgia;}
+  </style>
+  <defs>
+    <rect id="Qin" width="1" height="14"/>
+    <rect id="XiHan" width="1" height="209"/>
+    <rect id="MangXin" width="1" height="17"/>
+    <rect id="DongHan" width="1" height="195"/>
+    <rect id="CaoWei" width="1" height="45"/>
+    <rect id="ShuHan" width="1" height="42"/>
+    <rect id="SunWu" width="1" height="51"/>
+    <rect id="XiJin" width="1" height="51"/>
+    <rect id="DongJin" width="1" height="102"/>
+    <rect id="SixteenStates" width="1" height="102"/>
+    <rect id="LiuSong" width="1" height="59"/>
+    <rect id="NanQi" width="1" height="23"/>
+    <rect id="NanLiang" width="1" height="55"/>
+    <rect id="Chen" width="1" height="32"/>
+    <rect id="BeiWei" width="1" height="148"/>
+    <rect id="DongWei" width="1" height="16"/>
+    <rect id="XiWei" width="1" height="22"/>
+    <rect id="BeiQi" width="1" height="27"/>
+    <rect id="BeiZhou" width="1" height="24"/>
+    <rect id="Sui" width="1" height="37"/>
+    <rect id="Tang" width="1" height="289"/>
+    <rect id="HouLiang" width="1" height="16"/>
+    <rect id="HouTang" width="1" height="13"/>
+    <rect id="HouJin" width="1" height="11"/>
+    <rect id="HouHan" width="1" height="3"/>
+    <rect id="HouZhou" width="1" height="9"/>
+    <rect id="TenStates" width="1" height="77"/>
+    <rect id="BeiSong" width="1" height="167"/>
+    <rect id="NanSong" width="1" height="152"/>
+    <rect id="QidanLiao" width="1" height="178"/>
+    <rect id="WanyanJin" width="1" height="119"/>
+    <rect id="Yuan" width="1" height="97"/>
+    <rect id="Ming" width="1" height="276"/>
+    <rect id="Qing" width="1" height="196"/>
+    
+    <g id="main">
+    <use xlink:href="#Qin" y="-220" x="0"  fill="firebrick" transform="scale(180,1)"/>
+    <use xlink:href="#XiHan" y="-201" x="0"  fill="chartreuse" transform="scale(180,1)"/>
+    <use xlink:href="#MangXin" y="8" x="0"  fill="yellow" transform="scale(180,1)"/>
+    <use xlink:href="#DongHan" y="25" x="0"  fill="limegreen" transform="scale(180,1)"/>
+    <use xlink:href="#CaoWei" y="220" x="1"  fill="cyan" transform="scale(60,1)"/>
+    <use xlink:href="#ShuHan" y="221" x="0"  fill="orange" transform="scale(60,1)"/>
+    <use xlink:href="#XiJin" y="265" x="0"  fill="blue" transform="scale(180,1)"/>
+    <use xlink:href="#SunWu" y="229" x="2"  fill="darkslategray" transform="scale(60,1)"/>
+    <use xlink:href="#DongJin" y="318" x="0"  fill="darkblue" transform="scale(180,1)"/>
+    <use xlink:href="#BeiWei" y="386" x="0"  fill="orange" transform="scale(90,1)"/>
+    <use xlink:href="#SixteenStates" y="306" x="0"  fill="pink" transform="scale(60,1)"/>
+    <use xlink:href="#LiuSong" y="420" x="1"  fill="lime" transform="scale(90,1)"/>
+    <use xlink:href="#NanQi" y="479" x="1"  fill="#00ced1" transform="scale(90,1)"/>
+    <use xlink:href="#NanLiang" y="502" x="1"  fill="cadetblue" transform="scale(90,1)"/>
+    <use xlink:href="#Sui" y="581" x="0"  fill="lightgreen" transform="scale(180,1)"/>
+    <use xlink:href="#Chen" y="557" x="1"  fill="darkorchid" transform="scale(90,1)"/>
+    <use xlink:href="#DongWei" y="534" x="0"  fill="lightcoral" transform="scale(45,1)"/>
+    <use xlink:href="#XiWei" y="535" x="1"  fill="khaki" transform="scale(45,1)"/>
+
+    <use xlink:href="#BeiZhou" y="557" x="0"  fill="brown" transform="scale(90,1)"/>
+    <use xlink:href="#BeiQi" y="550" x="0"  fill="yellow" transform="scale(45,1)"/>
+
+    <use xlink:href="#Tang" y="618" x="0"  fill="hotpink" transform="scale(180,1)"/>
+    <use xlink:href="#HouLiang" y="907" x="0"  fill="crimson" transform="scale(180,1)"/>
+    <use xlink:href="#HouTang" y="923" x="0"  fill="greenyellow" transform="scale(180,1)"/>
+    <use xlink:href="#HouJin" y="936" x="0"  fill="cyan" transform="scale(180,1)"/>
+    <use xlink:href="#HouHan" y="947" x="0"  fill="green" transform="scale(180,1)"/>
+    <use xlink:href="#HouZhou" y="951" x="0"  fill="gold" transform="scale(180,1)"/>
+    <use xlink:href="#BeiSong" y="960" x="0"  fill="sandybrown" transform="scale(180,1)"/>
+    <use xlink:href="#TenStates" y="902" x="0"  fill="grey" transform="scale(60,1)"/>
+    <use xlink:href="#NanSong" y="1127" x="0"  fill="peru" transform="scale(180,1)"/>
+
+    <use xlink:href="#WanyanJin" y="1115" x="0"  fill="goldenrod" transform="scale(90,1)"/>
+    <use xlink:href="#QidanLiao" y="947" x="0"  fill="lightblue" transform="scale(20,1)"/>
+    <use xlink:href="#Yuan" y="1271" x="0"  fill="olive" transform="scale(90,1)"/>
+    <path d="M90 1279 L180 1279 L180 1368 l-90 0 z" fill="olive"/>
+    <path d="M0 1206 L90 1234 L180 1279 L0 1368 z" fill="olive"/>
+    <line x1="0" y1="1271" x2="160" y2="1271" fill="black" stroke="black" stroke-dasharray="3"/>
+    <use xlink:href="#Ming" y="1368" x="0"  fill="crimson" transform="scale(180,1)"/>
+    <use xlink:href="#Qing" y="1644" x="0"  fill="goldenrod" transform="scale(180,1)"/>
+    <path d="M0 1644 l90 0 L0 1683 z" fill="crimson"/>
+      
+      <text x="50" y="-230">封建王朝</text>
+    <g class="nom">
+      <text x="74" y="-207">秦</text>
+      <text x="74" y="-100">西汉</text>
+      <text x="74" y="22">新</text>
+      <text x="74" y="120">东汉</text>
+      <text x="14" y="250" >蜀汉</text>
+      <text x="74" y="250" >曹魏</text>
+      <text x="134" y="260" >孙吴</text>
+      <text x="74" y="300" >西晋</text>
+      <text x="74" y="360" >东晋</text>
+      <text x="10" y="350" >十六国</text>
+      <text x="31" y="450" >北魏</text>
+      <text x="121" y="450" >刘宋</text>
+      <text x="121" y="495" >南齐</text>
+      <text x="121" y="540" >南梁</text>
+      <text x="121" y="580" >南陈</text>
+      <text x="6.5" y="546" >东魏</text>
+      <text x="54.5" y="550" >西魏</text>
+      <text x="6.5" y="569" >北齐</text>
+      <text x="54.5" y="575" >北周</text>
+      <text x="74" y="600" >隋</text>
+      <text x="74" y="750" >唐</text>
+      <text x="106" y="920" >后梁</text>
+      <text x="106" y="936" >后唐</text>
+      <text x="78" y="945" >后晋</text>
+      <text x="136" y="952" >后汉</text>
+      <text x="106" y="960" >后周</text>
+      <text x="20" y="936" >十国</text>
+      <text x="106" y="1050" >北宋</text>
+      <text x="116" y="1200" >南宋</text>
+      <text x="5" y="1050" >辽</text>
+      <text x="20" y="1180" >金</text>
+      <text x="20" y="1260" >蒙古</text>
+      <text x="74" y="1325" >元</text>
+      <text x="74" y="1500" >明</text>
+      <text x="5" y="1660" >南明</text>
+      <text x="74" y="1750" >清</text>
+    </g>
+    <g class="an">
+      <text x="180" y="-220">前221</text>
+      <text x="180" y="-201">前202</text>
+      <text x="180" y="8">8</text>
+      <text x="180" y="25">25</text>
+      <text x="180" y="220">220</text>
+      <text x="74" y="265">265</text>
+      <text x="180" y="280">280</text>
+      <text x="180" y="318">318</text>
+      <text x="180" y="420">420</text>
+      <text x="180" y="476">476</text>
+      <text x="180" y="502">502</text>
+    <text x="180" y="557">557</text>
+    <text x="180" y="589">589</text>
+    <text x="180" y="618">618</text>
+    <text x="180" y="907">907</text>
+    <text x="180" y="960">960</text>
+    <text x="180" y="1127">280</text>
+    <text x="180" y="1279">1279</text>
+    <text x="180" y="1368">1368</text>
+    <text x="180" y="1644">1644</text>
+    <text x="180" y="1840">1840</text>
+    </g>
+  </g>
+  </defs>
+  
+<use xlink:href="#main" y="250"/>
+</svg>

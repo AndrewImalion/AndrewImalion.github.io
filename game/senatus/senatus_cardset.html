@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Senatus</title>
+    <style>
+        .bill {
+            width: 120px;
+            height: 180px;
+            border: 1px solid black;
+            position: relative;
+            float: left;
+        }
+        .nameCube{
+            font-family:'Copperplate Gothic';
+            text-align:center;
+            background-color:azure;
+            border-radius:8px;
+            margin:4px;
+            padding:4px;
+        }
+        .description{
+            padding:8px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:small;
+            text-align:justify;
+            display:block;
+        }
+        .event {
+            background-color: wheat;
+        }
+        .barbarian {
+            background-color: #fff0f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="bill">
+        <div class="nameCube">Levy<br />征收新税</div>
+        <div class="description">所有元老金钱+x.<br />该提案通过后，放逐投掷骰子点数小于等于x的全部元老x轮。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Expile<br />放逐公敌</div>
+        <div class="description">放逐一位元老x轮。<br />该提案通过后，所有支持该提案的元老金钱-x。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Bellvm<br />发动战争</div>
+        <div class="description">派遣一位元老对一个蛮族发动战争。<br />若战败，该元老死亡；所有元老声望-1.</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Province<br />派遣总督</div>
+        <div class="description">派遣一位元老到已经征服的一个蛮族担任总督，至多3轮。</div>
+    </div>
+
+    <div class="bill">
+        <div class="nameCube">Lex maiorest<br />至尊法</div>
+        <div class="description">所有的元老在发言前，应当说：“在我们祖先的荣耀下……”；<br />不说的，声望-2</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Lex divinvs<br />神圣法</div>
+        <div class="description">所有元老在发言后，应当说：“愿诸神保佑我们。”<br />不说的，放逐1轮</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Lex popvli<br />人民法</div>
+        <div class="description">提案前，应当说：“为了共和国”；投票前，应当说：“为了人民”<br />不说的，提案投票无效，放逐1轮。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Lex oratvs<br />言论法</div>
+        <div class="description">指定一位元老在本提案通过后永久不得发言。（仍然可以投票）</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Lex terrae<br />土地法</div>
+        <div class="description">平分所有元老的金钱，不能整除的部分属于提案者。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Lex liberrimus<br />自由至上法</div>
+        <div class="description">放逐在上一轮提案的元老x轮，x为该元老的声望。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Lex censoris<br />监察法</div>
+        <div class="description">放逐金钱最低的元老x轮，x为金钱最高元老的金钱。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Lex novvs<br />新法</div>
+        <div class="description">废止一项法律；或者提出一项新法。<br />该卡片不能当作“附议”打出。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube">Lex simplex<br />反奢侈法</div>
+        <div class="description">每轮结束时，拥有最高金钱的元老金钱-2.</div>
+    </div>
+
+    <div class="bill">
+        <div class="nameCube event">Assassina<br />刺杀</div>
+        <div class="description">事件:同时打出3张刺杀，指定杀死一位元老，并获得该元老全部的声望。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube event">Carthego delenda est<br />——必须毁灭</div>
+        <div class="description">事件:所有元老在发言结束前都应当说xx必须毁灭；不说的，放逐3轮。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube event">Panes Popvlis<br />给全国人民发免费面包</div>
+        <div class="description">事件:所有元老支付自己一半金钱，声望+x；x为骰子得数（分别投掷）</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube event">Circenses Popvlis<br />请全国人民看免费马戏</div>
+        <div class="description">事件:所有元老投掷骰子，得数最高者声望+5；最低者放逐1轮</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube event">Triumph<br />凯旋</div>
+        <div class="description">事件:交换声望最高者和最低者的声望。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube event">Civil war<br />内战</div>
+        <div class="description">事件:所有元老投骰子，按照得数的奇偶分为两组，杀死人数更少的那一组全部元老。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube event">Barbarian<br />蛮族入侵</div>
+        <div class="description">事件:所有元老投骰子，杀死得数小于等于中位数的全部元老。</div>
+    </div>
+    <div class="bill">
+        <div class="nameCube event">Rebellion<br />奴隶叛乱</div>
+        <div class="description">事件:设置5个计数器，接下来的每一轮投票派遣一位元老平叛，计数器-他或她骰子得数，平叛成功者声望+5.</div>
+    </div>
+
+    <!--蛮族-->
+    <div>
+        <div class="bill">
+            <div class="nameCube barbarian">Barbarian<br />沙漠蛮族</div>
+            <div class="description">
+                <p>战斗力:1</p>
+                <p>
+                    战胜:金钱+2,声望+2<br />
+                    总督:每轮金钱+1
+                </p>
+            </div>
+        </div>
+        <div class="bill">
+            <div class="nameCube barbarian">Barbarian<br />孤岛蛮族</div>
+            <div class="description">
+                <p>战斗力:2</p>
+                <p>
+                    战胜:金钱+2,声望+2<br />
+                    总督:每轮金钱+2,声望-1
+                </p>
+            </div>
+        </div>
+        <div class="bill">
+            <div class="nameCube barbarian">Barbarian<br />海岸蛮族</div>
+            <div class="description">
+                <p>战斗力:3</p>
+                <p>
+                    战胜:金钱+3,声望+4<br />
+                    总督:每轮金钱+3,声望-1
+                </p>
+            </div>
+        </div>
+        <div class="bill">
+            <div class="nameCube barbarian">Barbarian<br />草原蛮族</div>
+            <div class="description">
+                <p>战斗力:4</p>
+                <p>
+                    战胜:金钱+1,声望+4<br />
+                    总督:每轮声望+2
+                </p>
+            </div>
+        </div>
+        <div class="bill">
+            <div class="nameCube barbarian">Barbarian<br />森林蛮族</div>
+            <div class="description">
+                <p>战斗力:5</p>
+                <p>
+                    战胜:金钱+2,声望+5<br />
+                    总督:每轮金钱+2,声望+2
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

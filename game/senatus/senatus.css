@@ -1,0 +1,161 @@
+﻿body {
+    margin: 0 25% 0 25%;
+    background-color: aquamarine;
+}
+
+h1{
+    text-align:center;
+    font-family:YouYuan,KaiTi,Arial;
+    margin: 55px auto 220px;
+}
+h2 {
+    background-color: coral;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding:0 8px;
+}
+h3 {
+    border-left: solid blue;
+    border-top: solid blue;
+    color:deeppink;
+}
+h3::before{
+    content:"★"
+}
+
+p {
+    text-align:justify;
+    font-family: Georgia;
+    font-size: 125%;
+}
+
+strong{
+    border-radius:4px;
+    padding:0 2px;
+    background-color:hotpink;
+}
+
+blockquote{
+    font-style:italic;
+    border-left:4px solid grey;
+    background-color:aqua;
+    padding: 1px 0;
+}
+
+img {
+    width:90%;
+    height:auto;
+    margin: 0 5%
+    /*width: 512px;
+    height: auto;*/
+}
+
+/*表格*/
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    font-size: 1em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px;
+}
+th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #A7C942;
+    color: #ffffff;
+}
+td {
+    color: #000000;
+    background-color: #EAF2D3;
+}
+
+.meta{
+    margin:16px 0px;
+    border-radius:12px;
+    background-color:#66ccff;
+    color:whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:smaller;
+    padding:16px 16px 8px;
+}
+
+.centering {
+    text-align: center;
+}
+
+/*标签*/
+.tag {
+    text-align: left;
+    display: inline-block;
+    border: 1px groove white;
+    color: white;
+    border-radius: 6px;
+    margin: 4px;
+    padding: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.art,.artist {
+    background-color: lightpink;
+    color: purple;
+}
+.artist::before {
+        content: "艺术家·"
+}
+.history {
+    background-color: yellow;
+    color: deepskyblue;
+}
+.literature{
+    background-color:deeppink;
+}
+.literature::before{
+    content:"文学·"
+}
+.legal,.politic{
+    background-color:limegreen;
+}
+.legal::before{
+    content:"法律·"
+}
+.military{
+    background-color:darkgreen;
+}
+.military::before{
+    content:"军事·";
+}
+.politic::before{
+    content:"政治·";
+}
+.philosophy {
+    background-color: crimson;
+}
+
+/*旗帜符号*/
+.CN::before {
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/15px-Flag_of_the_People%27s_Republic_of_China.svg.png)
+}
+.JP::before {
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/15px-Flag_of_Japan.svg.png)
+}
+
+/*死因*/
+.ASN::before {
+    content: "➹" /*暗杀，刺杀*/
+}
+.CAPT::before {
+    content: "☠"/*被处决*/
+}
+.MOR::before {
+    content: "🏥" /*病死morbus*/
+}
+.SLA::before {
+    content: "❌" /*阵亡slain in action*/
+}
+.SUI::before {
+    content: "⚠" /*自杀*/
+}

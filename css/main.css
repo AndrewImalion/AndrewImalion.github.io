@@ -9,7 +9,7 @@ a:hover { text-decoration: underline; }
 
 p{ 
     font-family:'Times New Roman','Times', serif;
-    font-size: 1.5em; 
+    /*font-size: 1.5em; */
     line-height: 1.4em; 
     color: #333; 
 }
@@ -81,7 +81,7 @@ ul.posts li { list-style: none; font-size: 1.5em;}
 code {
     
     font-family: 'Courier New ', 'Lucida Console', 'Monospace';
-    background-color: rgba(27,31,35,.05);
+    background-color: lightgrey;
     border-radius: 3px;
     font-size: 85%;
     margin: 0;
@@ -91,7 +91,7 @@ code {
 
 .highlight {
     border-radius: 15px;
-    background-color: rgba(27,31,35,.05);
+    background-color: lightgrey;
     margin: 10px;
     padding: 5px; 
     width: 75%; 

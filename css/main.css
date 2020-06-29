@@ -2,6 +2,7 @@ body {
     margin: 60px auto; 
     width: 80%;
     font-size:100%;
+    background-color:AliceBlue;
 }
 
 a { text-decoration: none; color: #999; }
@@ -35,8 +36,8 @@ nav ul li, footer ul li { display: inline; margin-right: 20px; }
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
 /* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-ul.posts li { list-style: none; font-size: 1.5em;}
+ul.posts { margin: 20px auto 40px; /*font-size: 1.5em;*/ }
+ul.posts li { list-style: none; /*font-size: 1.5em;*/}
 
 /* CV */
 .cv { margin: 0px 0px 60px; }

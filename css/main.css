@@ -27,6 +27,11 @@ h2 { background-color:LightBlue;
      border-radius:4px;
    }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 nav ul, footer ul { 
     font-size: 1em; 
     font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 

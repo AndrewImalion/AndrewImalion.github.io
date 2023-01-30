@@ -1,6 +1,6 @@
 body { 
     margin: 60px auto; 
-    width: 80%;
+    width: 90%;
     font-size:100%;
     background-color:AliceBlue;
 }
@@ -13,19 +13,10 @@ p{
     /*font-size: 1.5em; */
     line-height: 1.2em; 
     color: #333; 
+	text-align:justify;
 }
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-/*h1 { font-size: 3em;  }
-h2 { font-size: 1.7em;
-     background-color:#66ccff;    
-}
-h3 { font-size: 1.4em; }
-h4 { font-size: 1.3em; } 字太大了不好看*/
-h2 { background-color:LightBlue; 
-     padding:2px;
-     border-radius:4px;
-   }
 
 img {
     max-width: 100%;
@@ -78,16 +69,25 @@ ul.posts li { list-style: none; /*font-size: 1.5em;*/}
     height: 80px; 
 }
 
+.topheading{
+	background-color:LightBlue; 
+    padding:4px;
+    border-radius:4px;
+	margin:0 auto;
+}
+
 .subheading{
     font-size: 1.5em;
     font-style: italic;
+	margin: 0 auto;
 }
 
 .desheading {
     font-family:'Times New Roman','Times', serif;
-    font-size: 0.75em;
     font-style: italic;
-    float: center;
+	font-size:0.95em;
+	color:grey;
+	text-align:center;
 }
 
 code {
@@ -139,5 +139,3 @@ code {
     width: 75%; 
     height: auto;
 }
-
-

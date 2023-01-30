@@ -61,9 +61,9 @@ ul.posts li { list-style: none; /*font-size: 1.5em;*/}
 }
 
 .tag {
-    border-radius: 15px; 
+    border-radius: 10px; 
     border: 2px solid #888888;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 5px;
     padding: 5px; 
     width: auto; 
     height: 80px; 

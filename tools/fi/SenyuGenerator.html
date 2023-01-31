@@ -1,0 +1,78 @@
+---
+title: 川柳生成器
+subtitle: A Senyu Generator
+description: 能够批量生成具有一定随机性美感川柳的文本合成工具。输入数量，按下【GO!】按钮即可
+layout: miniboots
+permalink: 川柳生成器
+---
+
+
+
+<div class="row">
+	<div class="col-sm-4">数量：<input type="text" id="sum" value="1" /></div>
+	<div class="col-sm-2">
+		风格：<select id="norm_style">
+            <option value="0">随机</option>
+            <option value="1">蔡依林范式</option>
+            <option value="2">小姐姐范式</option>
+         </select>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-sm-4"><button type="button" class="btn btn-primary" onclick="go()">GO!</button></div>
+</div>
+
+    <div id="printzone">大唐圣伦
+    <br />
+    </div>
+
+<script>
+    //lib
+    var z1, z2, z3, w1, w2, w3;
+    z1 = '你我他日月星辰江河湖海金银铜铁锡力热声光电树林草木花鸟鱼虫鹿路鼠牛虎兔龙蛇马羊猴鸡狗猪猫人男女爸妈兄弟姐妹夫妻子女士农工商兵风花雪月雷泪水车船钱山球春夏秋冬夜'//['你', '我', '他',];
+    z2 = ['远方', '梦想', '自由', '现实','雄心','爱恋','秘密','朋友','友谊','悲伤','喜悦','宴会','茶会','城堡','国王','女王','公主','王子','骑士','士兵','牧师','棋子','礼物','胜利','死亡','生命','梭伦','苏拉','萝莉','彩虹','帝国','希腊','罗马','女神','恺撒','苍穹','财富','幸运','时光','世界','你的','魔法','羊羹'];
+    z3 = ['蔡依林', '宝可梦', '小姐姐','唐辛子','共和国','意大利','冰可乐','热牛奶','咖啡屋','独角兽','旅行者','探险家','无人岛','热气球','小精灵','小学生','艳阳天','企业号','电视机','自行车','小姑娘','阿罗拉','卡洛斯','爱丽丝','三月兔','九头蛇','天狼星','民法典','大法官','检察官','古诗词','御林军','御史台','元老院','柚子茶','小石桥','嘉年华','撸啊撸','苍井空','美人鱼','前女友','图书馆','青玉案','枫叶林','落凤坡','野猪林','虎牢关','玉门关','函谷关','兵马俑','长生殿','未央宫','蓬莱岛','魔法师','传教士'];
+    w1 = '是看听说读写吃喝玩乐想走拿爱恨红橙黄绿青蓝紫上下懂会忘忧虑疼喜怒哀乐悲抱在去建造讲偷进打亲吻藏闻嗅恨哭'//['是', '看', '听', '吃', '喝'];
+    w2 = ['知道', '想要', '不是', '喜欢', '追逐','沉默','反驳','去了','进入','离开','得到','拥有','丢了','在乎','嘲笑','拥抱','无视','暗恋','回忆','忘记','羡慕','怜悯','学习','哎呀','祈求'];
+    w3 = ['粉红色', '纯白色', '黄绿色', '太高兴','纯黑色','受不了','太伤心','忘记了','不喜欢','没办法','无所谓','不在乎','顶不住','要不起','嘤嘤嘤','知道了','也一样','两开花','了不起','撑住了','长大了','坏掉了','逃跑了','你说呢','笑哈哈','全都有','不要了','真好看','但太大','本来想','顶得住','没问题',];
+
+    //生成从minNum到maxNum的随机数
+    function randomNum(minNum, maxNum) {
+        switch (arguments.length) {
+            case 1:
+                return parseInt(Math.random() * minNum + 1, 10);
+                break;
+            case 2:
+                return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
+                break;
+            default:
+                return 0;
+                break;
+        }
+    };
+    function go() {
+        //console.log("sum=" + document.getElementById('sum').value + ";style=" + document.getElementById('norm_style').value);
+        //console.log(senryu(Number(document.getElementById('norm_style').value)))
+        for (var i = 0; i < Number(document.getElementById('sum').value); i++) {
+            document.getElementById('printzone').innerHTML = document.getElementById('printzone').innerHTML + '<br/>' + senryu(Number(document.getElementById('norm_style').value));
+        }
+    };
+    function lego(arry) {
+        return arry[randomNum(0,arry.length-1)]
+    };
+
+    function senryu(sty) {
+        if (sty == 0) {
+            sty=randomNum(1,2)
+        };
+
+        switch (sty) {
+            case 1: return lego(z3) + lego(w2) + '，' + lego(z3) + lego(w1) + lego(z3) + '，' + lego(z2) + lego(w1) + lego(z2);
+                break;
+            case 2: return lego(z2) + lego(z3) + '，' + lego(w2) + lego(z3) + lego(z2) + '，' + lego(w2) + lego(w3);
+                break;
+            default: console.log('ERRO:unknown norm_style:'+sty+'; in line 84')
+        }
+    }
+</script>

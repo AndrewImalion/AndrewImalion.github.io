@@ -10,15 +10,17 @@ layout: default
                         {% endfor %}
                     </div>
 
-                    {% comment %}<h2></h2>
+                    {% comment %}
                     always create a h2 for keeping the margin , Hux
                     {% endcomment %}
                     {% comment %} if page.subtitle {% endcomment %}
                     {% comment %} endif {% endcomment %}
-                    <span class="authorline">Posted by <i>{% if page.author %}{{ page.author }}{% else %}GreatBaron{% endif %}</i> on {{ page.date | date_to_string }}</span>
-                    <hr>
-                </div>
+ </div>
 
 <div class="post">
   {{ content }}
+	<span class="authorline">Posted by 
+		<i>{% if page.author %}{{ page.author }}{% else %}GreatBaron{% endif %}</i> 
+		on {{ page.date | date_to_string }}
+	</span>
 </div>

@@ -49,9 +49,6 @@ ul.posts li { list-style: none; /*font-size: 1.5em;*/}
 /* My Css*/
 .authorline {
     font-family:'Times New Roman','Times', serif;
-    font-size: 1.2em;
-    font-style: italic;
-    float: right;
 }
     
 .post-abstract {

@@ -57,6 +57,7 @@ ul.posts li { list-style: none; /*font-size: 1.5em;*/}
     color: #888888;
 }
 
+/*Tag*/
 .tag {
     border-radius: 10px; 
     border: 1px solid #888888;
@@ -68,6 +69,18 @@ ul.posts li { list-style: none; /*font-size: 1.5em;*/}
 		background-color:#888888;
 		font-family: 'Arial';
 		display: inline-block;
+}
+
+.tag-size{
+		border-radius: 10px; 
+    border: 1px solid #888888;
+    padding: 0px 5px 1px;
+		margin: 1px 0px; 
+    width: auto; 
+    height: auto; 
+		color: white;
+		background-color:#888888;
+		font-family: 'Arial';
 }
 
 .topheading{

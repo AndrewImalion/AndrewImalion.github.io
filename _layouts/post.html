@@ -24,3 +24,30 @@ layout: default
 		on {{ page.date | date_to_string }}
 	</span>
 </div>
+<script>
+	//统计字数 v0
+
+var reg_zh = /[\u4e00-\u9fe6]/g;
+var reg_sym = /[，。：；“？！]/g;
+var reg_la = /[A-z]+/g;
+
+function wordcount(str){
+	let zh,sym,la;
+	zh=str.match(reg_zh).length;
+	sym=str.match(reg_sym).length;
+	la=str.match(reg_la).length;
+
+	let total=zh+sym+la;
+	console.log('chinese characters: '+zh);
+	console.log('symbol characters: '+sym);
+	console.log('latin words: '+la);
+	console.log('total words: '+total);
+	
+	return total;
+};
+
+//接口
+var sum = wordcount(document.getElementByClassName('container')[0].innerHTML);/*统计 class=container 的第一个内容*/
+
+//document.getElementsById('wordcount').innerHTML="<span>总字数："+sum+"</span>";
+</script>

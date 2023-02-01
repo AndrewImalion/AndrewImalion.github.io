@@ -62,11 +62,15 @@ ul.posts li { list-style: none; /*font-size: 1.5em;*/}
 
 .tag {
     border-radius: 10px; 
-    border: 2px solid #888888;
-    margin: 10px 5px;
-    padding: 5px; 
+    border: 1px solid #888888;
+    padding: 0px 5px 1px;
+		margin: 1px 0px; 
     width: auto; 
-    height: 80px; 
+    height: auto; 
+		color: white;
+		background-color:#888888;
+		font-family: 'Arial';
+		display: inline-block;
 }
 
 .topheading{

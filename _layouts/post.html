@@ -47,7 +47,7 @@ function wordcount(str){
 };
 
 //接口
-var sum = wordcount(document.getElementByClassName('container')[0].innerHTML);/*统计 class=container 的第一个内容*/
+var sum = wordcount(document.getElementsByClassName('post')[0].innerHTML);/*统计 class=container 的第一个内容*/
 
 //document.getElementsById('wordcount').innerHTML="<span>总字数："+sum+"</span>";
 </script>

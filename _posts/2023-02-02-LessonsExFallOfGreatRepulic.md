@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: post-minibo
+header-img: https://www.martialtribes.com/wp-content/uploads/2017/08/fall-of-rome-1-1177x588.jpg
 title: 一个伟大共和国覆灭的教训
 subtitle: Lessons from the Fall of a Great Repulic
 description: To bury, not to praise 埋葬，而不是赞美 
@@ -42,5 +43,5 @@ Yet while some Romans swilled from ornate goblets, the majority drank a more bit
 What remains one of the world’s longest-lasting republics fell by the end of the first century bc, to be replaced by autocracy. Rome had defeated its enemies abroad but, argues Mr Watts, it was undone from within by greed and inequality—and by the sort of politicians “who breach a republic’s political norms”, plus “citizens who choose not to punish them”.  
 世界上持续时间最久的共和国之一，在公元一世纪末轰然倒塌，被独裁统治所取代。罗马共和国在对外战争中未曾失败，但Watts先生认为，贪婪和不平等以及“违反共和国政治规范的政客”连同“选择不惩罚他们的公民”从内部葬送了她。
 
-Translated from *The Economist*，[Lessons from the fall of a great republic](https://www.economist.com/books-and-arts/2018/12/08/lessons-from-the-fall-of-a-great-republic?fsrc=scn/tw/te/bl/ed/lessonsfromthefallofagreatrepublictoburynottopraise)
+GreatBaron translated from *The Economist*，[Lessons from the fall of a great republic](https://www.economist.com/books-and-arts/2018/12/08/lessons-from-the-fall-of-a-great-republic?fsrc=scn/tw/te/bl/ed/lessonsfromthefallofagreatrepublictoburynottopraise)
 

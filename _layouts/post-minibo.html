@@ -7,10 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="shortcut icon" href="{{ site.url }}/img/favicon.ico">
-
+ 
 		<style>
+			h1, h2 {
+				text-shadow: 2px 2px 5px grey;
+			}
+
 			#Sphead {
-				background-image: url({% if page.header-img %}"page.header-img"{% else %}"{{ site.url }}\/img\/for404.jpg"{% endif %} );
+				background-image: url({% if page.header-img %}{{page.header-img}}{% else %}"{{ site.url }}\/img\/for404.jpg"{% endif %} );
 				background-position: center 0;
 				background-repeat: no-repeat;
 				background-attachment: fixed;
@@ -48,8 +52,9 @@
 
 	<div class="tags">
 	{% for tag in page.tags %}
-	 <a class="tag" href="{{ site.baseurl }}/tags#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+	 <a class="nav-link badge bg-primary" href="{{ site.baseurl }}/tags#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
 	{% endfor %}
+
 	</div>
 
 	{% if page.description %}

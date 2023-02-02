@@ -1,6 +1,6 @@
 ---
 layout: post-minibo
-header-img:
+header-img: https://andrewimalion.github.io/img/amami_radius.png
 title: ti标题
 subtitle: subti副标题
 description: des描叙

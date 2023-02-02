@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: post-minibo
+header-img: 
 title: 为什么关羽死后就不想继续读《三国》了？
 subtitle: the Death of Greatness
 description: 

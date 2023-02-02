@@ -4,17 +4,12 @@ layout: miniboots
 
 
 
-
 <div class="tags">
 	{% for tag in page.tags %}
 	 <a class="nav-link badge bg-primary" href="{{ site.baseurl }}/tags#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
 	{% endfor %}
 </div>
 
-	{% if page.description %}
-	<div class="text-info"><p>{{ page.description }}</p></div>
-	{% endif %}
-	
 <div class="post">
   {{ content }}
 </div>

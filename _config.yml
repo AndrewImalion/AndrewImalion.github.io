@@ -3,3 +3,5 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
 collections:
+  my_trands:
+    output: true

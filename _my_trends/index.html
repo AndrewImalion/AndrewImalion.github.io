@@ -5,4 +5,11 @@ subtitle: my status
 description: 最新动态：
 permalink: trends
 ---
+
+<ul>
+{% for status in site.my_trends %}
+    <li><span>{{ status.content | strip_html | truncate:300}}</span></li>
+{% endfor %}
+</ul>
+
 :smile:

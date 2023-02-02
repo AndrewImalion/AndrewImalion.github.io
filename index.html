@@ -20,9 +20,6 @@ description: Powered by GitHub
     {% for my_trends in site.my_trends %}
     <span>{{ my_trends.content | strip_html | truncate:300}}</span>
     {% endfor %}
-		{% for my_status in site.my_stati %}
-    <span>{{ my_status.content | strip_html | truncate:300}}</span>
-    {% endfor %}
     <a href="/trend.html" >更多动态</a></p>
 </div>
 

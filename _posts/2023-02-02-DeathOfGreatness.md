@@ -5,7 +5,6 @@ subtitle: the Death of Greatness
 description: 
 permalink: the-death-of-greatness
 published: true
-date: 2003
 author: Brian Lanning
 tags:
 - 文艺

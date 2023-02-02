@@ -1,6 +1,6 @@
 ---
 layout: post-minibo
-header-img: {{ site.url }}/img/amami_radius.png
+header-img:
 title: ti标题
 subtitle: subti副标题
 description: des描叙

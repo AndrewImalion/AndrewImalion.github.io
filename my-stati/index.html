@@ -4,6 +4,7 @@ title: 我的动态
 subtitle: my status
 description: 最新动态：
 permalink: trends
+author:	GreatBaron
 ---
 
 {% for status in site.my_trends %}
@@ -13,7 +14,7 @@ permalink: trends
 		{% if status.feeling %}心情：{{status.feeling}} {% endif %}		
 	</div>
   <div class="card-body">
-    <h4 class="card-title">{% if status.title %}{{ status.title}}{% endif %}{{status.author}}</h4>
+    <h4 class="card-title">{{status.author}}</h4>
     <p class="card-text">{{ status.output | truncate:140,""}}
     <a href="{{status.url}}" class="card-link">...>链接</a></p>
   </div>
@@ -23,11 +24,10 @@ permalink: trends
 </div><p></p>
 {% endfor %}
 
+<!--
 <ul>
 {% for status in site.my_trends %}
     <li><span>{{ status.content | strip_html | truncate:300}}</span></li>
 {% endfor %}
 </ul>
-
-:smile:
-:bad:
+-->

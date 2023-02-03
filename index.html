@@ -8,9 +8,17 @@ description:
 <div class="container pt-5">
 	<div class="row">
 		<div class="col-sm-4">关于我<hr/>常用工具</div>
-		<div class="col-sm-8">动态</div>
+		<div class="col-sm-8">动态
+			<hr/><h3>My Blogs:</h3>
+    <ul>
+        {% for post in site.posts limit:7 %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a><br/>
+            <span class="post-abstract">{{ post.content | strip_html | truncate:140 }}</span>
+        </li>
+        {% endfor %}
+    </ul></div>
 	</div>
-	<div class="row">我的博客</div>
 </div>
 
 
@@ -32,6 +40,7 @@ description:
     <a href="/trends" >更多动态</a></p>
 </div>
 
+<!--
 <div>
     <h2>My Blogs:</h2>
     <ul>
@@ -43,4 +52,4 @@ description:
         {% endfor %}
     </ul>
 </div>
-
+-->

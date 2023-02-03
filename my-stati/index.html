@@ -10,8 +10,8 @@ author:	GreatBaron
 {% for status in site.my_trends %}
 	<div class="card">
 	<div class="card-header bg-primary text-white">{{status.date | date_to_string}}
-		{% if status.weather %}天气：{{status.weather}} {% endif %}
-		{% if status.feeling %}心情：{{status.feeling}} {% endif %}		
+		{% if status.weather %}<span style="display:inline-block">天气：{{status.weather}} </span>{% endif %}
+		{% if status.feeling %}<span style="display:inline-block">心情：{{status.feeling}} </span>{% endif %}		
 	</div>
   <div class="card-body">
     <h4 class="card-title">{{status.author}}</h4>

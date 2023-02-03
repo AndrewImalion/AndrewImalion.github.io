@@ -6,6 +6,19 @@ description: 最新动态：
 permalink: trends
 ---
 
+{% for status in site.my_trends %}
+    <span>{{ status.content | strip_html | truncate:300}}</span>
+	<div class="card">
+	<div class="card-header bg-primary text-white">{{status.date}} 天气：{{status.weather}} 心情：{{status.feeling}}</div>
+  <div class="card-body">
+    <h4 class="card-title">{{ status.title}}</h4>
+    <p class="card-text">{{ status.content | strip_html | truncate:300}}</p>
+    <a href="{{status.url}}" class="card-link">卡片链接</a>
+  </div>
+	 <div class="card-footer">页脚</div>
+</div>
+{% endfor %}
+
 <ul>
 {% for status in site.my_trends %}
     <li><span>{{ status.content | strip_html | truncate:300}}</span></li>

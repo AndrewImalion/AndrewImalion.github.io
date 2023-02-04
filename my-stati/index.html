@@ -7,7 +7,9 @@ permalink: trends
 author:	GreatBaron
 ---
 
-{% for status in site.my_trends %}
+{% assign stati = site.my_trends | reverse %}
+
+{% for status in stati %}
 	<div class="card">
 	<div class="card-header bg-primary text-white">{{status.date | date_to_string}}
 		{% if status.weather %}<span style="display:inline-block">天气：{{status.weather}} </span>{% endif %}

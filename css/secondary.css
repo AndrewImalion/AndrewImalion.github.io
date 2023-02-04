@@ -1,0 +1,18 @@
+/*
+    for my blog layout miniboots
+    GreatBaron, 2023 Feb.2
+    ver 0
+*/
+
+p{
+	text-align: justify;
+}
+
+#Sphead {
+    background-image: url("{{ site.url }}/img/for404.jpg" );
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 2px 2px 5px grey;
+}

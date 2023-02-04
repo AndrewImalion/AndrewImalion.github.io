@@ -2,54 +2,48 @@
 layout: miniboots
 title: GreatBaron
 subtitle: 伯伦大人的个人站点
-description: 
+description:
 ---
 
 <div class="container pt-5">
 	<div class="row">
-		<div class="col-sm-4">关于我<hr/>常用工具</div>
-		<div class="col-sm-8">动态
-			<hr/><h3>My Blogs:</h3>
-    <ul>
-        {% for post in site.posts limit:7 %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a><br/>
-            <span class="post-abstract">{{ post.content | strip_html | truncate:140 }}</span>
-        </li>
-        {% endfor %}
-    </ul></div>
+		<div class="col-sm-4">
+			<div id="index-about">
+				<h3>关于我</h3>
+				<p>
+					Lorem ipsum dolor sit amet erat accusam et elitr sea sit eos dolores eirmod. Aliquip dignissim nonumy kasd sed
+					facilisis adipiscing at ut esse est sea aliquyam et. Dolor justo lobortis. Magna sea blandit labore dolores
+					dolore kasd. Nonummy kasd clita praesent. Ut erat eum sea eu dolor dolor tempor amet. Eros iusto esse est diam
+					sadipscing sadipscing liber dolore. Liber nulla magna et et laoreet amet. Et lorem consectetuer.
+					<a href="/about">Read more about me...</a>
+				</p>
+			</div>
+			<div id="index-extra">
+			常用工具
+			</div>
+		</div>
+		<div class="col-sm-8">
+			<div id="index-stati">
+				<h3>最新动态</h3>
+				{% for my_trends in site.my_trends | reverse %}
+				<span>{{ my_trends.content | strip_html | truncate:300}}</span>
+				{% endfor %}
+				<a href="/trends">更多动态</a></p>
+			</div>
+			<div id="index-blogs">
+				<h3>我的博客</h3>
+				<ul>
+					{% for post in site.posts limit:7 %}
+					<li>
+						<a href="{{ post.url }}">{{ post.title }}</a><br />
+						<span class="post-abstract">{{ post.content | strip_html | truncate:140 }}</span>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
 	</div>
+	<!--
+		TODO: more extra and their CSS
+	-->
 </div>
-
-
-<div class="blurb">
-    <h2>Lorem ipsum dolor sit amet</h2>
-    <p>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis 
-    parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
-    massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-        <em>Etiam rhoncus</em>. <i>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing 
-        sem neque sed ipsum</i>. 
-    <a href="/about">Read more about me...</a></p>
-</div>
-
-<h2>Latest Trend:</h2>
-<div class="trend-shortcut">
-    {% for my_trends in site.my_trends %}
-    <span>{{ my_trends.content | strip_html | truncate:300}}</span>
-    {% endfor %}
-    <a href="/trends" >更多动态</a></p>
-</div>
-
-<!--
-<div>
-    <h2>My Blogs:</h2>
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a><br/>
-            <span class="post-abstract">{{ post.content | strip_html | truncate:400 }}</span>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
--->

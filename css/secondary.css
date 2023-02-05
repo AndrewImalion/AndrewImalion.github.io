@@ -9,11 +9,11 @@ p{
 }
 
 #Sphead {
-    /*{% if page.header-img %}*/
-    background-image: url("{{ header-img }}" );
-    /* {% else %} */
+    
+    /*background-image: url("{{ header-img }}" );*/
+    
     background-image: url("{{ site.url }}/img/defaultHeaderImg.jpg" );
-    /* {% endif %} */
+    
     background-position: center 0;
     background-repeat: no-repeat;
     background-attachment: fixed;

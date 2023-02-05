@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: minibo
 title: 论冈比西斯与赵伯宗
 subtitle: On Cambyses II and Zhao Bozong
 description: 

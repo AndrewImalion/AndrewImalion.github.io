@@ -1,7 +1,7 @@
 /*
     for my blog layout miniboots
     GreatBaron, 2023 Feb.2
-    ver 0.1
+    ver 0.11
 */
 
 p{
@@ -9,11 +9,11 @@ p{
 }
 
 #Sphead {
-    {% if page.header-img %}
+    /*{% if page.header-img %}*/
     background-image: url("{{ header-img }}" );
-    {% else %}
+    /* {% else %} */
     background-image: url("{{ site.url }}/img/defaultHeaderImg.jpg" );
-    {% endif %}
+    /* {% endif %} */
     background-position: center 0;
     background-repeat: no-repeat;
     background-attachment: fixed;

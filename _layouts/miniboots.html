@@ -12,7 +12,7 @@
 	<style>
 		#Sphead {
     {% if page.header-img %}
-    background-image: url("{{ header-img }}" );
+    background-image: url("{{ page.header-img }}" );
     {% else %}
     background-image: url("{{ site.url }}/img/defaultHeaderImg.jpg" );
     {% endif %}

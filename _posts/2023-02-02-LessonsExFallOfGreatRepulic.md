@@ -1,6 +1,6 @@
 ---
 layout: post-minibo
-header-img: https://www.martialtribes.com/wp-content/uploads/2017/08/fall-of-rome-1-1177x588.jpg
+header-img: 'https://www.martialtribes.com/wp-content/uploads/2017/08/fall-of-rome-1-1177x588.jpg'
 title: 一个伟大共和国覆灭的教训
 subtitle: Lessons from the Fall of a Great Repulic
 description: To bury, not to praise 埋葬，而不是赞美 

@@ -7,16 +7,3 @@
 p{
 	text-align: justify;
 }
-
-#Sphead {
-    
-    /*background-image: url("{{ header-img }}" );*/
-    
-    background-image: url("{{ site.url }}/img/defaultHeaderImg.jpg" );
-    
-    background-position: center 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    text-shadow: 2px 2px 5px grey;
-}

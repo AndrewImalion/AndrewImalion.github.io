@@ -25,8 +25,9 @@ description:
 		<div class="col-sm-8">
 			<div id="index-stati">
 				<h3>最新动态</h3>
-				{% for my_trends in site.my_trends | reverse %}
-				<span>{{ my_trends.content | strip_html | truncate:300}}</span>
+				{% assign stati = site.my_trends | reverse %}
+				{% for status in stati | reverse %}
+				<span>{{ status.content | strip_html | truncate:300}}</span>
 				{% endfor %}
 				<a href="/trends">更多动态</a></p>
 			</div>

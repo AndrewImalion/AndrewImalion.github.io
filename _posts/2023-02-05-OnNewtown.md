@@ -37,7 +37,7 @@ tags:
 
 ``` 
 Reference
-1. Wikiquote.(2 April 2019).Isaac Newton.url:[Latest on 9 April 2019,at a.m. 11:01]
+1. Wikiquote.(2 April 2019).Isaac Newton.url:[Latest on 5 February 2023,at 12:26](https://en.wikiquote.org/wiki/Isaac_Newton#Quotes_about_Newton)
 2. 曹天元.(January 2006).上帝掷骰子么？.辽宁教育出版社.(4).
 3. Dodd,H.D.(1875)The Epigrammatists : A Selection from the Epigrammatic Literature of Ancient, Mediæval, and Modern Times
 4. Newtown,I.(15 February 1676).Letter to Robert Hooke.

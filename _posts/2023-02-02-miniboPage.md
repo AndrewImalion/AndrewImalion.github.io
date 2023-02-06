@@ -5,7 +5,7 @@ title: ti标题
 subtitle: subti副标题
 description: des描叙
 permalink: minibo-page
-published: true
+published: false
 date: 2023-02-02
 author: GreatBaron
 tags:

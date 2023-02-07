@@ -6,8 +6,5 @@ feeling:	Moderate
 cata: ':lia:'
 ---
 
-this is a carmen from my data
-{{site.data.selfPraiseI.id}}  
-{{site.data.selfPraiseI.publicTitle}}  
-{{site.data.selfPraiseI.body}}
-{{site.data.selfPraiseI.log}}  
+this is a carmen from my data  
+{{site.data.car.name}}  

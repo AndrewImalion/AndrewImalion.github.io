@@ -19,12 +19,10 @@ description:
 			<img class="img-fluid" src="img/defaultHeaderImg.jpg"/>
 			<h3 class="pt-5">常用工具</h3>
 			<ol class="container-fluid">
-				<li><a href="JavaScript:void(0)">链接文字应当足够长使之适合视觉效果</a></li>
-				<li><a href="JavaScript:void(0)">link</a></li>
-				<li><a href="JavaScript:void(0)">link</a></li>
-				<li><a href="JavaScript:void(0)">link</a></li>
-				<li><a href="JavaScript:void(0)">link</a></li>
-			</ol>
+	{% for tool in site.data.favorTools limit:5 %}
+	<li><a href="{{tool.url}}">{{tool.name}}</a></li>
+	{% endfor %}
+</ol>
 			<hr/>
 				<h3>朋友链接</h3>
 					<a href="https://www.douban.com/people/imalio/?_i=5669782e0oG591" target="_blank"><img class="img-fluid pt-1" src="img/DoubanLink.svg"/></a>

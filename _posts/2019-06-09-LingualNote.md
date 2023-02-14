@@ -8,7 +8,6 @@ catalog: true
 author: GreatBaron
 tags:
 - 语言学
-- 构造语言
 ---
 
 我们尝试构造一门语言，目前先给它起一个代号`Z2语`。

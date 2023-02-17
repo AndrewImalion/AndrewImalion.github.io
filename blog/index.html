@@ -34,7 +34,7 @@ description: Rem tene, verba sequentur. —— M.P.Cato
   {% endif %}
   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+    <a href="/blog/page{{ paginator.next_page }}" class="next">Next</a>
   {% else %}
     <span class="next ">Next</span>
   {% endif %}

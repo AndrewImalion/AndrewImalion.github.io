@@ -2,7 +2,7 @@ name: AndrewImalion
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-paginate: 5
+paginate: 7
 paginate_path: "blog/page:num"
 collections:
   my_trends:

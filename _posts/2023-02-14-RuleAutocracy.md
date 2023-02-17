@@ -9,7 +9,7 @@ published: true
 date: 2023-02-14
 author: GreatBaron
 tags:
-- 未分类
+- 政治
 ---
 
 ### 导论

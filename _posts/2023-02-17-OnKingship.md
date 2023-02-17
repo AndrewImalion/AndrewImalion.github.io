@@ -2,7 +2,7 @@
 layout: post-minibo
 header-img: 
 title: 捍卫共和：论王政
-subtitle: For Gato the Elder: Defend the Republic, On Kingship
+subtitle: "For Gato the Elder: Defend the Republic, On Kingship"
 description: 支持老家图
 permalink: on-kingship
 published: true

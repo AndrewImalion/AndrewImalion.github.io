@@ -42,26 +42,28 @@ description: Rem tene, verba sequentur. —— M.P.Cato
 <!--分页链接，处理page1的异常-->
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
+	<ul class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <li class="page-item"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
   {% else %}
-    <span>&laquo; Prev</span>
+    <li class="page-item"><span>&laquo; Prev</span></li>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <em>{{ page }}</em>
+      <li class="page-item"><em>{{ page }}</em></li>
     {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | replace: '//', '/' }}">{{ page }}</a>
+      <li class="page-item"><a href="{{ paginator.previous_page_path | replace: '//', '/' }}">{{ page }}</a></li>
     {% else %}
-      <a href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      <li class="page-item"><a href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
     {% endif %}
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <li class="page-item"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
   {% else %}
-    <span>Next &raquo;</span>
+    <li class="page-item"><span>Next &raquo;</span></li>
   {% endif %}
+	</ul>	
 </div>
 {% endif %}

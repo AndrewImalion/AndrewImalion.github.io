@@ -23,7 +23,7 @@ description: Rem tene, verba sequentur. —— M.P.Cato
 {% endfor %}
 </ul>
 
-<!-- 分页链接 -->
+<!-- old分页链接
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a>
@@ -37,8 +37,9 @@ description: Rem tene, verba sequentur. —— M.P.Cato
     <span class="next ">Next</span>
   {% endif %}
 </div>
+ -->
 
-<!--处理page1的异常-->
+<!--分页链接，处理page1的异常-->
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -51,9 +52,9 @@ description: Rem tene, verba sequentur. —— M.P.Cato
     {% if page == paginator.page %}
       <em>{{ page }}</em>
     {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      <a href="{{ paginator.previous_page_path | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      <a href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
   {% endfor %}
 

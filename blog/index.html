@@ -55,7 +55,7 @@ description: Rem tene, verba sequentur. —— M.P.Cato
     {% elsif page == 1 %}
       <li class="page-item"><a href="{{ paginator.previous_page_path | replace: '//', '/' }}">{{ page }}</a></li>
     {% else %}
-      <li class="page-item"><a href="{{ site.paginate_path | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+      <li class="page-item"><a href="{{ paginator.page | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
     {% endif %}
   {% endfor %}
 

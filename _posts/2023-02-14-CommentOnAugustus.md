@@ -1,7 +1,7 @@
 ---
 layout: post-minibo
 title: 谢谢你，盖乌斯
-subtitle: Gracias ago, Gaius
+subtitle: Gratias ago, Gaius
 description: '这是一篇关于A.Goldsworthy著的 Augustus: from Revolutionary to Emperor的评论'
 permalink: gratias-augustus
 published: true

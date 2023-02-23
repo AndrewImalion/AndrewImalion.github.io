@@ -10,7 +10,7 @@ date: 2023-02-23
 author: GreatBaron
 tags:
 - 评论
--	历史
+- 历史
 ---
 
 昔者，太祖决起于长沙

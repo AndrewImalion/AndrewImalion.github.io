@@ -7,3 +7,8 @@
 p{
 	text-align: justify;
 }
+
+img{
+    max-width:  100%;
+    height: auto;
+}

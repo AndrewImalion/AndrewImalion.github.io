@@ -9,6 +9,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 	<link rel="shortcut icon" href="{{ site.url }}/img/favicon.ico">
 	<link href="{{ site.url }}/css/secondary.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
 	<style>
 		#Sphead {
     {% if page.header-img %}
@@ -36,7 +37,7 @@
 			<ul class="navbar-nav">
 				<a href="#pages" class="nav-link active" data-bs-toggle="collapse">导航</a>
 				<div id="pages" class="collapse">
-					<li class="nav-item"><a class="nav-item nav-link active" href="/">主页</a></li>
+					<li class="nav-item"><a class="nav-link active" href="/">主页</a></li>
 					<!--<li class="nav-item"><a class="nav-link active" href="/about">关于</a></li>-->
 					<li class="nav-item"><a class="nav-link active" href="/trends">动态</a></li>
 					<li class="nav-item"><a class="nav-link active" href="/blog">博客</a></li>
@@ -60,8 +61,8 @@
 
 	<div class="mt-5 p-4 bg-dark text-white text-center">
 		©GreatBaron 2023,All Rights Reserved.<br/>
-		<a href="mailto:fantasyregina@foxmail.com" target="_blank">&#128231;email</a>
-		<a href="https://github.com/AndrewImalion" target="_blank">&#128100;GitHub</a>
+		<a href="mailto:fantasyregina@foxmail.com" target="_blank" class="text-white"><i class="bi bi-envelope-at-fill"></i>Email</a>
+		<a href="https://github.com/AndrewImalion" target="_blank" class="text-white"><i class="bi bi-github"></i>GitHub</a>
 	</div>
 </body>
 <script src="{{site.url}}/asset/mySugar.js"></script>

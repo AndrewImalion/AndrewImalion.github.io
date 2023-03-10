@@ -9,42 +9,49 @@ layout: nonav
     <meta charset="utf-8" />
     <title>404</title>
 
-    <style>
+        <style>
     body {
-            background-image: url("{{ site.url }}/img/for404.jpg");
-            background-size:100% 100%; 
+            background-image: url("for404.jpg");
+            background-size:cover; 
             background-repeat: no-repeat;
             text-align:center;
 
         }
-        
-    .big404 {
-            font-size: 7em;
-            color: white;
-        }
-    
+a{text-decoration: none;}
+
     .backindex{
             display:block;
             border-radius: 25px; 
             background: rgba(255,255,255,0.5); 
             padding: 10px;
             color:black;
+font-size:1.75em;
         }
+.backindex:hover{
+		background: #66ccff;
+		color:white;
+}
         
     </style>
-</head>
-<body>
+
+
 
     <div style="margin:10% 0 300px 0;">
         <span class="backindex">你来到了一个奇怪的地方</span>
-        <h1 class="big404">404</h1>
-        <div>
-            <h5>你只可到此处，不能复前行</h5>
-            <span style="font-style:italic;">——《约伯记 38：11》</span>
-            <a class="backindex" href="{{ site.url }}">返回主页</a>
-        </div>
+        <h1 style="font-size:9em;color:white;">404</h1>
+<blockquote style="font-size:1.25em; text-shadow: 1px 1px white;">
+            你只可到此处，不能复前行<br/>
+            <cite>——《约伯记 38：11》</cite></blockquote>
+            <a href="https://andrewimalion.github.io/"><div class="backindex">返回主页</div></a>
+
     </div>
 
 
-</body>
-</html>
+
+
+
+  </div>
+    
+  
+
+</body></html>

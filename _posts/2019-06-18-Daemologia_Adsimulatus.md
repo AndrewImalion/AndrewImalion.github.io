@@ -2,6 +2,7 @@
 title: 怪物学丨类人纲
 layout: pure
 permalink: /DaemonAdsimulatus.html
+published: false
 tags:
     - 怪物学
 ---

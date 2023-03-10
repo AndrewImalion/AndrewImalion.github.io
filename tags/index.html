@@ -21,14 +21,11 @@ description: 海纳百川，有容乃大
 			<p></p>
 			<div class="one-tag-list">
 				<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-					<span class="tag-text">&#127991;{{ tag[0] }}</span>
-					<span class="badge rounded-pill bg-secondary">{{ tag[1].size }}</span>
+					<h3 class="tag-text"><i class="bi bi-tag"></i>{{ tag[0] }}
+					<span class="badge rounded-pill bg-secondary">{{ tag[1].size }}</span></h3>
 				</span>
 				{% for post in tag[1] %}
-				<!-- <li class="listing-item">
-				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				  </li> -->
+				
 				<div class="post-preview">
 					<a href="{{ post.url | prepend: site.baseurl }}">
 						<b class="post-title">
@@ -40,7 +37,7 @@ description: 海纳百川，有容乃大
 						</i>
 						{% endif %}
 					</a>
-					<!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+					
 				</div>
 				{% endfor %}
 			</div>

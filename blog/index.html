@@ -2,17 +2,9 @@
 layout: miniboots
 title: 我的博客
 subtitle: My Blogs
-header-img: https://FameAndFarm.github.io/img/pic-bg-ship.jpg
+header-img: 'https://images.pexels.com/photos/851213/pexels-photo-851213.jpeg'
 description: Rem tene, verba sequentur. —— M.P.Cato
 ---
-
-<!-- all posts
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-  {% endfor %}    
-</ul>
--->
 
 <!-- 遍历分页后的文章 -->
 <ul class="posts">
@@ -22,22 +14,6 @@ description: Rem tene, verba sequentur. —— M.P.Cato
 	</li>  
 {% endfor %}
 </ul>
-
-<!-- old分页链接
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="/blog/page{{ paginator.next_page }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
- -->
 
 <!--分页链接，处理page1的异常-->
 {% if paginator.total_pages > 1 %}
@@ -69,10 +45,4 @@ description: Rem tene, verba sequentur. —— M.P.Cato
 {% endif %}
 
 <p></p>
-<a href="{{site.baseurl}}/tags">
-	<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
-  <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
-  <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
-	</svg>
-	点击此处按分类标签检阅
-</a>
+<a href="{{site.baseurl}}/tags"><i class="bi bi-tags"></i> 点击此处按分类标签检阅</a>

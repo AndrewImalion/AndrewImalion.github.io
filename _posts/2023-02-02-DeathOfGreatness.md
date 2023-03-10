@@ -2,11 +2,11 @@
 layout: post-minibo
 header-img: 
 title: 为什么关羽死后就不想继续读《三国》了？
-subtitle: the Death of Greatness
+subtitle: 'the Death of Greatness'
 description: 
 permalink: the-death-of-greatness
 published: true
-author: Brian Lanning
+author: 'Brian Lanning'
 tags:
 - 文艺
 - 情感
@@ -43,7 +43,7 @@ tags:
 正是：
  > 龙游沟壑遭虾戏，凤入牢笼被鸟欺。
 
-![关云长败走麦城](https://wx2.sinaimg.cn/large/008i403Cly1haoyrys2qwj30e70kin00.jpg)
+![关云长败走麦城](https://pic.imgdb.cn/item/640b3085f144a010073d9130.jpg)
 
 translated by GreatBaron, 2018 Nov.5  
 [原文链接](https://www.kongming.net/novel/writings/blanning/death_of_greatness.php)

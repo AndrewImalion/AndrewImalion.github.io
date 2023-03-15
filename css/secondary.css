@@ -1,7 +1,7 @@
 /*
     for my blog layout miniboots
     GreatBaron, 2023 Feb.2
-    ver 0.12
+    ver 0.13
 */
 
 p {
@@ -19,8 +19,17 @@ blockquote {
 	margin: 1.5em 10px;
 	padding: 0.5em 10px;
 }
+
+/*为大屏幕配置最小高度*/
 @media only screen and (min-width: 600px) {
 #main{
 min-height:535px;
 }
+}
+
+/*为小屏幕配置header-img尺寸*/
+@media only screen and (max-width: 600px){
+	#Sphead {
+		background-size: cover;
+	}
 }

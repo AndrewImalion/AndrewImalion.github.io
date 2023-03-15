@@ -19,25 +19,25 @@ layout: miniboots
 </span>
 
 <hr style="visibility: hidden;">
-                <ul class="pager">
+                <ul class="pagination">
                     {% if page.previous.url %}
-                    <li class="previous">
+                    <li class="page-item">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
-                        Previous<br>
+                        上一篇：<br>
                         <span>{{page.previous.title}}</span>
                         </a>
                     </li>
                     {% endif %}
                     {% if page.next.url %}
-                    <li class="next">
+                    <li class="page-item">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
-                        Next<br>
+                        下一篇：<br>
                         <span>{{page.next.title}}</span>
                         </a>
                     </li>
                     {% endif %}
                 </ul>
-                <hr style="visibility: hidden;">
+<hr style="visibility: hidden;">
 
 
 <script>

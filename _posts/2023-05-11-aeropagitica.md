@@ -44,3 +44,5 @@ For that imagination the exploiter and exploitee hands in hands sibilingly is im
 The monarch never regards people as individuals.He takes them as his servants or slaves,as the lambs need his lead,as the resource to implement his own epic reveries!
 
 首发于豆瓣(2018Sept.5) [原文链接](https://www.douban.com/note/689136614/)
+
+![Aeropagitica](https://pic2.imgdb.cn/item/645db3610d2dde5777e6b49c.jpg)

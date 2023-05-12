@@ -12,7 +12,7 @@ tags:
 - 评论
 ---
 
-Do not give anybody advice,cox that,anyway,they never listen.
+Do not give anybody advice, cox that, anyway, they never listen.
 
 > You all, absolutely understand all these words I said. People are not asleep. They FAKE sleeping.
 

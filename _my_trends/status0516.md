@@ -11,9 +11,7 @@ testing carmen
 total sum of my carminia: {{site.data.carminia | size}}
 
 <ol>
-{% for car in site.data.carminia %}
-  
+{% for car_hash in site.data.carminia %}
+{% assign car = car_hash[1] %}
 <li>{{ car.id }}; {{ car.publicTitle }}</li>
-  
 {% endfor %}
-

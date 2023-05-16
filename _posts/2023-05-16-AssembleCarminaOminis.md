@@ -29,7 +29,7 @@ total sum of my carminia: {{site.data.carminia | size}}
 {{ car.body }}  
 (*{{ car.date }}*)
 
-{{% if car.notes.size => 1 %}}
+{{% if car.notes.size >= 1 %}}
 **Notes**
 {% for nt in car.notes  %}
 1. {{ nt }}
@@ -39,4 +39,4 @@ total sum of my carminia: {{site.data.carminia | size}}
 {{ car.log }}
 -->
 {% endfor %}
-<p></p>
+<p>&emsp;</p>

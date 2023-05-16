@@ -36,8 +36,7 @@ total sum of my carminia: {{site.data.carminia | size}}
 <li>{{ nt }}</li>
 {% endfor %}
 </ol>
-{{% endif %}}
-</details>
+</details>{% endif %}
 <!--
 {{ car.log }}
 -->

@@ -33,10 +33,12 @@ total sum of my carminia: {{site.data.carminia | size}}
 {% for car_hash in site.data.carminia %}
 {% assign car = car_hash[1] %}
 <h3 id="{{ car.id }}">{{ car.publicTitle }}</h3>
-{{ car.date }}  
+{{ car.body }}  
 (*{{ car.date }}*)
 
+{{% if car.notes %}}
 **Notes**
+{{% endif %}}
 {% for nt in car.notes  %}
 1. {{ nt }}
 {% endfor %}

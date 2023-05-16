@@ -13,9 +13,12 @@ tags:
 - Archive
 ---
 
+total sum of my carminia: {{site.data.carminia | size}}
+
 {% assign poem = site.data.carminia.car0001-bob %}
 ### {{ poem.publicTitle }}
 {{ poem.body }}
+
 (*{{ poem.date }}*)
 #### Notes
 {% for nt in poem.notes  %}
@@ -26,3 +29,18 @@ tags:
 {{ poem.log }}
 -->
 ---
+
+{% for car_hash in site.data.carminia %}
+{% assign car = car_hash[1] %}
+<h3 id="{{ car.id }}">{{ car.publicTitle }}</h3>
+{{ car.date }}  
+(*{{ car.date }}*)
+
+**Notes**
+{% for nt in car.notes  %}
+1. {{ nt }}
+{% endfor %}
+<!--
+{{ car.log }}
+-->
+{% endfor %}

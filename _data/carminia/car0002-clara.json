@@ -1,8 +1,8 @@
 {
-    "id":"car0003",
-    "publicTitle":"Clara",
-    "date":"aaaa-mm-dd",
-    "body":"Lorem ipsum<br/>&#emsp;and it doesn't hurt my body.",
-    "notes":[],
-    "log":"0"
+    "id":"car0002",
+    "publicTitle":"赠戚氏",
+    "date":"2014-05-16",
+    "body":"高门紫檐琉璃飞，<br/>汉皇白登总解围。<br/>富贵生得九五家，<br/>不见如意东宫回。",
+    "notes":["date is unknown, no later than 2014June","Pink, p.50"],
+    "log":"2017-06-14: Pink, p.50"
 }

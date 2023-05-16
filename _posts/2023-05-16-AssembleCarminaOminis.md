@@ -16,3 +16,9 @@ tags:
 {% assign poem = site.data.carminia.car0001-bob %}
 ### {{ poem.publicTitle }}
 {{ poem.body }}
+{% for nt in poem.notes  %}
+#### Notes
+- {{ nt }}
+{% endfor %}
+
+---

@@ -16,9 +16,13 @@ tags:
 {% assign poem = site.data.carminia.car0001-bob %}
 ### {{ poem.publicTitle }}
 {{ poem.body }}
-{% for nt in poem.notes  %}
+(*{{ poem.date }}*)
 #### Notes
-- {{ nt }}
+{% for nt in poem.notes  %}
+1. {{ nt }}
 {% endfor %}
 
+<!--
+{{ poem.log }}
+-->
 ---

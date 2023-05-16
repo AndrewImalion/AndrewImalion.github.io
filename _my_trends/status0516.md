@@ -17,17 +17,3 @@ total sum of my carminia: {{site.data.carminia | size}}
   
 {% endfor %}
 
-{{% assign id = site.data.carminia.car0001-bob %}}
-  
-### {{ id.publicTitle }}
-  
-{{ id.body }}
-
-(*{{ id.date }}*)
-
-#### notes
-  
-{% for nt in id.notes %}
-- {{ nt }}
-  
-{{% endfor %}}

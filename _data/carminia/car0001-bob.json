@@ -1,0 +1,8 @@
+{
+    "id":"car0001",
+    "publicTitle":"Bob",
+    "date":"aaaa-mm-dd",
+    "body":"我能吃玻璃，<br/>&#emsp;还不伤身体.",
+    "notes":["this is bob","a single line"],
+    "log":"0"
+}

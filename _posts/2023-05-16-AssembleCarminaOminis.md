@@ -28,7 +28,6 @@ total sum of my carminia: {{site.data.carminia | size}}
 <h3 id="{{ car.id }}">{{ car.publicTitle }}</h3>
 {{ car.body }}  
 (*{{ car.date }}*)
-
 {% if car.notes.size >= 1 %}
 <details>
 <summary>Notes({{ car.notes.size }})</summary>

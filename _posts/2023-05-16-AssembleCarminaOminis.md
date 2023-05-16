@@ -17,10 +17,10 @@ total sum of my carminia: {{site.data.carminia | size}}
 
 
 ### index
-{% for list_hash in site.data.carminia %}
-{% assign li = list_hash[1] %}
-1. [{{ li.id }}: {{ li.publicTitle }}](#{{ li.id }})
-{% endfor %}
+
+{% for list_hash in site.data.carminia %}{% assign li = list_hash[1] %}
+1. [{{ li.id }}: {{ li.publicTitle }}](#{{ li.id }}){% endfor %}
+
 ---
 
 {% for car_hash in site.data.carminia %}
@@ -31,7 +31,7 @@ total sum of my carminia: {{site.data.carminia | size}}
 
 {{% if car.notes.size >= 1 %}}
 <details>
-<summary>Notes</summary>
+<summary>Notes({{ car.notes.size }})</summary>
 <ol>
 {% for nt in car.notes  %}
 <li>{{ nt }}</li>

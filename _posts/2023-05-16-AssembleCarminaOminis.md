@@ -3,7 +3,7 @@ layout: post-minibo
 header-img: 
 title: 伯伦大人·精选集
 subtitle: 'Baronis Assemble Carmina Omnia'
-description: '自2014年起'
+description: '自2014年起。'
 permalink: carmina-omnia
 published: true
 date: 2023-05-16
@@ -16,9 +16,10 @@ tags:
 total sum of my carmina: {{site.data.carminia | size}}
 
 ### index
-{%- assign list =  site.data.carminia | sort -%}
-{%- for li in list -%}
-1. [{{ li.id }}: {{ li.publicTitle }}](#{{ li.id }}){%- endfor -%}
+
+{% assign list =  site.data.carminia | sort %}
+{% for li in list %}
+1. [{{ li.id }}: {{ li.publicTitle }}](#{{ li.id }}){% endfor %}
 
 ---
 

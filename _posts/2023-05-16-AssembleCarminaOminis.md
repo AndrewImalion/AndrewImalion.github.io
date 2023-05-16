@@ -19,7 +19,7 @@ total sum of my carmina: {{site.data.carminia | size}}
 
 {% assign list = site.data.carminia | sort %}<ul>
 {% for li in list %}
-<li><a href="#{{- li.id -}}">ID{{- li.id -}}:{{- li.publicTitle -}}</a></li>{% endfor %}</ul>
+<li><a href="#{{- li[1].id -}}">ID{{- li.id -}}:{{- li.publicTitle -}}</a></li>{% endfor %}</ul>
 
 ---
 

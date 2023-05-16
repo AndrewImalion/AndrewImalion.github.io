@@ -14,14 +14,17 @@ tags:
 ---
 
 total sum of my carminia: {{site.data.carminia | size}}
-{% for car_hash in site.data.carminia %}
-{% assign car = car_hash[1] %}
+
 
 ### index
-1. [{{ car.id }}: {{ car.publicTitle }}](#{{ car.id }})
-
+{% for list_hash in site.data.carminia %}
+{% assign li = list_hash[1] %}
+1. [{{ li.id }}: {{ li.publicTitle }}](#{{ li.id }})
+{% endfor %}
 ---
 
+{% for car_hash in site.data.carminia %}
+{% assign car = car_hash[1] %}
 <h3 id="{{ car.id }}">{{ car.publicTitle }}</h3>
 {{ car.body }}  
 (*{{ car.date }}*)

@@ -15,3 +15,7 @@ total sum of my carminia: {{site.data.carminia | size}}
 {% assign car = car_hash[1] %}
 <li>{{ car.id }}; {{ car.publicTitle }}</li>
 {% endfor %}
+
+{% assign poem = site.data.carminia.car0001-bob %}
+### {{ poem.publicTitle }}
+{{ poem.body }}

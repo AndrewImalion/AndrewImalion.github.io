@@ -13,9 +13,8 @@ tags:
 - Archive
 ---
 
-total sum of my carmina: `{{site.data.carminia | size}}`
-
-last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}
+total sum of my carmina: `{{site.data.carminia | size}}`  
+last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }} (GMT +8)
 
 ### index
 

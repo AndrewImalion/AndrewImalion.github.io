@@ -2,6 +2,8 @@ name: AndrewImalion
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
+timezone: Asia/Shanghai
+
 paginate: 10
 paginate_path: "blog/page:num"
 collections:

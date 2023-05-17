@@ -3,7 +3,7 @@ layout: post-minibo
 header-img: 
 title: 伯伦大人·精选集
 subtitle: 'Baronis Assemble Carmina Omnia'
-description: '自2014年起'
+description: '自2014年起, last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}'
 permalink: carmina-omnia
 published: true
 date: 2023-05-16

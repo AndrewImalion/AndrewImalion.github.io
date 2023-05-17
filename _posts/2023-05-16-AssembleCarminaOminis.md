@@ -23,7 +23,7 @@ total sum of my carmina: `{{site.data.carminia | size}}`
 
 ---
 
-{% for car_hash in site.data.carminia %}
+{% for car_hash in site.data.carminia | sort %}
 {% assign car = car_hash[1] %}
 <h3 id="{{ car.id }}">{{ car.publicTitle }}</h3>
 {{ car.body }}  

@@ -13,12 +13,12 @@ tags:
 - Archive
 ---
 
-total sum of my carmina: {{site.data.carminia | size}}
+total sum of my carmina: `{{site.data.carminia | size}}`
 
 ### index
 
 {% assign list = site.data.carminia | sort %}<ul>
-{% for li in list %}
+{% for li_hash in list %}{%- assign li = li_hash[1] -%}
 <li><a href="#{{- li[1].id -}}">ID{{- li.id -}}:{{- li.publicTitle -}}</a></li>{% endfor %}</ul>
 
 ---

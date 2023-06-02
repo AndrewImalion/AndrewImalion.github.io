@@ -20,4 +20,4 @@ tags:
 
 (*Original date 2021 Sept.5*)
 
-![图片与正文无关](https://pic.imgdb.cn/item/645db3610d2dde5777e6b49c.jpg)
+![图片与正文无关](https://pic.imgdb.cn/item/6476ed0bf024cca17396df0a.jpg)

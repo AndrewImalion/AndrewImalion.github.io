@@ -37,12 +37,12 @@ description:
 		</div>
 		<div class="col-sm-8">
 			<div id="index-stati">
-				<h3>最新动态</h3>
+					<!--to show last 3 status-->
 				{% assign stati = site.my_trends | reverse %}
-
-				<span>{{ stati | strip_html | truncate:300}}</span>
-
-				<a href="/trends">更多动态</a></p>
+				<span>{{ stati[0] | strip_html | truncate:300}}</span>
+				<span>{{ stati[1] | strip_html | truncate:300}}</span>
+				<span>{{ stati[2] | strip_html | truncate:300}}</span>
+				<a href="/trends"> …更多动态</a></p>
 			</div>
 			<div id="index-blogs">
 				<h3>我的博客</h3>

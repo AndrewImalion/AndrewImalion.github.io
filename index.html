@@ -39,9 +39,9 @@ description:
 			<div id="index-stati">
 				<h3>最新动态</h3>
 				{% assign stati = site.my_trends | reverse %}
-				{% for status in stati | reverse %}
-				<span>{{ status.content | strip_html | truncate:300}}</span>
-				{% endfor %}
+
+				<span>{{ stati | strip_html | truncate:300}}</span>
+
 				<a href="/trends">更多动态</a></p>
 			</div>
 			<div id="index-blogs">

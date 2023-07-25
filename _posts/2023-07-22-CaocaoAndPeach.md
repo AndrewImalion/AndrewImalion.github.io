@@ -169,4 +169,4 @@ TODO-list:
 
 虽然本文的目的是帮助大家避免现实错误，从而创作出优秀的背景设定，但是不要本末倒置，如果你的故事情节本身十分夺人眼球，那么，你大可以完全无视任何现实错误；就好比一首诗内核好，完全可以忽视平仄声韵的规则框架。故事为王，Fabula est regina! 你必须把故事情节放在第一位，不要卖弄自己的专业知识，不要沉浸在设计各种奇幻生物、撰写不存的朝代世系的自我感动中；然后拿着这些半成品出来当伟大心血。我并不是说这些东西不好，恰恰相反，我自己也很喜欢这些设定集，但是，这些只是*外在*，正如同一个游戏不能只有美术作画，一个优秀的虚构创作不能仅仅是一套华丽但空洞的外壳。读者是想读一个有趣的故事，不是想看经济学专注，不是想学怎么计算机编程，不是想读一份历史材料文集；更不是想读一套空洞的、绚丽但没有内容的世界设定——除非他或她想抄袭这套设定用于自己的故事。
 
-Downloade: [<i class="bi bi-file-earmark-pdf"></i>Caocao-and-peach.PDF]({{ site.url }}/asset/documents#caocao-and-peach)
+Download: [<i class="bi bi-file-earmark-pdf"></i>Caocao-and-peach.PDF]({{ site.url }}/asset/documents#caocao-and-peach)

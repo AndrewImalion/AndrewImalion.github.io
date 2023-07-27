@@ -16,7 +16,7 @@ description:
 				</p>
 			</div>
 			<div id="index-extra">
-			<img class="img-fluid" src="img/welcome-marcus.jpg"/>
+			<img class="img-fluid" src="img/bird-in-glass-byAnchee.jpeg"/>
 			<h3 class="pt-5">常用工具</h3>
 			<ol class="container-fluid">
 	{% for tool in site.data.favorTools limit:5 %}
@@ -40,9 +40,9 @@ description:
 					<!--to show last 3 status-->
 				<h3>最新动态</h3>
 				{% assign stati = site.my_trends | reverse %}
-				<span>{{ stati[0] | strip_html | truncate:300 }}</span>
-				<span>{{ stati[1] | strip_html | truncate:300 }}</span>
-				<span>{{ stati[2] | strip_html | truncate:300 }}</span>
+				<span>{{ stati[0] | strip_html | truncate:300 }}…… </span>
+				<span>{{ stati[1] | strip_html | truncate:300 }}…… </span>
+				<span>{{ stati[2] | strip_html | truncate:300 }}…… </span>
 				<a href="/trends"> …更多动态</a></p>
 			</div>
 			<div id="index-blogs">

@@ -41,38 +41,38 @@ By 靑席引梦. 2023.July.23
 3.  经济活动描写数值偏差明显
 4.  僵硬化、刻板化处理特定社会群体
 
-如果对流行的文艺创作产品进行观测，我们会发现，上文提到的佳人小姐的发癫，属于第1和第4的竞合；这种模式极富市场，因此，我们本文单独讨论这一类型的错误，其常见的处理手法，Baron体系下可行的解决方案和各个解决方案的效率。
+如果对流行的文艺创作产品进行观测，我们会发现，上文提到的佳人小姐的发癫，属于第1和第4的竞合；这种模式极富市场，因此，我们本文将会单独讨论这一类型的错误、其常见的处理手法、Baron体系下可行的解决方案和各个解决方案的效率。
 
 ### 蒲松龄妄想错误
 
-如果一个错误涉及下列一个或多个特征，称其为 蒲松龄妄想错误(Pu's delusional irreality, abbr. PDI)
+如果一个错误涉及下列一个或多个特征，我们称其为 蒲松龄妄想错误(Pu's delusional irreality, abbr. PDI)
 1.  等级化的社会中，高等级的女性周围缺乏必要的陪侍人员
-2.  等计划的社会中，低等级的男性通过偶然条件获得自由接触高等级女性的机会
+2.  等级化的社会中，低等级的男性通过偶然条件获得自由接触高等级女性的机会
 3.  在以男性为主要角色的叙事中，女性首次与该男性相遇后，在极短时间内倾心于该男性
 4.  在以男性为主要角色的叙事中，女性拥有大量完美但标签化的特征，且面对爱情时却立即显得笨拙愚钝，并愿意为之牺牲自我或做出其他违背一般常理的行为
 5.  在以男性为主要角色的叙事中，多名女性迷恋该男性
 
-这些“等级”在作品中可能有多种表现形式，但是其现实原型一般都是社会等级，如财富与地位。
+上述“等级”一词在作品中可能有多种表现形式，但是其现实原型一般都是社会等级，如财富与地位。
 
 贾母批判的对象具有上述1-4的特征。而现今作品很多时候五毒俱全。我们在创作时应当避免这5个常见特征；每当你的头脑中有类似概念时，你要想象：贾母就坐在你的身后，毫不客气地嘲笑着你的无能。或者，更恐怖的是，详见下节。
 
 ### PDI 产生的原因及其危害
 
-那么为什么这些错误会大量产生呢？现实的实用主义原因是它的确极富市场，但其受众广泛的根本原因又在哪里呢？
+那么为什么这些错误会大量产生呢？实用主义的现实原因是它的确极富市场，但是其受众广泛的根本原因又在哪里呢？
 
 本质上 PDI 是一种经验错误，存在两种路径：一是扭曲价值的经验，二是纯粹的缺乏经验。简而言之：一是落后，二是无知
 
 #### 封建和男权
 
-特定的时代限制，造就了作者的认知范围，继而影响了其价值观。则会中价值观主导下，他自然地把 PDI 当成一种理所应当的精神慰藉。也许对他本人无害；但是在今天，这不仅落后，更对社会有巨大危害。
+特定的时代限制，造就了作者的认知范围，继而影响了其价值观。在这种价值观主导下，他自然地把 PDI 当成一种理所应当的精神慰藉。也许对他本人无害；但是在今天，这不仅落后，更对社会有巨大危害。
 
 > 贾母笑道，这有个原故：“编这样书的 …… 他自己看了这些书看魔了，**他也想一个佳人**，所以编了出来取乐。”[注1](#注释)
 
-贾母有个假设，她猜测编这些书的人是基于精神需求故意为此的，即，按照Baron体系，这是一种自信激进主义；但这种自信不是完全基于对自身水平的信任，还是断定受众的普遍水平。这里暗示了一种恐怖的社会现实：古代能读书的人大部分的生活是极其苦涩的，他们既没有功名也没有财富，更没有丰富的情感生活，痛苦的现实促使他们不得不求助于这种无害的精神鸦片[注2](#注释)，本质上是一种“精神胜利法”。
+贾母有个假设，她猜测编这些书的人是基于精神需求故意为此的，即，按照Baron体系，这是一种自信激进主义；但这种自信不是完全基于对自身水平的信任，还外加了受众普遍水平的断定。这里暗示了一种恐怖的社会现实：古代能读书的人大部分的生活是极其苦涩的，他们既没有功名也没有财富，更没有丰富的情感生活，痛苦的现实促使他们不得不求助于这种无害的精神鸦片[注2](#注释)，本质上是一种“精神胜利法”。
 
-也就是说，这些小说的作者和读者，很多都是封建时代下社会压迫的受难者，他们在文艺创作上的这种无可奈何正是对封建制度的悲惨控诉。虽然他们有着无法挣脱的时代限制，但是他们的创作在客观上其实又产生了一种对更弱者的伤害：即对女性的伤害。他们的作品将女性矮化成除了依附男人外毫无存在感的生育符号；作品里的女性没有独立的人格，只是一种没有理性的恋爱动物，只是一部参数优秀的婚姻器物；她们的人生是线性的，她们情感是单调的，她们的声音是沉默的，她们的肉体、她们的爱好、她们的一切归根结底都被物化成了一种等待一个男人去占有去处分的一件没有意志的财产。这是古代社会对女性的系统化、结构化压迫和剥削的，藏在角落里但是血淋淋的罪证。
+也就是说，这些小说的作者和读者，很多都是封建时代下社会压迫的受难者，他们在文艺创作上的这种无可奈何正是对封建制度的悲惨控诉。虽然他们有着无法挣脱的时代限制，但是他们的创作在客观上其实又产生了一种对更弱者的伤害：即对女性的伤害。他们的作品将女性矮化成除了依附男人外毫无存在感的生育符号；作品里的女性没有独立的人格，只是一种没有理性的恋爱动物，只是一部参数优秀的婚姻机器；她们的人生是线性的，她们情感是单调的，她们的声音是沉默的，她们的肉体、她们的爱好、她们的一切归根结底都被物化成了一种等待一个男人去占有去处分的一件没有意志的财产。这是古代社会对女性的系统化、结构化压迫和剥削的，藏在角落里但是血淋淋的罪证。
 
-一旦理解了这一点，我们就可以看透了那些腐朽文字常见情节的底层逻辑：即本质是男权展示，或者说阴茎炫耀。一个被训练成优秀动物的女性，被自己的家人妥善保护，但第一次见到一个外面的男人——不管他是谁，只要有个阴茎就行——就会立即铭印对他的忠贞，哪怕死也要成为他的附属品。这种怪诞的情节推进和展开，不正是一种直接指涉贞操强调和处女情节的性暗示吗？
+一旦理解了这一点，我们就可以看透那些腐朽文字常见情节的底层逻辑：即本质是男权展示，或者说阴茎炫耀。一个被训练成优秀动物的女性，被自己的家人妥善保护，但第一次见到一个外面的男人——不管他是谁，只要有个阴茎就行——就会立即铭印对他的忠贞，哪怕死也要成为他的附属品。这种怪诞的情节推进和展开，不正是一种直接指涉贞操强调和处女情节的性暗示吗？
 
 因此，我们必须对 PDI 予以否定。当你在已经脱离了那种社会环境下的现代仍然试图采用激进主义的时候，你想象一下：在你的周围，全副武装站立着无数女性，她们时刻准备着，砍下你的头颅、剁碎你的阴茎。
 
@@ -102,13 +102,15 @@ PDI 产生的另一种原因不涉及价值，是纯粹的哲学问题，是真�
 
 不同解决方案，对应的成本和效果都是不同的，其成本可以直接对比，但是效果却取决于读者和作者不同能力的差异：
 
-$$
+<!--$$
 C_{积极保守主义}>C_{消极保守主义}>C_{折衷主义}>C_{激进主义}
-$$
+$$-->
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="45.838ex" height="2.315ex" viewBox="0 -705 20260.4 1023.2" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style=""><defs><path id="MJX-2-TEX-I-1D436" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q484 659 454 652T382 628T299 572T226 479Q194 422 175 346T156 222Q156 108 232 58Q280 24 350 24Q441 24 512 92T606 240Q610 253 612 255T628 257Q648 257 648 248Q648 243 647 239Q618 132 523 55T319 -22Q206 -22 128 53T50 252Z"></path><path id="MJX-2-TEX-N-3E" d="M84 520Q84 528 88 533T96 539L99 540Q106 540 253 471T544 334L687 265Q694 260 694 250T687 235Q685 233 395 96L107 -40H101Q83 -38 83 -20Q83 -19 83 -17Q82 -10 98 -1Q117 9 248 71Q326 108 378 132L626 250L378 368Q90 504 86 509Q84 513 84 520Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><use xlink:href="#MJX-2-TEX-I-1D436"></use></g><g data-mml-node="TeXAtom" transform="translate(715, -176.7) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mo"><text data-variant="normal" transform="matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">积</text><text data-variant="normal" transform="translate(941.2, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">极</text><text data-variant="normal" transform="translate(1882.4, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">保</text><text data-variant="normal" transform="translate(2823.6, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">守</text><text data-variant="normal" transform="translate(3712.5, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">主</text><text data-variant="normal" transform="translate(4653.7, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">义</text></g></g></g><g data-mml-node="mo" transform="translate(4999, 0)"><use xlink:href="#MJX-2-TEX-N-3E"></use></g><g data-mml-node="msub" transform="translate(6054.8, 0)"><g data-mml-node="mi"><use xlink:href="#MJX-2-TEX-I-1D436"></use></g><g data-mml-node="TeXAtom" transform="translate(715, -176.7) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mo"><text data-variant="normal" transform="matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">消</text><text data-variant="normal" transform="translate(888.9, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">极</text><text data-variant="normal" transform="translate(1830.1, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">保</text><text data-variant="normal" transform="translate(2771.3, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">守</text><text data-variant="normal" transform="translate(3660.3, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">主</text><text data-variant="normal" transform="translate(4601.5, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">义</text></g></g></g><g data-mml-node="mo" transform="translate(11016.8, 0)"><use xlink:href="#MJX-2-TEX-N-3E"></use></g><g data-mml-node="msub" transform="translate(12072.6, 0)"><g data-mml-node="mi"><use xlink:href="#MJX-2-TEX-I-1D436"></use></g><g data-mml-node="TeXAtom" transform="translate(715, -176.7) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mo"><text data-variant="normal" transform="matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">折</text><text data-variant="normal" transform="translate(941.2, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">衷</text><text data-variant="normal" transform="translate(1882.4, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">主</text><text data-variant="normal" transform="translate(2823.6, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">义</text></g></g></g><g data-mml-node="mo" transform="translate(15777.5, 0)"><use xlink:href="#MJX-2-TEX-N-3E"></use></g><g data-mml-node="msub" transform="translate(16833.3, 0)"><g data-mml-node="mi"><use xlink:href="#MJX-2-TEX-I-1D436"></use></g><g data-mml-node="TeXAtom" transform="translate(715, -176.7) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mo"><text data-variant="normal" transform="matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">激</text><text data-variant="normal" transform="translate(941.2, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">进</text><text data-variant="normal" transform="translate(1882.4, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">主</text><text data-variant="normal" transform="translate(2823.6, 0) matrix(1 0 0 -1 0 0)" font-size="884px" font-family="serif">义</text></g></g></g></g></g></svg>
 
 表.1 Baron解决方案
 |解决方案|是否承认错误|修改|适用范围和效果|
-|--|--|--|--|
+|---|---|---|---|
 |消极保守主义|是|文内修改|适用于所有错误-效果取决于作者心脏<sup>a</sup>|
 |积极保守主义|是|文内修改|适用于现实错误-效果取决于作者水平<sup>b</sup>|
 |折衷主义|是|文外修改|适用于所有错误-效果取决于读者水平<sup>c</sup>|
@@ -121,17 +123,17 @@ a: 作者心脏承受能力越强，效果越好; b:作者水平越高，效果�
 
 我们首先描述了一种常见的现实错误类型，并命名为PDI.探究了它的本质：是经验错误。分析了它的成因和危害；给出了Baron体系的解决方案的思路，对比了不同解决方案的成本和效果。
 
-不足：我们没有分析现实世界中社会等级控制的具体案例，这些社会控制有些是规范性的，有些是非规范的，PDI对应的正是非规范性的社会控制。在古代，大多体现在 阶级壁垒 上，主要涉及人际交往、市民生活、家庭成员甚至建筑的布局、服饰的区分和仆役的活动。在现代，大多体现在 金钱差异 上，普通作者欠缺对富人生活的经历，或者缺乏对应的经济、金融常识；富人们的居住环境、饮食、服装等等。更恐怖的，有时这种无知的指向对象竟然是穷人，那时，那种把穷人写得住高级公寓穿奢侈衣服的创作者，就成了**当代的晋惠帝**。
+不足：我们没有分析现实世界中社会等级控制的具体案例，这些社会控制有些是规范性的，有些是非规范性的，PDI对应的正是非规范性的社会控制。在古代，大多体现在 阶级壁垒 上，主要涉及人际交往、市民生活、家庭成员甚至建筑的布局、服饰的区分和仆役的活动。在现代，大多体现在 金钱差异 上，普通作者欠缺对富人生活的经历，或者缺乏对应的经济、金融常识；或者不了解富人们的居住环境、饮食、服装等等。更恐怖的，有时这种无知的指向对象竟然是穷人，那时，那种把穷人写成住高级公寓穿奢侈衣服的创作者，就成了**当代的晋惠帝**。
 
 ---
 
 ## 致谢
 感谢K.马克思、鲁迅、小牧云，他们启发了我们关于“精神鸦片”和“精神胜利法”的思考。感谢曹雪芹、蒲松龄，他们为本文的主要讨论对象提供了具体的观测样本。
-感谢M.Beard，她引导我们关注了社会学角度去重新审视历史现象的研究方法。
+感谢M.Beard，她引导我们关注了一种新的研究方法：用社会学角度去重新审视历史现象。
 
 ## 注释
 
-1.  删节和着重来自笔者
+1.  删节和着重来自笔者。
 2.  为了逃避痛苦的现实而创造出幻想的美好。关于此 精神鸦片，参见 Imalion,2018.
 3.  色诺芬根据鱼的化石得出了朴素进化论的猜想；亚里士多德认为既然北极是海，那么为了保持平衡，南极应该是陆地。关于晋惠帝：百姓无粟米充饥，何不食肉糜？--房玄龄 et al. 《晋书·惠帝纪》，关于布鲁修欧：S’ils n’ont plus de pain, qu’ils mangent de la brioche.--Rousseau, *Confession*(1783)
 
@@ -139,3 +141,5 @@ a: 作者心脏承受能力越强，效果越好; b:作者水平越高，效果�
 
 1.  Baron, 2023. *曹操和桃——虚构文艺创作背景设定指南 导论*.
 2.  Imalion, 2018. *关于泛地中海地区宗教的笔记*.
+
+Download: [<i class="bi bi-file-earmark-pdf"></i>{{ page.permalink}}.PDF]({{ site.url }}/asset/documents#{{ page.permalink}})

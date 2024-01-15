@@ -1,7 +1,7 @@
 ---
 layout: miniboots
 title: '关于我'
-subtitle:About Me
+subtitle: About Me
 header-img: ''
 ---
 

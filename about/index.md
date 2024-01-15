@@ -1,10 +1,11 @@
 ---
 layout: miniboots
-title: 关于我
-subtitle:'About Me'
-header-img:''
+title: '关于我'
+subtitle:About Me
+header-img: 
 ---
 
+-
 <h2>Quis Sum</h2>
 
 在下张伯伦，或谓吾曰“伯伦大人”、“GreatBaron”。

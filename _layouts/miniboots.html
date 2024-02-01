@@ -15,20 +15,18 @@
     {% if page.header-img %}
     background-image: url("{{ page.header-img }}" );
     {% else %}
-		background-image: url("https://pic.imgdb.cn/item/65ba4885871b83018a1c7826.jpg" );
+		background-image: url("https://api.dujin.org/bing/1366.php" );
     {% endif %}
     background-position: center 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
     text-shadow: 2px 2px 5px grey;
-}
+		}
 		/*为小屏幕配置header-img尺寸*/
-@media only screen and (max-width: 600px){
-	#Sphead {
-		background-size: cover;
-	}
-}
+		/*@media only screen and (max-width: 600px){
+		#Sphead {background-size: cover;}
+		}*/
 	</style>
 </head>
 

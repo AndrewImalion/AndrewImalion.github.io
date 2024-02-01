@@ -5,7 +5,7 @@ title: 如何统治专制国家
 subtitle: How to Rule An Autocracy?
 description:	
 permalink: guide-autocracy
-published: true
+published: false
 date: 2023-02-14
 author: GreatBaron
 tags:

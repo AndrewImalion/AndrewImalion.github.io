@@ -61,7 +61,7 @@ Input your code here then press go-button.<br/>
         <br/>
         <button onclick="doTheseCards()">go(xml)</button>
         <button onclick="doTheseCardsByJSON()">go(JSON)</button>
-        <button id="favClean" onclick="javascript:void(0)">清屏</button>
+        <button id="favClean" onclick="cleanAll()">清屏</button>
 </div>
 
 

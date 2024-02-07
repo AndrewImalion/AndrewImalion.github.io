@@ -85,7 +85,7 @@ Input your code here then press go-button.<br/>
     var /*边框渐变参数*/  BC_BORDER = ['silver', 'white'],
         /*底面渐变参数*/  BC_BKG = [],
         /*下载命名前缀*/  BC_FILLE_NAME = 'PoweredByBaron',
-		/*预设文本字体*/  BC_FONT = "16px Arial",
+				/*预设文本字体*/  BC_FONT = "16px Arial",
         /*预设文本颜色*/  BC_FONTC = "black",
         /*是否启用水印*/  BC_WATERMARK = false;
 
@@ -315,7 +315,7 @@ return 0;
         //加载蒙板，卡图
         document.getElementById("RenderZone").innerHTML=
             document.getElementById("RenderZone").innerHTML+
-            "<img id='"+Uuid+"' src='MyRenders/"+Uuid+".png'>";
+            "<img id='"+Uuid+"' src='file:///C:/Users/Administrator/Documents/ilovebaron/"+Uuid+".png'>";
 
 		//稀有度分类
         var raricolor=[];

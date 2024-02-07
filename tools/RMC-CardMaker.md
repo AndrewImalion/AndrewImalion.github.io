@@ -1,10 +1,10 @@
 ---
-layout: post-minibo
+layout: miniboots
 header-img: 
-title: 'RMC 卡片制作器M'
-subtitle: subti
-description: des
-permalink: link
+title: 'RMC 卡片制作器'
+subtitle: 'A Card Maker for RMC'
+description: 'for RMC'
+permalink: rmc-card-maker
 ---
 
 ### Hello

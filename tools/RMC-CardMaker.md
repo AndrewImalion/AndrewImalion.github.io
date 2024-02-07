@@ -7,7 +7,7 @@ description: 'for RMC'
 permalink: rmc-card-maker
 ---
 
-<h1>RMC CardMaker ver3.02</h1>
+<h1>RMC CardMaker ver3.03</h1>
 <details>
     <summary>更新日志</summary>
     <div id="UpdateLog" style="font-family: 'Courier New', Courier, monospace;">
@@ -30,8 +30,8 @@ permalink: rmc-card-maker
 
 <p>
     代码模板：
-    <a href="CardMaking_Template.xml" target="_blank">🏷️XML模板</a>  
-    <a href="CardMaking_Template.json" target="_blank">📜JSON模板</a>
+    <a href="CardMaking_Template.xml" target="_blank"><i class="bi bi-filetype-xml"></i>XML模板</a>  
+    <a href="CardMaking_Template.json" target="_blank"><i class="bi bi-filetype-json"></i>JSON模板</a>
 </p>
 
 <div>
@@ -72,7 +72,7 @@ Input your code here then press go-button.<br/>
 
 <div id='RenderZone' style="display:none;">
 		<!--此处储存水印蒙版-->
-		<img id='watermark' src='file:///C:/Users/Administrator/Documents/ilovebaron/watermark.png' alt="WARNING watermark Failed" srcset="{{ site.url }}/welcome-marcus.jpg">
+		<img id='watermark' src='file:///C:/Users/Administrator/Documents/ilovebaron/watermark.png' alt="WARNING watermark Failed" srcset="{{ site.url }}/img/watermark.png">
 </div>
 
 <footer style="display:none;">

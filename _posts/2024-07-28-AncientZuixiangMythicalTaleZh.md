@@ -1,6 +1,6 @@
 ---
 layout: post-minibo
-header-img: ''
+header-img:
 title: '醉香古史'
 subtitle: 'Ancient Zuixiang Mythical Tale'
 description: 'for RMC Narrative'

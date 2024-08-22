@@ -9,7 +9,7 @@ published: true
 date: 2024-07-26
 author: GreatBaron
 tags:
-- 虚构创造
+- 虚构创作
 ---
 
 *如篁丞相叙之*

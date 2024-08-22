@@ -9,7 +9,7 @@ published: true
 date: 2023-07-06
 author: GreatBaron
 tags:
-- 未分类
+- 虚构创作
 ---
 
 *narrated by Ruhuang(如皇), the chancellor of Zuixiang Empire*

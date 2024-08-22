@@ -10,6 +10,7 @@ date: 2023-03-07
 author: GreatBaron
 tags:
 - 科幻
+- 虚构创作
 ---
 
 > All the advantages of those and none of their defects.

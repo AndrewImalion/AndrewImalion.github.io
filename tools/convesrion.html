@@ -1,0 +1,196 @@
+---
+layout: miniboots
+header-img: 
+title: '古代度量衡与公制单位转换器'
+subtitle: 'Metric Converter'
+description: '古代度量衡与公制单位转换器'
+permalink: ancient-chinese-measurement-conversion
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<label for="value">输入值：</label>
+<input type="number" id="value" step="any">
+<select id="fromUnit"></select>
+<button onclick="convert()">转换</button>
+
+<p>结果： <span id="result">0</span> （by GreatBaron）</p>
+<!--<p>注：汉朝的数据包含莽新</p>-->
+
+<!-- 嵌入JSON数据的不可见div -->
+<div id="embeddedData" style="display: none;">
+	{
+		"cun_qinhan":{"lemma":"寸(秦汉)", "conversion": 2.31, "unit":"cm"},
+		"cun_weijin":{"lemma":"寸(魏晋)", "conversion": 2.42, "unit":"cm"},
+		"cun_southern":{"lemma":"寸(南朝)", "conversion": 2.47, "unit":"cm"},
+		"cun_beiwei":{"lemma":"寸(北魏)", "conversion": 2.42, "unit":"cm"},
+		"cun_beiqi":{"lemma":"寸(东魏、北齐)", "conversion": 3.00, "unit":"cm"},
+		"cun_beizhou":{"lemma":"寸(西魏、北周)", "conversion": 2.92, "unit":"cm"},
+		"cun_sui":{"lemma":"寸(隋)", "conversion": 2.95, "unit":"cm"},
+		"cun_tang":{"lemma":"寸(唐)", "conversion": 3.06, "unit":"cm"},
+		"cun_song":{"lemma":"寸(宋)", "conversion": 3.14, "unit":"cm"},
+		"cun_later":{"lemma":"寸(明清)", "conversion": 3.20, "unit":"cm"},
+	
+		"chi_qinhan":{"lemma":"尺(秦汉)", "conversion": 0.231, "unit":"m"},
+		"chi_weijin":{"lemma":"尺(魏晋)", "conversion": 0.242, "unit":"m"},
+		"chi_southern":{"lemma":"尺(南朝)", "conversion": 0.247, "unit":"m"},
+		"chi_beiwei":{"lemma":"尺(北魏)", "conversion": 0.242, "unit":"m"},
+		"chi_beiqi":{"lemma":"尺(东魏、北齐)", "conversion": 0.300, "unit":"m"},
+		"chi_beizhou":{"lemma":"尺(西魏、北周)", "conversion": 0.292, "unit":"m"},
+		"chi_astronomical":{"lemma":"尺(天文尺)", "conversion": 0.246, "unit":"m"},
+		"chi_sui":{"lemma":"尺(隋)", "conversion": 0.295, "unit":"m"},
+		"chi_tang":{"lemma":"尺(唐)", "conversion": 0.306, "unit":"m"},
+		"chi_song":{"lemma":"尺(宋)", "conversion": 0.314, "unit":"m"},
+		"chi_later":{"lemma":"尺(明清)", "conversion": 0.320, "unit":"m"},
+	
+		"zhang_qinhan":{"lemma":"丈(秦汉)", "conversion": 2.31, "unit":"m"},
+		"zhang_weijin":{"lemma":"丈(魏晋)", "conversion": 2.42, "unit":"m"},
+		"zhang_southern":{"lemma":"丈(南朝)", "conversion": 2.47, "unit":"m"},
+		"zhang_beiwei":{"lemma":"丈(北魏)", "conversion": 2.42, "unit":"m"},
+		"zhang_beiqi":{"lemma":"丈(东魏、北齐)", "conversion": 3.00, "unit":"m"},
+		"zhang_beizhou":{"lemma":"丈(西魏、北周)", "conversion": 2.92, "unit":"m"},
+		"zhang_sui":{"lemma":"丈(隋)", "conversion": 2.95, "unit":"m"},
+		"zhang_tang":{"lemma":"丈(唐)", "conversion": 3.06, "unit":"m"},
+		"zhang_song":{"lemma":"丈(宋)", "conversion": 3.14, "unit":"m"},
+		"zhang_later":{"lemma":"丈(明清)", "conversion": 3.20, "unit":"m"},
+	
+		"li_qinhan":{"lemma":"里(秦汉)", "conversion": 0.4158, "unit":"km"},
+		"li_weijin":{"lemma":"里(魏晋)", "conversion": 0.4356, "unit":"km"},
+		"li_southern":{"lemma":"里(南朝)", "conversion": 0.4446, "unit":"km"},
+		"li_beiwei":{"lemma":"里(北魏)", "conversion": 0.4608, "unit":"km"},
+		"li_beiqi":{"lemma":"里(东魏、北齐)", "conversion": 0.540, "unit":"km"},
+		"li_beizhou":{"lemma":"里(西魏、北周)", "conversion": 0.5256, "unit":"km"},
+		"li_sui":{"lemma":"里(隋)", "conversion": 0.531, "unit":"km"},
+		"li_tang":{"lemma":"里(唐)", "conversion": 0.5508, "unit":"km"},
+		"li_song":{"lemma":"里(宋)", "conversion": 0.5652, "unit":"km"},
+		"li_later":{"lemma":"里(明清)", "conversion": 0.576, "unit":"km"},
+	
+		"mu_qinhan":{"lemma":"亩(秦汉)", "conversion": 461.039, "unit":"m²"},
+		"mu_weijin":{"lemma":"亩(魏晋)", "conversion": 505.993, "unit":"m²"},
+		"mu_southern":{"lemma":"亩(南朝)", "conversion": 527.118, "unit":"m²"},
+		"mu_tang":{"lemma":"亩(唐)", "conversion": 561.816, "unit":"m²"},
+		"mu_song":{"lemma":"亩(宋)", "conversion": 591.576, "unit":"m²"},
+		"mu_later":{"lemma":"亩(明清)", "conversion": 614.400, "unit":"m²"},
+	
+		"sheng_first":{"lemma":"升(秦-魏晋、南朝)", "conversion": 200, "unit":"mL"},
+		"sheng_beiwei":{"lemma":"升(北魏)", "conversion": 300, "unit":"mL"},
+		"sheng_suitang":{"lemma":"升(隋唐)", "conversion": 600, "unit":"mL"},
+		"sheng_song":{"lemma":"升(宋)", "conversion": 702, "unit":"mL"},
+		"sheng_later":{"lemma":"升(明清)", "conversion": 1035, "unit":"mL"},
+	
+		"dou_first":{"lemma":"斗(秦-魏晋、南朝)", "conversion": 2.00, "unit":"L"},
+		"dou_beiwei":{"lemma":"斗(北魏)", "conversion": 3.00, "unit":"L"},
+		"dou_suitang":{"lemma":"斗(隋唐)", "conversion": 6.00, "unit":"L"},
+		"dou_song":{"lemma":"斗(宋)", "conversion": 7.02, "unit":"L"},
+		"dou_later":{"lemma":"斗(明清)", "conversion": 10.35, "unit":"L"},
+	
+		"hu_first":{"lemma":"斛(秦-魏晋、南朝)", "conversion": 0.02, "unit":"m³"},
+		"hu_beiwei":{"lemma":"斛(北魏)", "conversion": 0.03, "unit":"m³"},
+		"hu_suitang":{"lemma":"斛(隋唐)", "conversion": 0.06, "unit":"m³"},
+		"hu_song":{"lemma":"斛(宋)", "conversion": 0.0351, "unit":"m³"},
+		"dan_song":{"lemma":"(容积)石(宋)", "conversion": 0.0702, "unit":"m³"},
+		"hu_later":{"lemma":"斛(明清)", "conversion": 0.05175, "unit":"m³"},
+		"dan_later":{"lemma":"(容积)石(明清)", "conversion": 0.1035, "unit":"m³"},
+	
+		"zhu_qin":{"lemma":"铢(秦)", "conversion": 0.658, "unit":"g"},
+		"zhu_xihan":{"lemma":"铢(西汉)", "conversion": 0.651, "unit":"g"},
+		"zhu_mang":{"lemma":"铢(莽新)", "conversion": 0.638, "unit":"g"},
+		"zhu_donghan":{"lemma":"铢(东汉)", "conversion": 0.578, "unit":"g"},
+		"zhu_weijin":{"lemma":"铢(魏晋、南朝)", "conversion": 0.573, "unit":"g"},
+		"zhu_beiwei":{"lemma":"铢(北魏)", "conversion": 0.859, "unit":"g"},
+		"zhu_beizhou":{"lemma":"铢(北周、隋)", "conversion": 1.719, "unit":"g"},
+		"zhu_tang":{"lemma":"铢(唐宋)", "conversion": 1.721, "unit":"g"},
+		"zhu_later":{"lemma":"铢(明清)", "conversion": 1.554, "unit":"g"},
+		"qian_tang":{"lemma":"钱(唐宋)", "conversion": 4.130, "unit":"g"},
+		"qian_later":{"lemma":"钱(明清)", "conversion": 3.730, "unit":"g"},
+	
+		"liang_qin":{"lemma":"两(秦)", "conversion": 15.812, "unit":"g"},
+		"liang_xihan":{"lemma":"两(西汉)", "conversion": 15.625, "unit":"g"},
+		"liang_mang":{"lemma":"两(莽新)", "conversion": 15.313, "unit":"g"},
+		"liang_donghan":{"lemma":"两(东汉)", "conversion": 13.815, "unit":"g"},
+		"liang_weijin":{"lemma":"两(魏晋、南朝)", "conversion": 13.750, "unit":"g"},
+		"liang_beiwei":{"lemma":"两(北魏)", "conversion": 20.625, "unit":"g"},
+		"liang_beizhou":{"lemma":"两(北周、隋)", "conversion": 41.250, "unit":"g"},
+		"liang_tang":{"lemma":"两(唐宋)", "conversion": 41.300, "unit":"g"},
+		"liang_later":{"lemma":"两(明清)", "conversion": 37.300, "unit":"g"},
+	
+		"jin_qin":{"lemma":"斤(秦)", "conversion": 253, "unit":"g"},
+		"jin_xihan":{"lemma":"斤(西汉)", "conversion": 250, "unit":"g"},
+		"jin_mang":{"lemma":"斤(莽新)", "conversion": 245, "unit":"g"},
+		"jin_donghan":{"lemma":"斤(东汉)", "conversion": 222, "unit":"g"},
+		"jin_weijin":{"lemma":"斤(魏晋、南朝)", "conversion": 220, "unit":"g"},
+		"jin_beiwei":{"lemma":"斤(北魏)", "conversion": 330, "unit":"g"},
+		"jin_beizhou":{"lemma":"斤(北周、隋)", "conversion": 660, "unit":"g"},
+		"jin_tang":{"lemma":"斤(唐宋)", "conversion": 661, "unit":"g"},
+		"jin_later":{"lemma":"斤(明清)", "conversion": 596.8, "unit":"g"},
+	
+		"shi_qin":{"lemma":"(重量)石(秦)", "conversion": 30.36, "unit":"kg"},
+		"shi_xihan":{"lemma":"(重量)石(西汉)", "conversion": 30, "unit":"kg"},
+		"shi_mang":{"lemma":"(重量)石(莽新)", "conversion": 29.4, "unit":"kg"},
+		"shi_donghan":{"lemma":"(重量)石(东汉)", "conversion": 26.64, "unit":"kg"},
+		"shi_weijin":{"lemma":"(重量)石(魏晋、南朝)", "conversion": 26.40, "unit":"kg"},
+		"shi_beiwei":{"lemma":"(重量)石(北魏)", "conversion": 39.60, "unit":"kg"},
+		"shi_beizhou":{"lemma":"(重量)石(北周、隋)", "conversion": 79.20, "unit":"kg"},
+		"shi_tang":{"lemma":"(重量)石(唐宋)", "conversion": 79.32, "unit":"kg"},
+		"shi_later":{"lemma":"(重量)石(明清)", "conversion": 71.62, "unit":"kg"}
+	}
+</div>
+</body>
+<script>
+// 函数用于解析嵌入的JSON数据
+function parseJSONData() {
+  var rawData = document.getElementById('embeddedData').textContent;
+  var data = JSON.parse(rawData);
+  return data;
+}
+
+// 获取JSON数据
+var conversionData = parseJSONData();
+
+// 动态生成下拉菜单
+function generateSelectOptions() {
+  var select = document.getElementById('fromUnit');
+  for (var key in conversionData) {
+    /*if (typeof conversionData[key] === 'object') {
+      // 对于特殊单位，如“dan”，我们可以选择不添加到下拉菜单中
+      continue;
+    }*/
+    var option = document.createElement('option');
+    option.value = key;
+    //option.textContent = key + ' (' + conversionData[key] + ')';
+		option.textContent = /*key + */conversionData[key].lemma;
+    select.appendChild(option);
+  }
+}
+
+// 页面加载完成后生成下拉菜单
+document.addEventListener('DOMContentLoaded', generateSelectOptions);
+
+function convert() {
+  var value = document.getElementById('value').value;
+  var fromUnit = document.getElementById('fromUnit').value;
+  var result;
+  var unit = 'm'; // 默认单位为米
+
+  if (fromUnit in conversionData) {
+    var conversionFactor = conversionData[fromUnit];
+    if (typeof conversionFactor === 'object') {
+      result = value * conversionFactor.conversion;
+      unit = conversionFactor.unit; // 特殊单位处理
+    } else {
+      result = value * conversionFactor;
+    }
+  } else {
+    result = 0;
+  }
+
+  document.getElementById('result').textContent = result.toFixed(3) + ' ' + unit; //保留小数位数
+}
+</script>
+</html>
